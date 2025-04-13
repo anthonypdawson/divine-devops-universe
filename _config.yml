@@ -1,0 +1,7 @@
+title: "Divine DevOps Universe"
+description: "A parody universe blending religious lore with DevOps culture."
+baseurl: "" 
+url: ""
+theme: minima
+# theme: jekyll-theme-console
+layout: terminal_post

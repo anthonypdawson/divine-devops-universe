@@ -1,0 +1,12 @@
+<html>
+{% include header.html %}
+<body>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <em>{{ post.date | date: "%Y-%m-%d" }}</em>: <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

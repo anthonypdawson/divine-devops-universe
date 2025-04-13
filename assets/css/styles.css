@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: cyan; /* From home.css */
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: color 0.9s ease;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    font-size: larger;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Navigation Styles */
+.nav {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.nav a {
+    color: rgb(21, 92, 0); /* From terminal_post.css */
+    font-weight: bolder;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+/* Banner Styles */
+.banner {    
+    text-align: center;
+    margin-bottom: 1em;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #111; /* From terminal_post.css */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); /* From terminal_post.css */
+    display: block;
+    margin: 1.5em auto;
+}
+
+.banner img {
+    text-align: center;
+    margin-bottom: 1em;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #111; /* From terminal_post.css */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); /* From terminal_post.css */
+    display: block;
+    margin: 1.5em auto;
+}
+
+/* Code and Preformatted Text Styles */
+pre, code {
+    background-color: #111;
+    color: #00ff00;
+    font-family: monospace;
+    font-size: 0.95em;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+}
