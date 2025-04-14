@@ -7,5 +7,5 @@ tags: [genesis, chatgpt, memes, darkmode, terminal]
 
 What really happened at the beginning of Genesis...?
 
-![genesis_chatgpt_memes_page_1]({ /assets/images/genesis_chatgpt_memes_page_1.png | relative_url })
-![genesis_chatgpt_memes_page_2]({ /assets/images/genesis_chatgpt_memes_page_2.png | relative_url })
+![genesis_chatgpt_memes_page_1]({{ site.url }}/{{site.baseUrl}}/assets/images/genesis_chatgpt_memes_page_1.png)
+![genesis_chatgpt_memes_page_2]({{ site.url }}/{{site.baseUrl}}/assets/images/genesis_chatgpt_memes_page_2.png)
