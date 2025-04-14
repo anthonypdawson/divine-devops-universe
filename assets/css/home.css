@@ -32,3 +32,16 @@ body {
     max-width: 300px;
     height: auto;
   }
+  /* Code and Preformatted Text Styles */
+pre, code {
+  background-color: #111;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 15px; /* Unified font size */
+  padding: 1em;
+  border-radius: 6px; /* Unified border radius */
+  overflow-x: auto;
+  line-height: 1.5;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+  border: 1px solid #e8e8e8; /* Added border */
+}

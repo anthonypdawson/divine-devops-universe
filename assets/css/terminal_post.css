@@ -29,17 +29,20 @@ body {
     color: white;
     transition: color 0.9s ease;
   }
-  pre, code {
-    background-color: #111;
-    color: #00ff00;
-    font-family: monospace;
-    font-size: 0.95em;
-    padding: 1em;
-    border-radius: 6px;
-    overflow-x: auto;
-    line-height: 1.5;
-    box-shadow: 0 0 10px rgba(0,255,0,0.1);
-  }
+/* Code and Preformatted Text Styles */
+pre, code {
+  background-color: #111;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 15px; /* Unified font size */
+  padding: 1em;
+  border-radius: 6px; /* Unified border radius */
+  overflow-x: auto;
+  line-height: 1.5;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+  border: 1px solid #e8e8e8; /* Added border */
+}
+
   .banner {
     text-align: center;
     margin-bottom: 1em;
