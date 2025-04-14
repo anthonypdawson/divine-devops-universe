@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: terminal_post
 title: "git log — sin-processing-server"
 date: 2025-04-14
 tags: [gitlog, logs, sins, microservices]
