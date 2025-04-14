@@ -3,6 +3,8 @@ layout: terminal_post
 title: "Purgatory in a Dockerfile"
 ---
 
+This is required middleware
+
 ```Dockerfile
 FROM node:latest
 WORKDIR /purgatory

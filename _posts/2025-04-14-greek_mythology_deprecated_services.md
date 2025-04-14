@@ -2,6 +2,9 @@
 layout: terminal_post
 title: "Greek Pantheon Microservices"
 ---
+Dealing with legacy services.. what do you do with them?
+
+
 # Greek Pantheon Microservices — System Status
 
 ```bash
