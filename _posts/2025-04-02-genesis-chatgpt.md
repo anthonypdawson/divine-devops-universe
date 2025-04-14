@@ -7,6 +7,6 @@ tags: [genesis, chatgpt, memes, darkmode, terminal]
 
 
 {% raw %}
-![genesis_chatgpt_memes_page_1](/assets/images/genesis_chatgpt_memes_page_1.png)
-![genesis_chatgpt_memes_page_2](/assets/images/genesis_chatgpt_memes_page_2.png)
+![genesis_chatgpt_memes_page_1]({％ /assets/images/genesis_chatgpt_memes_page_1.png | relative_url ％})
+![genesis_chatgpt_memes_page_2]({％ /assets/images/genesis_chatgpt_memes_page_2.png %})
 {% endraw %}
