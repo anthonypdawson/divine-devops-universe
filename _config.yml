@@ -1,7 +1,7 @@
 title: "Divine DevOps Universe"
 description: "A parody universe blending religious lore with DevOps culture."
-baseurl: "https://anthonypdawson.github.io/divine-devops-universe/" 
-url: "https://anthonypdawson.github.io/divine-devops-universe/"
+baseurl: "divine-devops-universe/" 
+url: "https://anthonypdawson.github.io/"
 theme: minima
 # theme: jekyll-theme-console
 layout: terminal_post
