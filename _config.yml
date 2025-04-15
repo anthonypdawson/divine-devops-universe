@@ -5,3 +5,5 @@ url: "https://anthonypdawson.github.io"
 theme: minima
 # theme: jekyll-theme-console
 layout: terminal_post
+include:
+  - _redirects
