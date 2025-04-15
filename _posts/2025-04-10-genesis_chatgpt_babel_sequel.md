@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Genesis x ChatGPT: Babel Sequel"
-date: 2025-04-14
+date: 2025-04-10
 tags: [babel, devops, parody, languages, logs]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Holy Trinity Dev Notes"
-date: 2025-04-14
+date: 2025-04-12
 tags: [devops, theology, trinity, parody, logs]
 ---
 
