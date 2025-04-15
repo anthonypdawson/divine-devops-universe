@@ -90,9 +90,18 @@ div.content img {
     display: block;
     margin: 1.5em auto;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #111; /* From terminal_post.css */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); /* From terminal_post.css */
+}
 .highlighter-rouge .highlight { background: #111; }
 /* Code and Preformatted Text Styles */
 pre, code {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
     background-color: #111;
 }
 
