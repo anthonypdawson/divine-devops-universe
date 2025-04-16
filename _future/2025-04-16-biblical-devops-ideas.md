@@ -47,5 +47,3 @@ tags: [devops, parody, bible, references, ideas]
   QA engineer demands tactile verification. Refuses to close resurrection ticket.
 
 ---
-
-Let me know which you'd like to build next!
