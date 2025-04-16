@@ -1,5 +1,4 @@
 
-
   <meta charset="UTF-8">
   <title>{{ site.title }}</title>
   <!-- Favicons -->
@@ -12,10 +11,10 @@
 
 <!-- General SEO -->
 <title>{{ page.title | escape }} | Divine DevOps</title>
-<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }} {{ site.description }}">
 <meta name="author" content="Divine DevOps Team">
 <meta name="robots" content="index, follow">
-
+<meta name="tags" content="{{ page.tags | join: ', ' }}, chatgpt, memes, darkmode, terminal, bible, religion, devops,development, software,satire, parody">
 <!-- Open Graph -->
 <meta property="og:title" content="{{ page.title | escape }} | Divine DevOps">
 <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
