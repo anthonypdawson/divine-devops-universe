@@ -8,3 +8,4 @@ node_modules
 Gemfile.lock
 "Phone Link"
 Gemfile.lock
+/.vscode
