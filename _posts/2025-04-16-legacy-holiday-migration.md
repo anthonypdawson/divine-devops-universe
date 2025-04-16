@@ -62,4 +62,5 @@ Patch it. And add a toggle for kissing permissions.
 - 🕯️ Deprecated modules archived in `/legacy/symbols/`
 - 🧠 Uriel suggests calendar audits only occur once per epoch.
 
+
 > “They changed the names, not the scheduler.” — uriel-404
