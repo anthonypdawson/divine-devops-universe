@@ -8,6 +8,7 @@ layout: terminal_post
 include:
     - _redirects
 exclude:
+    - '_unpublished'
     - 'README.md'
     - '*.sh'
     - '*.yml'
