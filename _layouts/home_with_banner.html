@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{ site.description }}</title>
-    {% include header.html %}
-</head>
-<body>
-  {% include banner.html %}
-  {% include share-buttons.html %}
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <em>{{ post.date | date: "%Y-%m-%d" }}</em>: <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <head>
+        <title>{{ site.description }}</title>
+        {% include header.html %}
+    </head>
+    <body>
+        {% include banner.html %} {% include share-buttons.html %}
+        <ul>
+            {% for post in site.posts %}
+            <li><em>{{ post.date | date: "%Y-%m-%d" }}</em>: <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
 
-  {% include footer.html %}
-</body>
+        {% include footer.html %}
+    </body>
 </html>
