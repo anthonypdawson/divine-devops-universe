@@ -1,0 +1,26 @@
+<!-- Favicons -->
+<link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/favicons/manifest.webmanifest' | relative_url }}">
+<meta name="theme-color" content="#000000">
+
+<!-- General SEO -->
+<title>{{ page.title | escape }} | Divine DevOps</title>
+<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta name="author" content="Divine DevOps Team">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title | escape }} | Divine DevOps">
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ "/assets/images/social-preview.png" | relative_url }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }} | Divine DevOps">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta name="twitter:image" content="{{ "/assets/images/social-preview.png" | relative_url }}">
