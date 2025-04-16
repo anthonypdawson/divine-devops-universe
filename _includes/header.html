@@ -1,9 +1,23 @@
 
-<head>
+
   <meta charset="UTF-8">
   <title>{{ site.title }}</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RH641PF8K0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RH641PF8K0');
+</script>
+
   <style>
-  
+    @media (max-width: 768px) {
+      body {
+        font-size: 1.1rem;
+      }
+    }
     body {
       background-color: #000;
       color: #00ff00;
@@ -38,13 +52,14 @@ div.content {
       margin: auto;
       border: 2px solid white;
       font-size: larger;
-      max-width: 60%;
+      max-width: 75%;
     }
 div.content img {
   max-width: 90%;
 }
 /* Navigation Styles */
 .nav {
+  font-size: large;
     margin-top: 2em;
     text-align: center;
 }
@@ -56,6 +71,19 @@ div.content img {
     text-decoration: none;
 }
 
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.footer {
+    margin-top: 2em;
+    font-size: 0.8em;
+}
 /* Banner Styles */
 .banner img {
     text-align: center;
@@ -67,9 +95,18 @@ div.content img {
     display: block;
     margin: 1.5em auto;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #111; /* From terminal_post.css */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); /* From terminal_post.css */
+}
 .highlighter-rouge .highlight { background: #111; }
 /* Code and Preformatted Text Styles */
 pre, code {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
     background-color: #111;
 }
 
@@ -143,5 +180,4 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .il { color: #099; }
 
   </style>
-</head>
 

@@ -34,3 +34,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Terminal style theme
 gem "jekyll-theme-console"
+
+#ALlow plugins on github pages
+#gem 'github-pages-unscramble', group: :jekyll_plugins

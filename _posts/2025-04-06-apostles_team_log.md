@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "The 12 DevEvangelists — Apostles Team Log"
-date: 2025-04-13
+date: 2025-04-06
 tags: [apostles, devops, evangelists, parody, markdown]
 ---
 
