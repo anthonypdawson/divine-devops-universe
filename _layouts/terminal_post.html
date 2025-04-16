@@ -9,6 +9,7 @@
   {% include banner.html %}
   <h1 id="content" >{{ page.title }}</h1>
   <p><em>{{ page.date }}</em></p>
+  {% include share-buttons.html %}
   <div id="content" class="content">
     {{ content }}
   </div>
@@ -16,6 +17,7 @@
     <a href="{{ '' |relative_url }}/">← Back to index</a>
     <a href="#">↑ Top</a>
   </div>
+
   {% include footer.html %}
 </body>
 
