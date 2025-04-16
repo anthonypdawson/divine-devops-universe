@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
-title: "Islam Rejected Pull Request"
-date: 2025-04-14
+title: 'Islam Rejected Pull Request'
+date: 2025-04-18
 tags: [pullrequest, religion, islam, conflict, branches]
 ---
 

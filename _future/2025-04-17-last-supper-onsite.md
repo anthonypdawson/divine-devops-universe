@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
-title: "Mandatory Onsite: The Last Supper"
-date: 2025-04-16
+title: 'Mandatory Onsite: The Last Supper'
+date: 2025-04-17 10:00:00 +0000
 tags: [devops, parody, lastsupper, teamonsite, messiahos, betrayal]
 ---
 
@@ -10,15 +10,16 @@ tags: [devops, parody, lastsupper, teamonsite, messiahos, betrayal]
 **Event:** MessiahOS Q1 Offsite – Final Alignment Supper  
 **Location:** Upper Room, Jerusalem Campus  
 **Time:** Thursday, 7:00 PM (pre-crucifixion window)  
-**Mandatory:** YES  
+**Mandatory:** YES
 
-**Attendees:**  
-- jesus@messiah.dev *(Organizer)*  
-- peter@messiah.dev  
-- judas@finance.ai *(Calendar status: “Maybe”)*  
-- thomas@qa.net *(Has questions)*  
-- john@love.services  
-- All other disciples (core contributors)
+**Attendees:**
+
+-   jesus@messiah.dev _(Organizer)_
+-   peter@messiah.dev
+-   judas@finance.ai _(Calendar status: “Maybe”)_
+-   thomas@qa.net _(Has questions)_
+-   john@love.services
+-   All other disciples (core contributors)
 
 ---
 
@@ -64,8 +65,8 @@ lol why me tho?
 
 ## 🍷 Notes from the Table
 
-- Bread broken: symbol replaced with sacramental shortcut.
-- Wine distributed: triggers `new-covenant()` middleware.
-- Judas left early. Logs show payout from `/temple/finance/`.
+-   Bread broken: symbol replaced with sacramental shortcut.
+-   Wine distributed: triggers `new-covenant()` middleware.
+-   Judas left early. Logs show payout from `/temple/finance/`.
 
 > “Do this in memory of me.” – `jesus@messiah.dev`
