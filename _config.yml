@@ -7,7 +7,8 @@ theme: minima
 layout: terminal_post
 include:
     - _redirects
-exclude:
+exclude: 
+    - vendor
     - '_future'
     - '_unpublished'
     - 'README.md'
