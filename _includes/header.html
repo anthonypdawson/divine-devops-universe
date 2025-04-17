@@ -9,6 +9,8 @@
 <link rel="manifest" href="{{ '/assets/favicons/manifest.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#000000">
 
+<!-- Feed -->
+{% feed_meta %}
 <!-- General SEO -->
 <title>{{ page.title | escape }} | Divine DevOps</title>
 <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }} {{ site.description }}">
