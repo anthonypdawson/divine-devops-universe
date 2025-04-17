@@ -1,5 +1,5 @@
 ---
-layout: terminal_page
+layout: page
 title: About
 permalink: /about/
 ---
