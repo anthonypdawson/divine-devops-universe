@@ -5,6 +5,5 @@ _unpublished
 .jekyll-metadata
 vendor
 node_modules
-Gemfile.lock
 "Phone Link"
 /.vscode
