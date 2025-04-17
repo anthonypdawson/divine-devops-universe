@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Mandatory Onsite: The Last Supper'
-date: 2025-04-17 10:00:00 +0000
+date: 2025-04-17 10:00:00
 tags: [devops, parody, lastsupper, teamonsite, messiahos, betrayal]
 ---
 

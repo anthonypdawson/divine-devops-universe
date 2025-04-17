@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Aftermath: Last Supper Slack Thread'
-date: 2025-04-17 12:00:00 +0000
+date: 2025-04-17 12:00:00
 tags: [devops, parody, lastsupper, slack, betrayal, messiahos]
 ---
 
