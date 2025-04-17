@@ -7,4 +7,4 @@ tags: [devops, parody, religion, dashboard, monitoring, uptime]
 
 A rare glimpse into the internal monitoring system of the Divine Infrastructure.
 
-![HeavenOps Dashboard](/assets/img/A_fictional_dashboard-style_digital_image_titled_.png)
+{% include img.md description='HeavenOps Dashboard' url='/assets/images/heaven-ops-dashboard.png' %}

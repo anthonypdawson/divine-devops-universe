@@ -5,6 +5,8 @@ date: 2025-04-10
 tags: [babel, devops, parody, languages, logs]
 ---
 
+<p class='center'><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">It was a good idea, in theory..</a></p>
+
 ```log
 babel_build.log  Tower Deployment Attempt
 

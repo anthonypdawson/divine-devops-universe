@@ -3,7 +3,7 @@ layout: terminal_post
 title: "Purgatory in a Dockerfile"
 ---
 
-This is required middleware
+<p class='center'>This is required middleware</p>
 
 ```Dockerfile
 FROM node:latest
