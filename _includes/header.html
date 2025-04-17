@@ -28,6 +28,9 @@
 <meta name="twitter:title" content="{{ page.title | escape }} | Divine DevOps">
 <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
 <meta name="twitter:image" content="{{ " /assets/images/social-preview.png" | relative_url }}">
+
+<link rel="preload" as="image" href="{{ '/assets/images/divine-banner-short.webp' | relative_url }}" type="image/webp">
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RH641PF8K0"></script>
 <script>
@@ -36,6 +39,9 @@
   gtag('js', new Date());
 
   gtag('config', 'G-RH641PF8K0');
+  window.onload = function() {
+        document.querySelector('.site-content').style.display = 'block';
+    }
 </script>
 
 <style>
@@ -44,6 +50,9 @@
       font-size: 1.1rem;
     }
   }
+  .site-content {
+      display: none;
+    }
   html {
     scroll-behavior: smooth;
   }
