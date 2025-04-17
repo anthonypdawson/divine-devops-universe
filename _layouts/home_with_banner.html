@@ -5,7 +5,7 @@
         {% include header.html %}
     </head>
     <body>
-        {% include banner.html %} {% include share-buttons.html %}
+        {% include banner.html %}
         <ul>
             {% for post in site.posts %}
             <li><em>{{ post.date | date: "%Y-%m-%d" }}</em>: <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
