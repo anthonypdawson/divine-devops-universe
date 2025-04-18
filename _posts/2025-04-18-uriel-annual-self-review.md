@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Annual Self-Review: Uriel-404"
-date: 2025-04-08
+date: 2025-04-18
 tags: [devops, parody, religion, logs, angelic-hr, uriel, self-review]
 ---
 
@@ -13,7 +13,7 @@ tags: [devops, parody, religion, logs, angelic-hr, uriel, self-review]
 ---
 
 **1. Describe your core responsibilities.**  
-<textarea readonly rows="4">
+<textarea readonly rows="4" style="width: 581px; height: 113px;">
 Maintaining uptime on the Eternal Logging Stack.
 Filtering mortal error reports (aka prayers).
 Ignoring most of them.
@@ -23,7 +23,7 @@ Running point on metaphysical observability.
 ---
 
 **2. List notable accomplishments this cycle.**  
-<textarea readonly rows="6">
+<textarea readonly rows="6" style="width: 581px; height: 113px;">
 - Resolved 12 incidents. 9 via passive waiting.
 - Prevented one apocalypse by killing a rogue script.
 - Finally silenced the trumpet alert fatigue (you're welcome).
@@ -33,7 +33,7 @@ Running point on metaphysical observability.
 ---
 
 **3. Any challenges or blockers?**  
-<textarea readonly rows="5">
+<textarea readonly rows="5" style="width: 581px; height: 113px;">
 - Michael keeps “hotpatching” the firewall with swords.
 - The Holy Metrics daemon now speaks in tongues.
 - Mortality rates spiked after a grace caching issue.
@@ -43,7 +43,7 @@ Running point on metaphysical observability.
 ---
 
 **4. What feedback have you received from others?**  
-<textarea readonly rows="6">
+<textarea readonly rows="6" style="width: 581px; height: 113px;">
 Gabriel: "He exists."
 Michael: "Tell him to stop bypassing judgment staging."
 Raphael: "I think he lives in the logging cave now?"
@@ -53,7 +53,7 @@ Holy Spirit: [static, followed by Gregorian chanting]
 ---
 
 **5. Suggestions for leadership?**  
-<textarea readonly rows="5">
+<textarea readonly rows="5" style="width: 581px; height: 113px;">
 - Please assign an owner to the Oracle; it’s still running Delphi 98.
 - Archive the concept of ‘mystery’ if you expect traceability.
 - Mandate alert labels in actual language, not ancient Enochian.
@@ -62,7 +62,7 @@ Holy Spirit: [static, followed by Gregorian chanting]
 ---
 
 **6. Final remarks.**  
-<textarea readonly rows="4">
+<textarea readonly rows="4" style="width: 581px; height: 113px;">
 The system runs. I run it.  
 Morale: null  
 Uptime: eternal  
