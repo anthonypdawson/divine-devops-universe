@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Annual Self-Review: Uriel-404"
-date: 2025-04-08
+date: 2025-04-18
 tags: [devops, parody, religion, logs, angelic-hr, uriel, self-review]
 ---
 
