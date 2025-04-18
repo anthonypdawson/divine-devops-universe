@@ -59,6 +59,7 @@
     #share-buttons > div.reddit > svg {
         height: 32px;
         margin-top: 0px;
+        width: 32px;
     }
     #share-buttons > div.pinterest > svg {
         height: 20px;
