@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Exodus Migration Logs"
-date: 2025-04-14
+date: 
 tags: [exodus, devops, logs, plagues, parody]
 ---
 

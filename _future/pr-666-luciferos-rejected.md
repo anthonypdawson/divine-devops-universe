@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "PR #666 – LuciferOS Merge Attempt"
-date: 2025-04-17
+date: 
 tags: [devops, parody, lucifer, rebellion, git, permissions]
 ---
 

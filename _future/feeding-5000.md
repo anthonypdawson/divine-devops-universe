@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Feeding the 5000: Auto-Scaling Loaf Balancer"
-date: 2025-04-18 15:28
+date: 
 tags: [miracle, autoscale, jesus, infrastructure, feeding, divine-devops]
 ---
 

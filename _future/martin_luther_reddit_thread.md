@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Martin Luther Reddit Thread"
-date: 2025-04-14
+date: 
 tags: [reformation, reddit, parody, logs, church]
 ---
 

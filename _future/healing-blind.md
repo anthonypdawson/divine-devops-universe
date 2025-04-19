@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Healing the Blind: Sensory Patch Deployment"
-date: 2025-04-18 15:28
+date: 
 tags: [miracle, healing, restoration, blind, jesus, divine-devops]
 ---
 

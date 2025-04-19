@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Issue #777 – Temple Monetization Breach"
-date: 2025-04-16
+date: 
 tags: [devops, parody, messiahos, temple, audit, slack]
 ---
 

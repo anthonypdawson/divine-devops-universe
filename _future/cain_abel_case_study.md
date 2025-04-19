@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Cain and Abel Case Study"
-date: 2025-04-14
+date: 
 tags: [case, devops, conflict, yaml, logs]
 ---
 

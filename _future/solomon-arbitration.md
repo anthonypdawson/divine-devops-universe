@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "wisdom.solomon: Arbitration Microservice v1.0"
-date: 2025-04-16
+date: 
 tags: [devops, parody, solomon, typescript, api, arbitration]
 ---
 

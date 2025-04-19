@@ -1,6 +1,6 @@
 ---
 title: "Biblical Characters and DevOps Parody Hooks"
-date: 2025-04-16
+date: 
 layout: terminal_post
 tags: [devops, parody, bible, references, ideas]
 ---

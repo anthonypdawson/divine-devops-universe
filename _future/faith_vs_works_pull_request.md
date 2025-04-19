@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Faith vs Works Pull Request"
-date: 2025-04-14
+date: 
 tags: [pullrequest, doctrine, devops, parody, logs]
 ---
 

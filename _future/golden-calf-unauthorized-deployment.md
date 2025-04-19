@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Golden Calf: Unauthorized Deployment"
-date: 2025-04-19
+date: 
 tags: [devops, parody, religion, idol, deployment, moses, rollback]
 ---
 

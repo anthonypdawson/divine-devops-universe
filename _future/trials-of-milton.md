@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "The Trials of Milton-WDMS"
-date: 2025-04-16
+date: 
 tags: [devops, parody, job, office-space, deprecated-services, satire]
 ---
 

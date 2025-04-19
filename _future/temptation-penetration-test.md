@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Wilderness Penetration Test"
-date: 2025-04-19
+date: 
 tags: [devops, parody, religion, temptation, security, jesus, satan, penetration-test]
 ---
 

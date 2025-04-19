@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Exodus Code Snippet"
-date: 2025-04-14
+date: 
 tags: [exodus, typescript, migration, parody, devops]
 ---
 

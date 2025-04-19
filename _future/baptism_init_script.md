@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Baptism Init Script"
-date: 2025-04-14
+date: 
 tags: [baptism, shell, init, ritual, parody]
 ---
 

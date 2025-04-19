@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Raising Lazarus: Cold Boot Resurrection"
-date: 2025-04-18 15:28
+date: 
 tags: [miracle, resurrection, lazarus, jesus, divine-devops]
 ---
 
