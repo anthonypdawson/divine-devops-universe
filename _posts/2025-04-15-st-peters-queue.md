@@ -7,4 +7,4 @@ tags: [devops, parody, religion, slack, queues, heaven, uriel-404, st-peter]
 
 What happens when Heaven is full?
 
-{% include img.md description='St. Peter\'s Queue' url='/assets/images/st-peters-queue.png' %}
+{% include img.md description='St. Peter\'s Queue' url='/assets/images/posts/st-peters-queue.png' %}
