@@ -155,13 +155,13 @@
     margin-bottom: 30px;
     width: 100%;
     text-align: left;
-    color: #d4d1d1;
+    color: #e3f3e3;
     border-collapse: collapse;
     border: 1px solid #e8e8e8;
   }
 
   table tr:nth-child(even) {
-    background-color: #313131;
+    background-color: #001a03;
   }
 
   table th,
@@ -170,9 +170,10 @@
   }
 
   table th {
-    background-color: #4b4b4b;
+    background-color: #001101;
     border: 1px solid #dedede;
     border-bottom-color: #c9c9c9;
+    font-size: larger;
   }
 
   table td {
