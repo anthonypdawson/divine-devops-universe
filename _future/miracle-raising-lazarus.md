@@ -1,9 +1,13 @@
 ---
 layout: terminal_post
-title: "Raising Lazarus: Cold Boot Resurrection"
-date: 
+title: 'Raising Lazarus: Cold Boot Resurrection'
+date:
 tags: [miracle, resurrection, lazarus, jesus, divine-devops]
 ---
+
+## Miracle alert - Adler Hash: 1c040e85
+
+<hr />
 
 ### System Recovery — Bethany Node
 

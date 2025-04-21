@@ -1,9 +1,13 @@
 ---
 layout: terminal_post
-title: "Feeding the 5000: Auto-Scaling Loaf Balancer"
-date: 
+title: 'Feeding the 5000: Auto-Scaling Loaf Balancer'
+date:
 tags: [miracle, autoscale, jesus, infrastructure, feeding, divine-devops]
 ---
+
+## Miracle alert - Adler Hash: 417c0eb4
+
+<hr />
 
 ### Load Test Event — Galilee Cluster
 
