@@ -1,6 +1,7 @@
 title: 'Divine DevOps'
 name: 'Divine DevOps'
-description: 'A parody universe blending religious lore with DevOps culture.'
+description: 'A parody universe blending humor, tech culture, religious themes and lore with DevOps culture.'
+
 author: 'divinedevops@poopnet.info'
 baseurl: '/divine-devops'
 url: 'https://anthonypdawson.github.io'
@@ -12,7 +13,7 @@ plugins:
     - jekyll-sitemap
 include:
     - _redirects
-exclude: 
+exclude:
     - vendor
     - '_future'
     - '_unpublished'
