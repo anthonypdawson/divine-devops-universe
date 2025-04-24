@@ -1,28 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en" class="site-content">
-  <head>
-    <title>{{ page.title }}</title>
-{% include header.html %}
+    <head>
+        <title>{{ page.title }}</title>
+        {% include header.html %}
+    </head>
+    <body>
+        {% include banner.html %}
+        <div style="text-align: left; padding: 5px" class="nav">
+            <a href="{{ '' |relative_url }}/">← Back to index</a>
+        </div>
+        <h1 id="content">{{ page.title }}</h1>
+        <p class="center"><em>{{ page.date }}</em></p>
 
-</head>
-<body>
-  {% include banner.html %}
-  <div style="text-align: left; padding: 5px" class="nav">
-    <a href="{{ '' |relative_url }}/">← Back to index</a>
-    </div>
-  <h1 id="content" >{{ page.title }}</h1>
-  <p class="center"><em>{{ page.date }}</em></p>
+        <div id="content" class="content">{{ content }}</div>
+        <div class="nav">
+            <a href="{{ '' |relative_url }}/">← Back to index</a>
+            <a href="#">↑ Top</a>
+        </div>
 
-  <div id="content" class="content">
-    {{ content }}
-  </div>
-  <div class="nav">
-    <a href="{{ '' |relative_url }}/">← Back to index</a>
-    <a href="#">↑ Top</a>
-  </div>
-
-  {% include footer.html %}
-</body>
-
+        {%- if page.tags -%} {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }} </a>
+        {% endfor %} {%- endif -%} {% include footer.html %}
+    </body>
 </html>
