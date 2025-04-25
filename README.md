@@ -48,4 +48,4 @@ This project is a parody and is intended for entertainment purposes only. It is 
 Contributions are welcome! Feel free to submit pull requests or open issues to improve the project.
 
 ## 📧 Contact
-For questions or feedback, reach out to the Divine DevOps Team at your-email@example.com.
+For questions or feedback, reach out to the Divine DevOps Team at divinedevopsuniverse@gmail.com.
