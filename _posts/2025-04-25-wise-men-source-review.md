@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Wise Men Source Review"
-date: 
+date: 2025-04-25 10:00:00
 tags: [devops, parody, religion, nativity, consultants, jesus, source-code]
 ---
 
