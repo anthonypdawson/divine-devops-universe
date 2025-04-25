@@ -6,41 +6,53 @@ permalink: /archive.html
 
 <div>
   Search through all of my posts by tag!
-</div> <br />
+</div>
+<br />
+
 {% capture tags %}
   {% for tag in site.tags %}
     {{ tag[1].size | minus: 10000 }}#{{ tag[0] }}#{{ tag[1].size }}
   {% endfor %}
 {% endcapture %}
+
 {% assign tagsBySize = tags | split: " " | sort %}
-{% for tagEntry in tagsBySize %}
-<div>
-{% assign tagArray = tagEntry | split: "#"  %}
-  {% assign tag_name = tagArray[1] %}
-  <a href="#{{ tag_name }}">{{ tag_name }}</a>
-{% endfor %}
+
+<div class='archive'>
+  {% for tagEntry in tagsBySize %}    
+      {% assign tagArray = tagEntry | split: "#" %}
+      {% assign tag_name = tagArray[1] %}
+      <div>
+        <div>
+          <a href="#{{ tag_name }}">{{ tag_name }} ({{ tagArray[2] }})</a>
+        </div>
+        <p></p>
+      </div>
+  {% endfor %}
 </div>
+<hr />
+<br />
 <div id="tags-list">
-{% for tagEntry in tagsBySize %}
-{% assign tagArray = tagEntry | split: "#"  %}
-  {% assign tag_name = tagArray[1] %}
-  {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
-  <div class="tag-list">
-    <div id="#{{ tag_name | slugize }}"></div>
-    <h2 class="post-list-heading line-bottom"> #{{ tag_name }}[{{ tagArray[2]}}]: </h2>
-    <a name="{{ tag_name | slugize }}"></a>
-    <ul class="post-list post-list-narrow">
-     {% for post in site.tags[tag_name] %}
-     <li>
-       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-       <b>
-         <a href="{{ post.url | relative_url }}">
-           {{ post.title | escape }}
-         </a>
-       </b> - <i>{{ post.date | date: date_format }}</i>
-     </li>
-     {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
+  {% for tagEntry in tagsBySize %}
+    {% assign tagArray = tagEntry | split: "#" %}
+    {% assign tag_name = tagArray[1] %}
+    {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
+    <div class="tag-list">
+      <h2 class="post-list-heading line-bottom">
+        #{{ tag_name }} [{{ tagArray[2] }}]:
+      </h2>
+      <a name="{{ tag_name | slugize }}"></a>
+      <ul class="post-list post-list-narrow">
+        {% for post in site.tags[tag_name] %}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <b>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </b> - <i>{{ post.date | date: date_format }}</i>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 </div>
