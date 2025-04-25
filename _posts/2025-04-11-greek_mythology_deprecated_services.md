@@ -1,6 +1,7 @@
 ---
 layout: terminal_post
 title: "Greek Pantheon Microservices"
+tags: [devops, parody, mythology, legacy, microservices, logs]
 ---
 Dealing with legacy services.. what do you do with them?
 

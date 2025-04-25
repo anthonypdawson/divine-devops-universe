@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Genesis x ChatGPT"
 date: 2025-04-02
-tags: [genesis, chatgpt, memes, darkmode, terminal]
+tags: [genesis, chatgpt, parody, devops, memes, darkmode, terminal]
 ---
 
 <p class='center'>What really happened at the beginning of Genesis...?</p>

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Forgotten Log Entry Demiurge Ai"
 date: 2025-04-08
-tags: [converted, logs, parody, logging, religion, ai, devops, png]
+tags: [devops, parody, ai, gnosticism, logs, religion]
 ---
 
 <p class='center'><a href='https://simple.wikipedia.org/wiki/Gnosticism'>Gnosticism?</a> No, it's not about Gnomes</p>

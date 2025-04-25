@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Wilderness Penetration Test'
 date: 2025-04-24 10:00:00
-tags: [devops, parody, religion, temptation, security, jesus, satan, penetration-test]
+tags: [devops, parody, temptation, security, jesus, satan, penetration-test, postmortem]
 ---
 
 **> INCIDENT: TEMPTATION PENETRATION TEST - INITIATION CYCLE 0033**

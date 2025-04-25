@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Jonah in the Whale"
 date: 2025-04-13
-tags: [slack, docker, containers, devops, parody, obedience, logs]
+tags: [devops, parody, docker, containers, slack, obedience, logs]
 ---
 
 ```dockerfile

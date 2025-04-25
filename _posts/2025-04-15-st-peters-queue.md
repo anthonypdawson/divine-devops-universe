@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "St. Peter's Queue"
 date: 2025-04-14
-tags: [devops, parody, religion, slack, queues, heaven, uriel-404, st-peter]
+tags: [devops, parody, queues, heaven, uriel, st-peter, slack]
 ---
 
 What happens when Heaven is full?

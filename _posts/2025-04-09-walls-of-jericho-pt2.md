@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'The Walls of Jericho Incident Pt. 2'
-tags: [devops, parody, religion, slack, jericho, uriel, celestial-support, incident]
+tags: [devops, parody, jericho, uriel, slack, incident, celestial-support]
 ---
 
 Try not to panic..

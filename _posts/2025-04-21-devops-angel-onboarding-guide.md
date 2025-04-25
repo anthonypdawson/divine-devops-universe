@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Welcome to HeavenOps: DevOps Angel Onboarding Guide'
 date: 2025-04-21
-tags: [devops, parody, religion, documentation, onboarding, angel]
+tags: [devops, parody, onboarding, documentation, angelic-hr, heavenops]
 ---
 
 **Welcome, newly incarnated DevOps Seraph!**  
