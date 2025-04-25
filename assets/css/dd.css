@@ -180,12 +180,14 @@
     border: 1px solid #e8e8e8;
   }
 
-  ** Syntax highlighting styles */ .highlight {
+  ** Syntax highlighting styles */ 
+  .highlight {
     background: #111;
   }
 
   .highlighter-rouge .highlight {
     background: #111;
+    color: #ebd300
   }
 
   .highlight .c {
