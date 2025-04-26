@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: "Communion Protocol (TypeScript)"
+title: "Communion Protocol"
 date: 2025-04-26 10:00:00
 tags: [ritual, communion, typescript, devops, parody]
 ---
