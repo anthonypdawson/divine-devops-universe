@@ -38,9 +38,9 @@ function receiveBlood(user: User) {
 }
 
 function syncWithSpirit(user: User) {
+  console.log(`Syncing ${user.name} with the Holy Spirit...`);
   const syncStatus = DivineAPI.syncUserWithSpirit(user.id);
   if (syncStatus.success) {
-    console.log(`Syncing ${user.name} with the Holy Spirit...`);
     console.log("Sync complete. Welcome to the divine network.");
   } else {
     console.error("Sync failed. Please check your faith configuration.");
