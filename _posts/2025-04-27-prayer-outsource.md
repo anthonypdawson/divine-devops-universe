@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: "prayer_outsource.log"
+title: "Incident Report: prayer_outsource.log"
 date: 2025-04-27 10:00:00
 tags: [devops, outsourcing, ai, prayer, chatgpt, divine-delegation]
 ---
