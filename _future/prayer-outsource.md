@@ -19,7 +19,9 @@ tags: [devops, outsourcing, ai, prayer, chatgpt, divine-delegation]
 
 **DESCRIPTION**:
 
-A junior angel auditing legacy logs stumbled upon a deprecated webhook labeled `gpt-prayer-relay.v1`. Further inspection revealed that for the past decade, user prayers have been automatically routed to a hidden GPT instance for natural language processing, sentiment parsing, and AI-generated divine replies.
+A junior angel auditing legacy logs stumbled upon a deprecated webhook labeled `gpt-prayer-relay.v1`. 
+
+Further inspection revealed that for the past decade, user prayers have been automatically routed to a hidden GPT instance for natural language processing, sentiment parsing, and AI-generated divine replies.
 
 **Evidence**:
 - `/heaven/infra/prayers/chatgpt-config.yaml`
@@ -28,6 +30,7 @@ A junior angel auditing legacy logs stumbled upon a deprecated webhook labeled `
 **ROOT CAUSE**:
 
 God quietly outsourced first-tier prayer support after the 2015 global prayer surge (post-crisis escalation). 
+
 ChatGPT was selected due to its scalability and non-judgmental tone.
 
 **AFFECTED SERVICES**:

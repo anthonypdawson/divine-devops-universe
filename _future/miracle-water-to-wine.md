@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: 'Water to Wine: Unauthorized Prod Push'
+title: 'Miracle: Water to Wine: Unauthorized Prod Push'
 date:
 tags: [miracle, prod, logs, divine-devops, wine, deployment, jesus]
 ---

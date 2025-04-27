@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: 'Walking on Water: Gravity Patch Override'
+title: 'Miracle: Walking on Water: Gravity Patch Override'
 date:
 tags: [miracle, physics, override, jesus, ocean, divine-devops]
 ---

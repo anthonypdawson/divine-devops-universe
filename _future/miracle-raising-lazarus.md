@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: 'Raising Lazarus: Cold Boot Resurrection'
+title: 'Miracle: Raising Lazarus: Cold Boot Resurrection'
 date:
 tags: [miracle, resurrection, lazarus, jesus, divine-devops]
 ---

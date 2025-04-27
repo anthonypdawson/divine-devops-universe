@@ -1,6 +1,6 @@
 ---
 layout: terminal_post
-title: 'Healing the Blind: Sensory Patch Deployment'
+title: 'Miracle: Healing the Blind: Sensory Patch Deployment'
 date:
 tags: [miracle, healing, restoration, blind, jesus, divine-devops]
 ---
