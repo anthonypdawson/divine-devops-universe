@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "wisdom.solomon: Arbitration Microservice v1.0"
 date: 2025-05-03 10:00:00
-tags: [devops, parody, solomon, typescript, api, arbitration]
+tags: [devops, parody, solomon, typescript, api, arbitration, ethics, conflict-resolution]
 ---
 
 The `wisdom.solomon` microservice is a cutting-edge arbitration system
@@ -73,6 +73,8 @@ function resolveDispute(case: DisputeCase): string {
 - Decisions appear abrupt but pass all moral tests
 - Verdicts logged to immutable scroll-based blockchain
 - Known for “cutting edge” heuristics. Literally.
+- Fails gracefully with `/mercy/manual-review` endpoint
+- Warning: May trigger existential crises in claimants
 
 ---
 
