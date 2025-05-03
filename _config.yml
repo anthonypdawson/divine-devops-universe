@@ -1,16 +1,18 @@
 title: 'Divine DevOps'
 name: 'Divine DevOps'
 description: 'A parody universe blending humor, tech, religious themes and lore with DevOps culture.'
-
 author: 'divinedevops@poopnet.info'
 baseurl: '/divine-devops'
 url: 'https://anthonypdawson.github.io'
 theme: minima
+paginate: 10
+paginate_path: 'page/:num'
 # theme: jekyll-theme-console
 layout: terminal_post
 plugins:
     - jekyll-feed
     - jekyll-sitemap
+    - jekyll-paginate
 include:
     - _redirects
 exclude:
