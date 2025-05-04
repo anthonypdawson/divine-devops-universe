@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Unauthorized Fork: Humanity v1.9"
-date: 05-04-2025 10:00:00
+date: 2025-05-04 10:00:00
 tags: [devops, parody, religion, human-history, progress, patch-notes]
 ---
 
