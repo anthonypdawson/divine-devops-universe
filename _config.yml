@@ -7,6 +7,19 @@ url: 'https://anthonypdawson.github.io'
 theme: minima
 # theme: jekyll-theme-console
 layout: terminal_post
+sass:
+    sass_dir: _sass
+    style: compact
+    css_dir: assets/css
+    sourcemap: true
+    sass_options:
+        style: compressed
+        sourcemap: true
+        cache: false
+        quiet: true
+        load_paths:
+        - _sass
+        - /assets/css
 plugins:
     - jekyll-feed
     - jekyll-sitemap

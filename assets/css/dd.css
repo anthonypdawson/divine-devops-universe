@@ -1,7 +1,7 @@
 
   :root {
     --background-color: #000;
-    --text-color: #00ff00;
+    --text-color: #477a47;
     --link-color: cyan;
     --link-hover-color: white;
     --border-color: #111;
@@ -21,7 +21,7 @@
     --highlight-string-color: #d14;
     --highlight-variable-color: #008080;
   }
-
+ 
   body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -119,7 +119,7 @@
   }
   body {
     background-color: #000;
-    color: #00ff00;
+    color: var(--text-color);
     font-family: FiraCode, monospace;
     padding: 2em;
   }
