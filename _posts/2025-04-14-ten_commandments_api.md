@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Ten Commandments: API Integration v1.0"
 date: 2025-04-14
-tags: [api, commandments, integration, logs]
+tags: [api, commandments, integration, logs, moses]
 ---
 
 ```http

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Golden Calf: Unauthorized Deployment"
 date: 
-tags: [religion, idol, deployment, moses, incident, rollback]
+tags: [deployment, idol, incident, moses, religion, rollback, uriel]
 ---
 
 **> INCIDENT: UNAUTHORIZED DEPLOYMENT - GOLDEN CALF**

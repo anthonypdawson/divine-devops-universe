@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Easter Regression Test"
 date: 2025-04-19
-tags: [easter, regression, uriel, resurrection, testing, ci-cd, postmortem]
+tags: [ci-cd, easter, gabriel, michael, postmortem, regression, resurrection, testing, uriel]
 ---
 
 ## Resurrection Regression Suite

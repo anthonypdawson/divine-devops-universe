@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Miracle: Water to Wine: Unauthorized Prod Push'
 date:
-tags: [miracle, prod, logs, divine-devops, wine, deployment, jesus]
+tags: [deployment, divine-devops, jesus, logs, miracle, prod, uriel, wine]
 ---
 
 ## Miracle alert - Adler Hash: febd0d8b

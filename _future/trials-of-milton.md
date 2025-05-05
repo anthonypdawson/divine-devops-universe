@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "The Trials of Milton-WDMS"
 date: 
-tags: [job, office-space, deprecated-services, satire]
+tags: [deprecated-services, job, milton, office-space, satire]
 ---
 
 The **Trials of Milton-WDMS** chronicles the struggles of a forgotten back-office worker in the divine infrastructure.

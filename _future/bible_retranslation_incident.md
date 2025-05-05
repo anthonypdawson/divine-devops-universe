@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "bible_retranslation_incident.log"
 date: 
-tags: [bible, incident, translation, git, chaos, divine-delegation]
+tags: [bible, chaos, divine-delegation, gabriel, git, incident, jesus, translation, uriel]
 ---
 
 The **Bible Retranslation Incident** highlights the challenges of maintaining a sacred text repository in a multiverse environment. 

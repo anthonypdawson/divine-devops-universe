@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Mandatory Onsite: The Last Supper'
 date: 2025-04-17 10:00:00
-tags: [lastsupper, jesus, teamonsite, messiahos, betrayal]
+tags: [betrayal, jesus, judas, lastsupper, messiahos, peter, teamonsite]
 ---
 
 ## 📅 Calendar Invite

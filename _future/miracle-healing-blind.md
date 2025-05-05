@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Miracle: Healing the Blind: Sensory Patch Deployment'
 date:
-tags: [miracle, healing, restoration, blind, jesus, divine-devops]
+tags: [blind, divine-devops, healing, jesus, miracle, restoration, uriel]
 ---
 
 ## Miracle alert - Adler Hash: 517a0fc1

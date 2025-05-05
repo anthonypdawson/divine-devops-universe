@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Wise Men Source Review"
 date: 2025-04-25 10:00:00
-tags: [nativity, consultants, jesus, incident, source-code, review]
+tags: [balthazar, caspar, consultants, incident, jesus, melchior, nativity, review, source-code]
 ---
 
 **> INCIDENT REPORT: INFANT CODE REVIEW - INITIATION CYCLE 0001**

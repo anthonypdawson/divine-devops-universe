@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Greek Pantheon Microservices"
-tags: [mythology, legacy, microservices, logs]
+tags: [apollo, athena, hades, hera, hermes, legacy, logs, microservices, mythology, poseidon, zeus]
 ---
 Dealing with legacy services.. what do you do with them?
 

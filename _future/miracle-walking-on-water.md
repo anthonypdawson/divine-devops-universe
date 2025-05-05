@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Miracle: Walking on Water: Gravity Patch Override'
 date:
-tags: [miracle, physics, override, jesus, ocean, divine-devops]
+tags: [divine-devops, jesus, miracle, ocean, override, physics, uriel]
 ---
 
 ## Miracle alert - Adler Hash: 28020e9e

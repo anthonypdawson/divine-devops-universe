@@ -2,7 +2,7 @@
 title: "Biblical Characters and DevOps Parody Hooks"
 date: 
 layout: terminal_post
-tags: [devops, parody, bible, references, ideas]
+tags: [bible, devops, ideas, jesus, parody, paul, references]
 ---
 
 ### Old Testament
