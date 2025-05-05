@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Constantine Migration"
 date: 2025-05-05 10:00:00
-tags: [devops, parody, constantine, religion, history, migration, ci/cd]
+tags: [devops, parody, constantine, religion, history, uriel, incident, migration, ci/cd]
 ---
 
 The **Constantine Migration** was one of the most ambitious infrastructure overhauls in history. This incident report explores how Emperor Constantine transitioned the Roman Empire's spiritual operating system from **PaganOS** to **ChristianOS**, introducing a unified CI/CD pipeline for faith.
