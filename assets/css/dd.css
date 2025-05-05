@@ -1,6 +1,7 @@
 
   :root {
     --background-color: #000;
+    --blockquote-bg-color: #1d1d1d;
     /* --text-color: #477a47; */
     --text-color: #00ff00;
     --link-color: cyan;
@@ -32,7 +33,7 @@
 
 
   blockquote {
-    background-color: var(--background-color);
+    background-color: var(--blockquote-bg-color);
     color: white;
     border-left: 4px solid var(--border-color);
   }
