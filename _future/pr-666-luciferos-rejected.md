@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "PR #666 – LuciferOS Merge Attempt"
 date: 
-tags: [devops, parody, lucifer, rebellion, git, permissions]
+tags: [lucifer, pullrequest, pr, rebellion, git, permissions]
 ---
 
 Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history.

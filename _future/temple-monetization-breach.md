@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Issue #777 – Temple Monetization Breach"
 date: 
-tags: [devops, parody, messiahos, temple, audit, slack]
+tags: [messiahos, temple, audit, slack, jesus, issue, peter, matthew]
 ---
 
 ## GitHub Issue: `#777` – Temple Monetization Breach  

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Faith vs Works Pull Request"
 date: 
-tags: [pullrequest, doctrine, devops, parody, logs]
+tags: [pullrequest, doctrine, pr, uriel, jesus, logs]
 ---
 
 ```ts

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Fall Log: LuciferOS Rebellion Archive"
 date: 
-tags: [devops, rebellion, lucifer, logs, system]
+tags: [rebellion, lucifer, logs, system]
 ---
 
 ## Eternal Log Index: Rebellion-Related Incidents

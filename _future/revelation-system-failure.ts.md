@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "revelation_system_failure.ts"
 date:
-tags: [devops, apocalypse, revelation, typescript, parody]
+tags: [apocalypse, revelation, typescript, system, failure, logs]
 ---
 
 ```typescript

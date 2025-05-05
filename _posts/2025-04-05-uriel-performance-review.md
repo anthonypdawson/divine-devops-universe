@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Performance Review: Uriel-404"
-tags: [devops, parody, uriel, angelic-hr, logs, performance]
+tags: [uriel, angelic-hr, logs, performance]
 ---
 ![Uriels Performance Review]({{'/assets/images/posts/Uriel404_Performance_Review.png' | relative_url }})
 

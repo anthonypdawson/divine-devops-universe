@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Genesis ChatGPT Flood Purge"
 date: 
-tags: [genesis, flood, parody, devops, logs]
+tags: [genesis, flood, git, merge, logs]
 ---
 
 ```log

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "git log — sin-processing-server"
 date: 2025-04-07
-tags: [devops, parody, gitlog, logs, sins, microservices, metatron, uriel]
+tags: [gitlog, logs, sins, microservices, metatron, uriel]
 ---
 
 ```text

@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Divine Rollback: Fixing Genesis"
-tags: [devops, parody, rollback, genesis, logs, api, commandments]
+tags: [rollback, genesis, logs, api, commandments]
 ---
 
 God encountered a critical logic error on Day 2. The backup was restored.

@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Purgatory in a Dockerfile"
-tags: [devops, parody, docker, containers, middleware, logs]
+tags: [docker, containers, middleware, logs]
 ---
 
 <p class='center'>This is required middleware</p>

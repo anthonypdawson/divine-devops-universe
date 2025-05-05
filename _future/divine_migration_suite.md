@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Divine Migration Suite"
 date: 
-tags: [migration, sql, grace, devops, logs]
+tags: [migration, sql, grace, logs]
 ---
 
 ```sql
