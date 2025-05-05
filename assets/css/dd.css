@@ -110,11 +110,39 @@
   table td {
     border: 1px solid var(--table-border-color);
   }
-/* @media (max-width: 1179px) {
+  @media (max-width: 1179px) {
     body {
       font-size: 1.1rem;
-    }
-  } */
+  }
+  div.content {
+      font-size: 1.1rem;
+  }
+  div.posts {
+      font-size: 1.1rem;
+  }
+  div.archive {
+      font-size: 0.9rem; /* Adjusted for smaller screens */
+  }
+  div.tag-list {
+      font-size: 0.8rem; /* Smaller font for tag lists */
+  }
+  ul.post-list {
+      font-size: 0.9rem; /* Adjusted for post lists */
+  }
+  h1 {
+      font-size: 1.8rem; /* Smaller heading for mobile */
+  }
+  p {
+      font-size: 0.95rem; /* Adjusted paragraph font size */
+  }
+  .nav {
+      font-size: 0.9rem; /* Adjusted navigation font size */
+  }
+  .footer {
+      font-size: 0.7rem; /* Smaller footer font size */
+  }
+}
+
   .site-content {
       display: none;
     }
