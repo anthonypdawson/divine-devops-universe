@@ -26,7 +26,8 @@ Constantine's vision of a unified spiritual framework led to the deprecation of 
 > “In this sign, conquer.”  
 
 **Uriel-404 [Sysadmin Angel]:**  
-> “We’re migrating from `/pagan/legacy` to `/christian/main`. Expect downtime.”  
+> “Oh great, another migration. Let me guess, no rollback plan?”  
+> “We’re migrating from `/pagan/legacy` to `/christian/main`. Expect downtime. And by downtime, I mean riots.”   
 
 **AuditBot.v3:**  
 > `WARNING: Legacy rituals detected. Recommend archiving.`  
