@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Debug Ticket: Residual Test Asset (Bigfoot)"
 date: 2025-05-02 10:00:00
-tags: [devops, parody, bugs, uriel, fringe, debug, bigfoot]
+tags: [bugs, uriel, fringe, debug, bigfoot]
 ---
 
 **TICKET #: #9938-LEGACY-ANOMALY**

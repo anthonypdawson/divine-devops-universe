@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Genesis x ChatGPT: Babel Sequel"
 date: 2025-04-10
-tags: [devops, parody, babel, languages, logs, genesis, chatgpt]
+tags: [babel, languages, logs, genesis, chatgpt]
 ---
 
 <p class='center'><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">It was a good idea, in theory..</a></p>

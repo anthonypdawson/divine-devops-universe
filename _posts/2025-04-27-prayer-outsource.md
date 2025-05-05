@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Incident Report: prayer_outsource.log"
 date: 2025-04-27 10:00:00
-tags: [devops, outsourcing, ai, prayer, uriel, incident, chatgpt, divine-delegation]
+tags: [outsourcing, ai, prayer, uriel, incident, chatgpt, divine-delegation]
 ---
 
 # 🚨 INCIDENT REPORT

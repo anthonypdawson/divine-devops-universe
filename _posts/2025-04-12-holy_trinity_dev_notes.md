@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Holy Trinity Dev Notes"
 date: 2025-04-12
-tags: [devops, parody, theology, trinity, logs, architecture]
+tags: [theology, trinity, logs, architecture]
 ---
 
 > GOD: “We need to scale. One essence, three interfaces.”

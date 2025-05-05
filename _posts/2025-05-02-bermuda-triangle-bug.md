@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Routing Bug: Bermuda Triangle Blackhole"
 date: 2025-05-02 12:00:00
-tags: [devops, parody, fringe, network, uriel, bug-report, mystery]
+tags: [fringe, network, uriel, bug-report, mystery]
 ---
 
 **BUG REPORT: Oceanic Routing Node - Atlantic/33°N 71°W**

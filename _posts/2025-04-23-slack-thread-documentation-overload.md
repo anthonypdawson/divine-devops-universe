@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Slack Thread: Documentation Overload'
 date: 2025-04-23 10:00:00
-tags: [devops, parody, slack, documentation, bureaucracy, angels, uriel, metatron]
+tags: [slack, documentation, bureaucracy, angels, uriel, metatron]
 ---
 
 #celestial-ops

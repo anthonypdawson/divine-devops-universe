@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Legacy Holiday Migration Log"
 date: 2025-04-16
-tags: [devops, parody, holidays, migration, uriel, calendar]
+tags: [holidays, migration, uriel, calendar]
 ---
 
 ```log

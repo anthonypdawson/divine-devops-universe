@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'HeavenOps Dashboard Snapshot'
 date: 2025-04-22 10:44:00
-tags: [devops, parody, dashboard, monitoring, uptime, heavenops]
+tags: [dashboard, monitoring, uptime, heavenops]
 ---
 
 A rare glimpse into the internal monitoring system of the Divine Infrastructure.

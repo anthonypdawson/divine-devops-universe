@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Aftermath: Last Supper Slack Thread'
 date: 2025-04-17 12:00:00
-tags: [devops, parody, lastsupper, jesus, slack, betrayal, messiahos]
+tags: [lastsupper, jesus, slack, betrayal, messiahos]
 ---
 
 ## 💬 Slack Thread `#messiah-core`

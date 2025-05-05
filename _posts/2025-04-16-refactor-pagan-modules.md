@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Refactoring the Pagan Modules"
 date: 2025-04-16
-tags: [devops, parody, java, paganism, legacy, refactor]
+tags: [java, paganism, legacy, refactor]
 ---
 
 ```java

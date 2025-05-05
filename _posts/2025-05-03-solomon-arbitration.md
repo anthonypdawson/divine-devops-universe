@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "wisdom.solomon: Arbitration Microservice v1.0"
 date: 2025-05-03 10:00:00
-tags: [devops, parody, solomon, typescript, api, arbitration, ethics, conflict-resolution]
+tags: [solomon, typescript, api, arbitration, ethics, conflict-resolution]
 ---
 
 The `wisdom.solomon` microservice is a cutting-edge arbitration system

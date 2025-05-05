@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Annual Self-Review: Uriel-404"
 date: 2025-04-18
-tags: [devops, parody, logs, angelic-hr, uriel, self-review]
+tags: [logs, angelic-hr, uriel, self-review]
 ---
 
 **Heavenly Systems Division – Annual Self-Review**  
