@@ -66,5 +66,6 @@ Migration ongoing. ChristianOS adoption reached 50% by 325 A.D. with the **Counc
 
 ---
 
-> **Note**: Constantine's migration serves as a reminder of the importance of visionary leadership and careful planning in large-scale infrastructure overhauls.  
-> For questions, contact `/heaven/support`.
+> **Note**: Constantine's migration serves as a reminder that even the most ambitious infrastructure overhauls require careful planning, user buy-in, and a really good logo. 
+> 
+> For complaints about deprecated PaganOS features, please submit a ticket to `/heaven/support`. Response times may vary—eternally.
