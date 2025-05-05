@@ -5,9 +5,9 @@ permalink: /archive.html
 ---
 
 <div>
-  Search through all of my posts by tag!
+  Search through all posts by tag
 </div>
-<br />
+<hr />
 
 {% capture tags %}
   {% for tag in site.tags %}
