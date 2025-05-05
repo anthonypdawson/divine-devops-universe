@@ -50,12 +50,13 @@
   }
 
   div.archive {
-    column-count: 6;
+    column-count: 5;
     column-gap: 0px;
     column-rule: 0px solid var(--border-color);
     padding: 0px;
     margin: 0px;
     text-align: center;
+    font-size: 12px;
   }
   
   div.posts {
@@ -76,6 +77,7 @@
     font-size: small;
     text-align: left;
   }
+
   .post-list-heading {
     text-decoration: underline;
     
