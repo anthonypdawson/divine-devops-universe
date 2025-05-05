@@ -45,7 +45,7 @@ Constantine's vision of a unified spiritual framework led to the deprecation of 
 
 ---
 
-## **ACTIONS TAKEN:**  
+## **ACTIONS TAKEN**  
 - [x] Deprecated `/pagan/legacy` modules.  
 - [x] Standardized on **ChristianOS** with chi-rho as the primary logo.  
 - [x] Issued the **Edict of Milan** to enable universal religious tolerance.  
@@ -61,7 +61,7 @@ Constantine's vision of a unified spiritual framework led to the deprecation of 
 
 ---
 
-## **STATUS:**  
+## **STATUS**  
 Migration ongoing. ChristianOS adoption reached 50% by 325 A.D. with the **Council of Nicaea** finalizing core doctrines.
 
 ---
