@@ -1,0 +1,122 @@
+/* Default font sizes for larger screens */
+body {
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1rem;
+}
+.nav {
+    font-size: 1rem;
+}
+.footer {
+    font-size: 0.9rem;
+}
+
+/* Large desktops (1200px and above) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.3rem;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .nav {
+        font-size: 1.1rem;
+    }
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+/* Tablets (768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    body {
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+    .nav {
+        font-size: 0.95rem;
+    }
+    .footer {
+        font-size: 0.8rem;
+    }
+    div.archive {
+        font-size: 0.9rem;
+    }
+    div.tag-list {
+        font-size: 0.8rem;
+    }
+    ul.post-list {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile devices (480px to 767px) */
+@media (max-width: 767px) and (min-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .nav {
+        font-size: 0.9rem;
+    }
+    .footer {
+        font-size: 0.7rem;
+    }
+    div.archive {
+        font-size: 0.85rem;
+    }
+    div.tag-list {
+        font-size: 0.75rem;
+    }
+    ul.post-list {
+        font-size: 0.85rem;
+    }
+}
+
+/* Small mobile devices (below 480px) */
+@media (max-width: 479px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    .nav {
+        font-size: 0.7rem;
+    }
+    .footer {
+        font-size: 0.5rem;
+    }
+    div.archive {
+        font-size: 0.7rem;
+    }
+    div.tag-list {
+        font-size: 0.6rem;
+    }
+    ul.post-list {
+        font-size: 0.7rem;
+    }
+    .banner img {
+        max-width: 360px;
+    }
+}
