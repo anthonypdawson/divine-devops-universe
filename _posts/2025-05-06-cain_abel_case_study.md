@@ -1,8 +1,8 @@
 ---
 layout: terminal_post
 title: "Cain and Abel Case Study"
-date: 
-tags: [case, conflict, yaml, logs]
+date: 2025-05-06 12:00:00
+tags: [case, conflict, yaml, logs, cain, abel, service, incident]
 ---
 
 The story of Cain and Abel is one of the earliest recorded DevOps conflicts
