@@ -6,7 +6,7 @@ permalink: /about/
 
 <p class='center'>Explore the ancient logs, sacred pull requests, and sysadmin prophecies that shaped the cosmos.</p>
 
-<p style='margin-top: 10em; font-size: smaller;' class='right'>This site is a parody and should not be taken serious.</p>
+<p style='margin-top: 10em; font-size: smaller;' class='right'>This site is a parody and should not be taken seriously.</p>
 
 <div class='footer'>
 <p class="text-right">Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
