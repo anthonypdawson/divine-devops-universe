@@ -10,9 +10,9 @@ permalink: /archive.html
 <hr />
 
 {% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[1].size | minus: 10000 }}#{{ tag[0] }}#{{ tag[1].size }}
-  {% endfor %}
+{% for tag in site.tags %}
+{{ tag[1].size | minus: 10000 }}#{{ tag[0] }}#{{ tag[1].size }}
+{% endfor %}
 {% endcapture %}
 
 {% assign tagsBySize = tags | split: " " | sort %}
@@ -49,7 +49,7 @@ permalink: /archive.html
               <a href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
               </a>
-            </b> - <i>{{ post.date | date: date_format }}</i>
+            </b><br /><i>{{ post.date | date: date_format }}</i>
           </li>
         {% endfor %}
       </ul>
