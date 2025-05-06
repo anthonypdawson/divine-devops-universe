@@ -144,6 +144,11 @@ img {
     margin: 1.5em auto;
 }
 
+div.credits {
+    text-align: right;
+    font-size: smaller;
+    color: rgb(21, 92, 0);
+}
 div.content img {
     max-width: 90%;
 }
