@@ -81,17 +81,18 @@ svg {
     margin-top: 1em;
 }
 
-.about-link {
+.about-links {
     margin-left: auto;
+    text-align: right;
 }
 
-.about-link a {
+.about-links a {
     color: cyan;
     text-decoration: none;
     font-size: 0.9rem;
 }
 
-.about-link a:hover {
+.about-links a:hover {
     color: white;
     transition: color 0.3s ease;
 }
