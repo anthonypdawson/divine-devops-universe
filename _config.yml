@@ -25,6 +25,8 @@ plugins:
     - jekyll-sitemap
 include:
     - _redirects
+    - robots.txt
+    - sitemap.xml
 exclude:
     - vendor
     - '_future'
