@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Post Archive'
-permalink: /archive.html
+permalink: /archive/
 ---
 
 <div>
