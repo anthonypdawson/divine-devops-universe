@@ -201,8 +201,7 @@ div.posts ul {
     display: inline-block;
 }
 div.posts ul li {
-    margin: 0.5em 0;
-    margin: 0.5em 0;
+    margin: 0.5em 0 1em 0;;
     text-align: left;
 }
 
