@@ -211,6 +211,22 @@ div.tag-list {
     text-align: left;
 }
 
+ul#search-results {
+    position: relative;
+}
+ul#search-results li {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    background: #111;
+    border: 1px solid #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
 /* Syntax Highlighting */
 .highlight {
     background: var(--highlight-bg-color);

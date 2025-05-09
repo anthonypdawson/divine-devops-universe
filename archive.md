@@ -4,6 +4,10 @@ title: 'Post Archive'
 permalink: /archive/
 ---
 
+<div class='search'>
+    <input type="text" id="search-box" placeholder="Search..."><br />
+    <ul id="search-results"></ul>
+</div>
 <div>
   Search through all posts by tag
 </div>
