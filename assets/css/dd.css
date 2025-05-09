@@ -201,10 +201,12 @@ div.posts ul {
     display: inline-block;
 }
 div.posts ul li {
-    margin: 0.5em 0 1em 0;;
-    text-align: left;
+    margin: 0.5em 0;
+    text-align: center;
 }
-
+div.post-date {
+    font-size: small;
+}
 div.tag-list {
     font-size: small;
     text-align: left;
