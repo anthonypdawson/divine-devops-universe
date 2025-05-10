@@ -13,13 +13,13 @@ tags: [paganos, legacy, conflict, greek, roman, devops, audit, polytheism, names
 
 ---
 
-**SUMMARY:**
+**SUMMARY**
 
 The ancient `PaganOS` platform—once a loosely federated polytheistic system—continues to exhibit unresolved forking issues between the Greek (`OlympusBranch`) and Roman (`CapitolineFork`) subsystems. Audit detected multiple services claiming authority over the same divine functions (e.g., `war`, `love`, `sea`, `death`) with different labels and rituals.
 
 ---
 
-**REDUNDANCY REPORT:**
+**REDUNDANCY REPORT**
 
 | Function       | Greek Daemon      | Roman Daemon     | Conflict Status       |
 |----------------|-------------------|------------------|------------------------|
@@ -34,7 +34,7 @@ The ancient `PaganOS` platform—once a loosely federated polytheistic system—
 
 ---
 
-**KNOWN ISSUES:**
+**KNOWN ISSUES**
 
 - `apollo.sys` and `apollo.sys` (yes, same name across forks) triggers shadow warnings.
 - RitualDaemon attempting to load both `greek.init` and `roman.init` causes ritual lockout.
@@ -42,7 +42,7 @@ The ancient `PaganOS` platform—once a loosely federated polytheistic system—
 
 ---
 
-**ERROR SAMPLE:**
+**ERROR SAMPLE**
 
 ```bash
 > invoking aphrodite.sock --bless-session
@@ -57,7 +57,7 @@ ENV_WARNING: 'zeus.sh' already set global variable SKY_DOMINION. Overwriting...
 
 ---
 
-**RECOMMENDATION:**
+**RECOMMENDATION**
 
 1. **Namespace Refactor:** Consolidate shared roles under `god.of.<domain>` abstraction layer.
 2. **Fork Merging:** Initiate reconciliation protocol (`PantheonSync`) to align identities.
@@ -67,13 +67,13 @@ ENV_WARNING: 'zeus.sh' already set global variable SKY_DOMINION. Overwriting...
 
 ---
 
-**URIEL-404 COMMENT:**
+**COMMENTS**
 
 > “Honestly, just pick one. Nobody cares if your `storm god` wears a toga or a chiton. Stop opening duplicate tickets.”
 
 ---
 
-**ACTION ITEM:**
+**ACTION ITEM**
 
 Scheduled merge audit during upcoming solstice. Expect divine reboots, ritual cold starts, and possible emergence of unregistered minor deities.
 
