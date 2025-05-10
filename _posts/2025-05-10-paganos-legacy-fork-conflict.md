@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Legacy Fork Conflict: PaganOS"
 date: 2025-05-10 12:00:00
-tags: [paganos, legacy, conflict, greek, roman, devops, audit, polytheism, namespace]
+tags: [paganos, legacy, conflict, greek, roman, devops, audit, polytheism, namespace, uriel]
 ---
 
 **[SYSTEM AUDIT LOG - PAGANOS v2.3.7-preOlympian]**
