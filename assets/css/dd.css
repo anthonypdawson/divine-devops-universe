@@ -64,7 +64,7 @@ a {
 
 a:hover {
     color: var(--link-hover-color);
-    transition: color 0.9s ease;
+    transition: color 1.5s ease;
 }
 
 /* Blockquote */
@@ -86,6 +86,10 @@ blockquote {
     font-weight: bolder;
     margin: 0 1em;
     text-decoration: none;
+}
+.nav a:hover {
+    color: white;
+    transition: color 1.5s ease;
 }
 
 /* Footer */
