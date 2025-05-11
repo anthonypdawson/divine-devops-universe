@@ -29,24 +29,31 @@ svg {
 }
 #share-buttons > div.facebook:hover > svg {
     fill: #3b5998;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.twitter:hover > svg {
     fill: #55acee;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.linkedin:hover > svg {
     fill: #0077b5;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.reddit:hover > svg {
     fill: #ff4500;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.pinterest:hover > svg {
     fill: #cb2027;
+    transition: all 1.5 ease;
 }
 #share-buttons > div.mail:hover > svg {
     fill: #7d7d7d;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.instagram:hover > svg {
     fill: #c73b92;
+    transition: all 1.0s ease;
 }
 #share-buttons > div.facebook > svg {
     height: 18px;
@@ -94,5 +101,5 @@ svg {
 
 .about-links a:hover {
     color: white;
-    transition: color 0.3s ease;
+    transition: color 1.0s ease;
 }

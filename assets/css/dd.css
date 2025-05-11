@@ -64,7 +64,7 @@ a {
 
 a:hover {
     color: var(--link-hover-color);
-    transition: color 1.5s ease;
+    transition: color 1.0s ease;
 }
 
 /* Blockquote */
@@ -89,7 +89,7 @@ blockquote {
 }
 .nav a:hover {
     color: white;
-    transition: color 1.5s ease;
+    transition: color 1.0s ease;
 }
 
 /* Footer */
