@@ -1,11 +1,11 @@
 ---
 layout: terminal_post
 title: 'The Walls of Jericho Incident Pt. 2'
+date: 2025-04-09
 tags: [celestial-support, incident, jericho, michael, slack, uriel]
 ---
 
 Try not to panic..
-
 
 ## Channel: `#celestial-support`
 
@@ -19,7 +19,7 @@ Were the trumpet filters still disabled?
 They walked around the perimeter seven times, then blasted horns. Total structural collapse.
 
 **Uriel [09:05]**  
-*sigh* That was in the CVE bulletin from the last millennium. Echo buffer overflow.
+_sigh_ That was in the CVE bulletin from the last millennium. Echo buffer overflow.
 
 **Michael [09:06]**  
 Can we roll back the infrastructure?

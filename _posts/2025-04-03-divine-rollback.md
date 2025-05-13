@@ -1,6 +1,7 @@
 ---
 layout: terminal_post
-title: "Divine Rollback: Fixing Genesis"
+title: 'Divine Rollback: Fixing Genesis'
+date: 2025-04-03
 tags: [rollback, genesis, logs, api, commandments]
 ---
 
