@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Greek Pantheon Microservices'
-date: 2024-04-11
+date: 2025-04-11
 tags: [apollo, athena, hades, hera, hermes, legacy, logs, microservices, mythology, poseidon, zeus]
 ---
 

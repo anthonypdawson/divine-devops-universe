@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Performance Review: Uriel-404'
-date: 2024-04-05
+date: 2025-04-05
 tags: [uriel, angelic-hr, logs, performance]
 ---
 
