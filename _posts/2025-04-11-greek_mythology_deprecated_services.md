@@ -1,10 +1,11 @@
 ---
 layout: terminal_post
-title: "Greek Pantheon Microservices"
+title: 'Greek Pantheon Microservices'
+date: 2025-04-11
 tags: [apollo, athena, hades, hera, hermes, legacy, logs, microservices, mythology, poseidon, zeus]
 ---
-Dealing with legacy services.. what do you do with them?
 
+Dealing with legacy services.. what do you do with them?
 
 # Greek Pantheon Microservices — System Status
 

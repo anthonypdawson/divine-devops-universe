@@ -1,6 +1,7 @@
 ---
 layout: terminal_post
-title: "Purgatory in a Dockerfile"
+title: 'Purgatory in a Dockerfile'
+date: 2025-04-04
 tags: [docker, containers, middleware, logs]
 ---
 
