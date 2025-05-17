@@ -1,17 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ site.title }}</title>
-<style>
-@font-face {
-  font-family: "FiraCode";
-  src: url("{{ '/assets/fonts/FiraCode-VF.ttf' | relative_url }}") format("truetype"),
-  url("{{ '/assets/fonts/FiraCode-VF.woff2' | relative_url }}") format("woff2-variations"),
-  url("{{ '/assets/fonts/FiraCode-VF.woff' | relative_url }}") format("woff-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 300 700;
-  font-style: normal;
-}
-</style>
+
+{% include fonts.html %}
 <!-- Favicons -->
 <link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
