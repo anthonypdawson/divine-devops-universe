@@ -20,6 +20,10 @@ sass:
         load_paths:
         - _sass
         - /assets/css
+collections:
+  future:
+    output: true
+    permalink: /future/:name/
 plugins:
     - jekyll-feed
     - jekyll-sitemap
@@ -29,7 +33,6 @@ include:
     - sitemap.xml
 exclude:
     - vendor
-    - '_future'
     - '_unpublished'
     - 'README.md'
     - '*.sh'
