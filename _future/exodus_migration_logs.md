@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Exodus Migration Logs"
 date: 2025-05-17 12:00:03
-tags: [exodus, logs, plagues, moses]
+tags: [exodus, logs, plague, moses]
 ---
 
 ```log

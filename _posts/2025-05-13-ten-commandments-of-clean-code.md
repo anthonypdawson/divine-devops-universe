@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'The Ten Commandments of Clean Code'
 date: 2025-05-13 09:30:00
-tags: [clean-code, commandments, refactoring, code-reviews, best-practices, software-development, humor]
+tags: [clean-code, commandments, refactor, code-review, best-practices, software-development, humor]
 ---
 
 In the beginning, there was chaos in the codebase. But the Senior Developer, in their wisdom, brought forth the Ten Commandments of Clean Code to guide developers toward enlightenment and maintainability.
