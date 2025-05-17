@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Issue #777 – Temple Monetization Breach"
-date: 
+date: 2025-05-17 12:00:03
 tags: [audit, issue, jesus, judas, matthew, messiahos, peter, slack, temple]
 ---
 

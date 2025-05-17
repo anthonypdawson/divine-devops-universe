@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Incident Report: Heretical Commit to genesis-main"
 tags: [incident, devops, heresy, uriel, code-review, genesis, audit]
-date: 
+date: 2025-05-17 12:00:03
 ---
 
 **INCIDENT ID:** #GENESIS-000-COMMIT  

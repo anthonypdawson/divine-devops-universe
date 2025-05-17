@@ -1,6 +1,6 @@
 ---
 title: "Biblical Characters and DevOps Parody Hooks"
-date: 
+date: 2025-05-17 12:00:03
 layout: terminal_post
 tags: [bible, devops, ideas, jesus, parody, paul, references]
 ---
@@ -23,7 +23,7 @@ tags: [bible, devops, ideas, jesus, parody, paul, references]
   Users sideload third-party idol-ware while God is AFK compiling commandments.
 
 - **Tower of Babel**  
-  CI/CD language fork. Protocol confusion and incompatible syntax split the dev team.
+  CI/CD language fork. Protocol confusion and incompatible syntax ~~split~~ the dev team.
 
 ---
 

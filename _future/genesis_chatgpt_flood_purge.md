@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Genesis ChatGPT Flood Purge"
-date: 
+date: 2025-05-17 12:00:03
 tags: [genesis, flood, git, merge, logs]
 ---
 

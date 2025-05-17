@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Biological Malware: The Plague of Justinian"
-date: 
+date: 2025-05-17 12:00:03
 tags: [religion, history, malware, uriel, michael, incident, plague]
 ---
 The **Plague of Justinian** was one of the most devastating pandemics in human history.

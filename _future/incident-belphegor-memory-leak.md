@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Incident Report: Belphegor Detected in Memory Stack"
 tags: [incident, devops, demons, belphegor, performance, logs]
-date: 
+date: 2025-05-17 12:00:03
 ---
 
 **INCIDENT ID:** #DEVOPS-666-MEMLEAK  

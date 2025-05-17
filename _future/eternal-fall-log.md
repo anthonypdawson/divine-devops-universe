@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Fall Log: LuciferOS Rebellion Archive"
-date: 
+date: 2025-05-17 12:00:03
 tags: [rebellion, lucifer, logs, system]
 ---
 

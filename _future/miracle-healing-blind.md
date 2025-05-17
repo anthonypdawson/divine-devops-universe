@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Miracle: Healing the Blind: Sensory Patch Deployment'
-date:
+date: 2025-05-17 12:00:03
 tags: [blind, divine-devops, healing, jesus, miracle, restoration, uriel]
 ---
 

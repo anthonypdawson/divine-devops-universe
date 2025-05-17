@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Miracle: Feeding the 5000: Auto-Scaling Loaf Balancer'
-date:
+date: 2025-05-17 12:00:03
 tags: [autoscale, divine-devops, feeding, infrastructure, jesus, miracle, uriel]
 ---
 
