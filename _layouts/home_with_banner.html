@@ -8,12 +8,23 @@
         {% include banner.html %}
         <div class="posts">
             <ul>
-                {% for post in site.posts %}
-                <li>
-                    <em>{{ post.date | date: "%Y-%m-%d" }}</em>: 
+                {% assign recent_posts = site.posts | slice: 0, 2 %}
+                {% assign older_posts = site.posts | slice: 2, site.posts.size %}
+                {% for post in recent_posts %}
+                <li class="post-summary-container" style="max-width:40em;">
+                    <em>{{ post.date | date: "%Y-%m-%d" }}</em>:
                     <a href="{{ post.url | relative_url }}#content" title="{{ post.summary | escape }}">{{ post.title }}</a>
                     <br>
                     <small class="post-summary">{{ post.summary }}</small>
+                </li>
+                {% endfor %}
+                {% for post in older_posts %}
+                <li class="post-summary-container" style="max-width:40em;">
+                    <em>{{ post.date | date: "%Y-%m-%d" }}</em>:
+                    <a href="{{ post.url | relative_url }}#content" title="{{ post.summary | escape }}">{{ post.title }}</a>
+                    <br>
+                    {% assign summary_lines = post.summary | newline_to_br | split: '<br />' %}
+                    <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary" data-full-summary="{{ post.summary | escape }}">{{ summary_lines[0] | strip }}</small>
                 </li>
                 {% endfor %}
             </ul>
