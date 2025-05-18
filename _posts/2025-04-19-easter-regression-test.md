@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Easter Regression Test"
 date: 2025-04-19
 tags: [ci/cd, easter, gabriel, michael, postmortem, regression, resurrection, testing, uriel]
+summary: "A regression suite validates the resurrection workflow and documents the fixes and improvements in the process."
 ---
 
 ## Resurrection Regression Suite

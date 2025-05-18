@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Slack Thread: Documentation Overload'
 date: 2025-04-23 10:00:00
 tags: [angels, bureaucracy, documentation, gabriel, metatron, michael, slack, uriel]
+summary: "A Slack thread documents the team's struggle with recursive documentation updates and alert fatigue."
 ---
 
 #celestial-ops

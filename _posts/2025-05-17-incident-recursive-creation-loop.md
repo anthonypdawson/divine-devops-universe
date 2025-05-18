@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Incident Report: Recursive Creation Loop"
 tags: [incident, incident-response, postmortem, recursion, uriel, gabriel, creation, code-review]
 date: 2025-05-17 10:00:00
+summary: "A recursive function in the creation branch caused an infinite loop, threatening the stability of the ethereal registry until resolved by the celestial team."
 ---
 
 **INCIDENT ID:** #CREATION-000-LOOP  

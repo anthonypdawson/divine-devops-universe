@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Purgatory in a Dockerfile'
 date: 2025-04-04
 tags: [docker, containers, middleware, logs]
+summary: "A middleware configuration for purgatory, containerized for eternal monitoring and penance."
 ---
 
 <p class='center'>This is required middleware</p>

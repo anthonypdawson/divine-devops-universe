@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Baptism Init Script"
 date: 2025-05-16 10:00:00
 tags: [baptism, shell, init, ritual, automation, faith]
+summary: "A shell script designed to automate the process of spiritual rebirth, purging sins and installing essential virtues."
 ---
 Are you tired of manually purging your sins? Looking for a streamlined way to achieve spiritual rebirth? Look no further! The `baptize` script is here to automate your journey to salvation.
 

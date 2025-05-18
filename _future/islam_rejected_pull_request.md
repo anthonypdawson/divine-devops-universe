@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Islam Rejected Pull Request'
 date: 2025-05-17 12:00:03
 tags: [pullrequest, islam, conflict, branches]
+summary: "A major pull request to Abrahamic/main faces reviewer objections and merge conflicts, but is deployed globally regardless."
 ---
 
 ```log

@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Constantine Migration"
 date: 2025-05-05 10:00:00
 tags: [ci/cd, constantine, gabriel, history, incident, migration, uriel]
+summary: "An incident report detailing the migration from PaganOS to ChristianOS under Emperor Constantine, establishing a unified spiritual infrastructure."
 ---
 
 The **Constantine Migration** was one of the most ambitious infrastructure overhauls in history. This incident report explores how Emperor Constantine transitioned the Roman Empire's spiritual operating system from **PaganOS** to **ChristianOS**, introducing a unified CI/CD pipeline for faith.

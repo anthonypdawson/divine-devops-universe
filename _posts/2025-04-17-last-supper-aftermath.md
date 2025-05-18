@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Aftermath: Last Supper Slack Thread'
 date: 2025-04-17 12:00:00
 tags: [betrayal, jesus, judas, lastsupper, messiahos, peter, slack, thomas, john]
+summary: "A Slack thread captures the immediate reactions and fallout among the disciples following the Last Supper."
 ---
 
 ## 💬 Slack Thread `#messiah-core`

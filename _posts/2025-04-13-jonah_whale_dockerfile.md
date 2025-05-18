@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Jonah in the Whale"
 date: 2025-04-13
 tags: [docker, containers, slack, obedience, logs]
+summary: "A containerized deployment chronicles Jonah's journey, from overboard ejection to successful prophecy delivery in Nineveh."
 ---
 
 ```dockerfile

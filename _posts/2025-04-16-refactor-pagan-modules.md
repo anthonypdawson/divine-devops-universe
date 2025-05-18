@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Refactoring the Pagan Modules"
 date: 2025-04-16
 tags: [java, legacy, paganism, refactor, uriel, zeus]
+summary: "A technical review and audit of legacy pagan modules, with recommendations for modernization and compliance."
 ---
 
 ```java

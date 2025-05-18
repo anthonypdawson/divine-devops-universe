@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Debug Ticket: Residual Test Asset (Bigfoot)"
 date: 2025-05-02 10:00:00
 tags: [bigfoot, bugs, debug, fringe, gabriel, uriel]
+summary: "A debug ticket documents the continued presence of a legacy test asset, Bigfoot, in the Pacific Northwest."
 ---
 
 **TICKET #: #9938-LEGACY-ANOMALY**

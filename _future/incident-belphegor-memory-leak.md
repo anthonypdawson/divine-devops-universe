@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Incident Report: Belphegor Detected in Memory Stack"
 tags: [incident, demons, belphegor, performance, logs]
 date: 2025-05-17 12:00:03
+summary: "A memory leak traced to a rogue process exposes performance issues and ancient code in the heavenly stack."
 ---
 
 **INCIDENT ID:** #DEVOPS-666-MEMLEAK  

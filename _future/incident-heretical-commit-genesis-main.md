@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Incident Report: Heretical Commit to genesis-main"
 tags: [incident, heresy, uriel, code-review, genesis, audit]
 date: 2025-05-17 12:00:03
+summary: "An unauthorized commit to the genesis-main branch triggers a critical incident and a full audit of creation protocols."
 ---
 
 **INCIDENT ID:** #GENESIS-000-COMMIT  
