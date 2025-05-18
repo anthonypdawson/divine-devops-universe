@@ -12,7 +12,7 @@
                 {% assign older_posts = site.posts | slice: 2, site.posts.size %}
                 {% for post in recent_posts %}
                 <li class="post-summary-container" style="max-width:40em;">
-                    <em>{{ post.date | date: "%Y-%m-%d" }}</em>:
+                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br/>
                     <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">{{ post.title }}</a>
                     <br>
                     <small class="post-summary">{{ post.summary }}</small>
@@ -20,7 +20,7 @@
                 {% endfor %}
                 {% for post in older_posts %}
                 <li class="post-summary-container" style="max-width:40em;">
-                    <em>{{ post.date | date: "%Y-%m-%d" }}</em>:
+                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br/>
                     <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">{{ post.title }}</a>
                     <br>
                     {% assign summary_lines = post.summary | newline_to_br | split: '<br />' %}
