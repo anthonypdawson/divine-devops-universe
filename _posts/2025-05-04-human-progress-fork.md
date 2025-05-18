@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Unauthorized Fork: Humanity v1.9"
 date: 2025-05-04 10:00:00
-tags: [gabriel, human-history, incident, patch-notes, progress, religion, uriel]
+tags: [gabriel, human-history, incident, patch-notes, progress, uriel]
 ---
 
 **LOG ENTRY: Humanity Git Repo // Branch: earth/main**

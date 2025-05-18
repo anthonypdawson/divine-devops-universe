@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Incident Report: Recursive Creation Loop"
-tags: [incident, incident-response, postmortem, devops, recursion, uriel, gabriel, creation, code-review]
+tags: [incident, incident-response, postmortem, recursion, uriel, gabriel, creation, code-review]
 date: 2025-05-17 10:00:00
 ---
 

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Golden Calf: Unauthorized Deployment"
 date: 2025-05-11 12:00:00
-tags: [deployment, idol, incident, moses, religion, audit, compliance, rollback, uriel]
+tags: [deployment, idol, incident, moses, audit, compliance, rollback, uriel]
 ---
 The Golden Calf incident is a cautionary tale of what happens when governance policies are ignored and unauthorized deployments go live. 
 

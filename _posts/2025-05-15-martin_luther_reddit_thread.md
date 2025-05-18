@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Martin Luther Reddit Thread"
 date: 2025-05-15 10:00:00
-tags: [reformation, reddit, parody, logs, church, social-media, satire]
+tags: [reformation, reddit, logs, church, social-media]
 ---
 
 Who knew Martin Luther posted his 95 Theses on Reddit? Here's a glimpse..

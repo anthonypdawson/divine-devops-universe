@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Papal Interference Causing Message Queue Latency"
 date: 2025-05-17 12:00:03
-tags: [religion, queues, pope, bottleneck, uriel, raphael, incident, external-user]
+tags: [queues, pope, bottleneck, uriel, raphael, incident, external-user]
 ---
 
 **LOG ENTRY: 2025-05-02 10:03:44 UTC**  

@@ -2,7 +2,7 @@
 layout: terminal_post
 title: 'Miracle: Feeding the 5000: Auto-Scaling Loaf Balancer'
 date: 2025-05-17 12:00:03
-tags: [autoscale, divine-devops, feeding, infrastructure, jesus, miracle, uriel]
+tags: [autoscale, feeding, infrastructure, jesus, miracle, uriel]
 ---
 
 ## Miracle alert - Adler Hash: 417c0eb4
