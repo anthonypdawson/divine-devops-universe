@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.js-expand-summary').forEach(function (el) {
+            el.addEventListener('click', function () {
+                var full = el.getAttribute('data-full-summary');
+                var replacement = document.createElement('small');
+                replacement.className = 'post-summary';
+                replacement.textContent = full;
+                el.replaceWith(replacement);
+            });
+        });
+    });
+</script>
