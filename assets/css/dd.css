@@ -320,11 +320,4 @@ code {
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
-  .post-summary,
-  .post-summary-container {
-    max-width: 95vw !important;
-    width: 100%;
-    font-size: 1em;
-  }
-}
+/* MOVED TO mobile.css */
