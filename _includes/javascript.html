@@ -1,12 +1,21 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         document.querySelectorAll('.js-expand-summary').forEach(function (el) {
+            // Set initial cursor
+            el.style.cursor = 'zoom-in';
             el.addEventListener('click', function () {
-                var full = el.getAttribute('data-full-summary');
-                var replacement = document.createElement('small');
-                replacement.className = 'post-summary';
-                replacement.textContent = full;
-                el.replaceWith(replacement);
+                if (el.classList.contains('post-summary-truncate')) {
+                    el.classList.remove('post-summary-truncate', 'post-summary-fade');
+                    el.textContent = el.getAttribute('data-full-summary');
+                    el.style.cursor = 'zoom-out';
+                } else {
+                    el.classList.add('post-summary-truncate', 'post-summary-fade');
+                    var summary = el.getAttribute('data-full-summary') || el.textContent;
+                    // Only show the first line before a line break
+                    var firstLine = summary.split(/\r?\n|<br\s*\/?\s*>/)[0].trim();
+                    el.textContent = firstLine;
+                    el.style.cursor = 'zoom-in';
+                }
             });
         });
     });
