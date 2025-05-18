@@ -100,11 +100,42 @@ blockquote {
 }
 
 .post-summary {
-  display: block;
   max-width: 40em;
+  display: block;
   word-break: break-word;
   color: #666;
 }
+
+.post-summary-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.post-summary-fade {
+  /* Diagonal fade: horizontal and vertical */
+  /* Fallback: horizontal fade using background-clip for browsers without mask-image */
+  background: linear-gradient(to right, rgba(102,102,102,0.95) 60%, rgba(153,153,153,0.05) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  /* Preferred: diagonal fade using mask-image for browsers that support it */
+  -webkit-mask-image: linear-gradient(
+    to bottom right,
+    rgba(0,0,0,1) 60%,
+    rgba(0,0,0,0.2) 85%,
+    rgba(0,0,0,0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom right,
+    rgba(0,0,0,1) 60%,
+    rgba(0,0,0,0.2) 85%,
+    rgba(0,0,0,0) 100%
+  );
+}
+
 
 /* Tables */
 table {
