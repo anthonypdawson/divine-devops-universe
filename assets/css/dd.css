@@ -99,6 +99,13 @@ blockquote {
     font-size: 0.8em;
 }
 
+.post-summary {
+  display: block;
+  max-width: 40em;
+  word-break: break-word;
+  color: #666;
+}
+
 /* Tables */
 table {
     margin-bottom: 30px;
