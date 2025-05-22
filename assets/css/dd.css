@@ -237,9 +237,7 @@ div.posts {
     box-sizing: border-box;
     box-shadow: 0 0 25px var(--box-shadow-color);
     border: 1px solid var(--border-color);
-    padding: 1em;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding: 1em 2em;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
@@ -248,7 +246,7 @@ div.posts {
     /* Block-level element */
     margin: 0 auto;
     /* Center horizontally */
-    width: fit-content;
+    /* width: fit-content; */
     /* Shrink-wrap the content */
     max-width: 100vw;
     overflow-x: auto;
@@ -260,12 +258,21 @@ div.posts ul {
     padding: 0;
     font-size: larger;
     display: inline-block;
+    box-shadow: 0 0 25px var(--box-shadow-color); /* Add this line */
+    border-radius: 8px; /* Optional: for a softer shadow edge */
 }
 
 div.posts ul li {
     margin: 0.5em 0 1em 0;
-    ;
     text-align: left;
+    border-bottom: 4px solid var(--border-color);
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.posts ul li:last-child {
+    border-bottom: none;
 }
 
 .post-title-link {
@@ -310,21 +317,23 @@ a:hover .post-title-link {
 /* Target images in posts whose src contains '/icons/' */
 .post-content img[src*="/icons/"],
 .content img[src*="/icons/"] {
-  max-width: 64px !important;
-  max-height: 64px !important;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 1em auto;
+    max-width: 64px !important;
+    max-height: 64px !important;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 1em auto;
 }
+
 img[src*="/icons/"] {
-  max-width: 64px !important;
-  max-height: 64px !important;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 1em auto;
+    max-width: 64px !important;
+    max-height: 64px !important;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 1em auto;
 }
+
 div.tag-list {
     font-size: small;
     text-align: left;
