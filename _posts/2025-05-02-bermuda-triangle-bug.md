@@ -4,6 +4,7 @@ title: "Routing Bug: Bermuda Triangle Blackhole"
 date: 2025-05-02 12:00:00
 tags: [fringe, network, uriel, bug-report, mystery]
 summary: "A legacy debug zone in the Atlantic causes persistent teleportation and signal loss, prompting investigation and temporary fixes."
+image: /assets/images/icons/default.png
 ---
 
 **BUG REPORT: Oceanic Routing Node - Atlantic/33°N 71°W**

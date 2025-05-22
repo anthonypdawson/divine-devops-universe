@@ -4,6 +4,7 @@ title: 'The Ten Commandments of Clean Code'
 date: 2025-05-13 09:30:00
 tags: [clean-code, commandments, refactor, code-review, best-practices, software-development, humor]
 summary: "A set of guiding principles delivered to developers to ensure clarity, maintainability, and order in the codebase."
+image: /assets/images/icons/default.png
 ---
 
 In the beginning, there was chaos in the codebase. But the Senior Developer, in their wisdom, brought forth the Ten Commandments of Clean Code to guide developers toward enlightenment and maintainability.

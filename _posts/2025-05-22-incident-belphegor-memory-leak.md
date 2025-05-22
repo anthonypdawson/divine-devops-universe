@@ -4,6 +4,7 @@ title: "Incident Report: Belphegor Detected in Memory Stack"
 tags: [incident, demons, belphegor, performance, uriel, containers, logs]
 date: 2025-05-22 12:00:03
 summary: "A memory leak traced to a rogue process exposes performance issues and ancient code in the heavenly stack."
+image: /assets/images/posts/belphegor.png
 ---
 
 **INCIDENT ID:** #DEVOPS-666-MEMLEAK  

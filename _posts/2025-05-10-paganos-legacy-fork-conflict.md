@@ -4,6 +4,7 @@ title: "Legacy Fork Conflict: PaganOS"
 date: 2025-05-10 12:00:00
 tags: [paganos, legacy, conflict, greek, roman, audit, polytheism, namespace, uriel]
 summary: "A system audit reveals ongoing conflicts and namespace collisions between Greek and Roman modules in the PaganOS platform."
+image: /assets/images/icons/system_logs.png
 ---
 
 **[SYSTEM AUDIT LOG - PAGANOS v2.3.7-preOlympian]**

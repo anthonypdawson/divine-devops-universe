@@ -4,6 +4,7 @@ title: 'Performance Review: Uriel-404'
 date: 2025-04-05
 tags: [uriel, angelic-hr, logs, performance]
 summary: "Uriel-404 receives a performance review after handling countless warnings and maintaining CI/CD stability."
+image: /assets/images/icons/default.png
 ---
 
 ![Uriels Performance Review]({{'/assets/images/posts/Uriel404_Performance_Review.png' | relative_url }})

@@ -4,6 +4,7 @@ title: 'The Walls of Jericho Incident Pt. 2'
 date: 2025-04-09
 tags: [celestial-support, incident, jericho, michael, slack, uriel]
 summary: "The celestial support team attempts to restore Jericho's infrastructure after a catastrophic wall collapse."
+image: /assets/images/icons/default.png
 ---
 
 Try not to panic..

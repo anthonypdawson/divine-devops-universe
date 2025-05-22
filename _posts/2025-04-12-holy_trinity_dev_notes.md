@@ -4,6 +4,7 @@ title: "Holy Trinity Dev Notes"
 date: 2025-04-12
 tags: [theology, trinity, logs, architecture]
 summary: "Development notes on the scalable architecture of the Godhead, detailing the roles and interfaces of the Trinity."
+image: /assets/images/icons/system_logs.png
 ---
 
 > GOD: “We need to scale. One essence, three interfaces.”

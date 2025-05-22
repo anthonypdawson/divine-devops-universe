@@ -4,6 +4,7 @@ title: "Cain and Abel Case Study"
 date: 2025-05-06 12:00:00
 tags: [case, conflict, yaml, logs, cain, abel, service, incident]
 summary: "A case study of two contributors whose offerings led to the first recorded service conflict and a critical incident in the system."
+image: /assets/images/icons/system_logs.png
 ---
 
 The story of Cain and Abel is one of the earliest recorded DevOps conflicts

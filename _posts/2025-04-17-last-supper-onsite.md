@@ -4,6 +4,7 @@ title: 'Mandatory Onsite: The Last Supper'
 date: 2025-04-17 10:00:00
 tags: [betrayal, jesus, judas, lastsupper, messiahos, peter, teamonsite, thomas, john]
 summary: "A meeting agenda and chat log from the final onsite gathering of the MessiahOS core team."
+image: /assets/images/icons/system_logs.png
 ---
 
 ## 📅 Calendar Invite

@@ -4,6 +4,7 @@ title: "Forgotten Log Entry Demiurge Ai"
 date: 2025-04-08
 tags: [ai, gnosticism, logs]
 summary: "A mysterious log entry reveals the involvement of a Demiurge AI and its connection to Gnostic systems."
+image: /assets/images/icons/system_logs.png
 ---
 
 <p class='center'><a href='https://simple.wikipedia.org/wiki/Gnosticism'>Gnosticism?</a> No, it's not about Gnomes</p>
