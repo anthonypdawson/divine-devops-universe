@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" class="site-content">
-    <head>
-        <title>{{ page.title }}</title>
-        {% include header.html %}
-    </head>
-    <body>
-        {% include banner.html %}
 
-        <h1 id="content">{{ page.title }}</h1>
-        <p class="center"><em>{{ page.date }}</em></p>
+<head>
+    <title>{{ page.title }}</title>
+    {% include header.html %}
+</head>
 
-        <div id="content" class="content">{{ content }}</div>
-        <br />
+<body>
+    {% include banner.html %}
 
-        <!-- Tags -->
-        {%- if page.tags -%} {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/archive/#{{tag | slugize}}"> #{{ tag }} </a>
-        {% endfor %} {%- endif -%}
 
-        <!-- Nav buttons -->
-        <div class="nav">
-            <a href="{{ '' |relative_url }}/">← Back to index</a>
-            <a href="#">↑ Top</a>
-        </div>
-        {% include credit-footer.html %}
-    </body>
+{% if page.image %}
+  {% if page.image contains '/icons/' %}
+    <h1 id="content" style="display: flex; align-items: center; justify-content: center; gap: 0.7em;">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }} image"
+           style="max-width:64px;max-height:64px;display:inline-block;margin:0;">
+      {{ page.title }}
+    </h1>
+    <p class="center"><em>{{ page.date }}</em></p>
+  {% else %}
+    <h1 id="content">{{ page.title }}</h1>
+    <p class="center"><em>{{ page.date }}</em></p>
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }} image"
+         style="max-width:100%;height:auto;display:block;margin:1em auto;">
+  {% endif %}
+{% else %}
+    <h1 id="content">{{ page.title }}</h1>
+    <p class="center"><em>{{ page.date }}</em></p>
+
+{% endif %}
+    {{ content }}
+    <div id="content" class="content">{{ content }}</div>
+    <br />
+
+    <!-- Tags -->
+    {%- if page.tags -%} {% for tag in page.tags %}
+    <a href="{{site.baseurl}}/archive/#{{tag | slugize}}"> #{{ tag }} </a>
+    {% endfor %} {%- endif -%}
+
+    <!-- Nav buttons -->
+    <div class="nav">
+        <a href="{{ '' |relative_url }}/">← Back to index</a>
+        <a href="#">↑ Top</a>
+    </div>
+    {% include credit-footer.html %}
+</body>
+
 </html>

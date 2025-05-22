@@ -65,6 +65,7 @@ a {
 a:hover {
     color: var(--link-hover-color);
     transition: color 1.0s ease;
+    text-decoration: none;
 }
 
 /* Blockquote */
@@ -87,8 +88,10 @@ blockquote {
     margin: 0 1em;
     text-decoration: none;
 }
+
 .nav a:hover {
     color: white;
+    text-decoration: none;
     transition: color 1.0s ease;
 }
 
@@ -100,50 +103,46 @@ blockquote {
 }
 
 .post-summary {
-  max-width: 40em;
-  display: block;
-  word-break: break-word;
-  color: #666;
+    max-width: 40em;
+    display: block;
+    word-break: break-word;
+    color: #666;
 }
 
 .post-summary-container {
-  box-sizing: border-box;
-  max-width: 100%;
-  overflow-wrap: break-word;
-  word-break: break-word;
-  white-space: normal !important;
-  text-overflow: initial !important;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal !important;
+    text-overflow: initial !important;
 }
 
 .post-summary-truncate {
-  /* Remove nowrap and ellipsis for word wrapping */
-  white-space: normal !important;
-  overflow: visible !important;
-  text-overflow: initial !important;
+    /* Remove nowrap and ellipsis for word wrapping */
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: initial !important;
 }
 
 .post-summary-truncate.post-summary-fade {
-  /* Restore fade for truncated older post summaries */
-  background: linear-gradient(to right, rgba(102,102,102,0.95) 60%, rgba(153,153,153,0.05) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  /* Diagonal fade for supporting browsers */
-  -webkit-mask-image: linear-gradient(
-    to bottom right,
-    rgba(0,0,0,1) 60%,
-    rgba(0,0,0,0.2) 85%,
-    rgba(0,0,0,0) 100%
-  );
-  mask-image: linear-gradient(
-    to bottom right,
-    rgba(0,0,0,1) 60%,
-    rgba(0,0,0,0.2) 85%,
-    rgba(0,0,0,0) 100%
-  );
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
+    /* Restore fade for truncated older post summaries */
+    background: linear-gradient(to right, rgba(102, 102, 102, 0.95) 60%, rgba(153, 153, 153, 0.05) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Diagonal fade for supporting browsers */
+    -webkit-mask-image: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 1) 60%,
+            rgba(0, 0, 0, 0.2) 85%,
+            rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 1) 60%,
+            rgba(0, 0, 0, 0.2) 85%,
+            rgba(0, 0, 0, 0) 100%);
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
 }
 
 
@@ -201,6 +200,7 @@ div.credits {
     font-size: smaller;
     color: rgb(21, 92, 0);
 }
+
 div.content img {
     max-width: 90%;
 }
@@ -215,6 +215,7 @@ div.archive {
     text-align: center;
     font-size: 12px;
 }
+
 div.content {
     box-sizing: border-box;
     box-shadow: 0 0 35px var(--box-shadow-color);
@@ -224,9 +225,12 @@ div.content {
     border: 1px solid var(--border-color);
     font-size: larger;
     text-align: left;
-    display: block; /* Block-level element */
-    margin: 0 auto; /* Center horizontally */
-    width: fit-content; /* Shrink-wrap the content */
+    display: block;
+    /* Block-level element */
+    margin: 0 auto;
+    /* Center horizontally */
+    width: fit-content;
+    /* Shrink-wrap the content */
 }
 
 div.posts {
@@ -240,9 +244,12 @@ div.posts {
     word-wrap: break-word;
     word-break: break-word;
     text-align: center;
-    display: block; /* Block-level element */
-    margin: 0 auto; /* Center horizontally */
-    width: fit-content; /* Shrink-wrap the content */
+    display: block;
+    /* Block-level element */
+    margin: 0 auto;
+    /* Center horizontally */
+    width: fit-content;
+    /* Shrink-wrap the content */
     max-width: 100vw;
     overflow-x: auto;
 }
@@ -254,11 +261,70 @@ div.posts ul {
     font-size: larger;
     display: inline-block;
 }
+
 div.posts ul li {
-    margin: 0.5em 0 1em 0;;
+    margin: 0.5em 0 1em 0;
+    ;
     text-align: left;
 }
 
+.post-title-link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover .post-title-link {
+    color: var(--link-hover-color);
+    transition: color 1.0s ease;
+}
+
+.posts li img {
+    max-width: 300px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    margin: 0.4em auto 0.2em auto;
+    /* Center the image horizontally */
+}
+
+.posts li img.title-image {
+    height: 3em;
+    /* Adjust to match or slightly exceed title height */
+    max-width: 8em;
+    /* Prevents the image from being too wide */
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0 0 0;
+    /* Space between image and title */
+}
+
+.post-summary {
+    margin-top: 0.2em;
+    /* Minimal space above the summary */
+}
+
+/* Target images in posts whose src contains '/icons/' */
+.post-content img[src*="/icons/"],
+.content img[src*="/icons/"] {
+  max-width: 64px !important;
+  max-height: 64px !important;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+img[src*="/icons/"] {
+  max-width: 64px !important;
+  max-height: 64px !important;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
 div.tag-list {
     font-size: small;
     text-align: left;

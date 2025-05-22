@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" class="site-content">
-    <head>
-        <title>{{ site.description }}</title>
-        {% include header.html %}
-    </head>
-    <body>
-        {% include banner.html %}
-        <div class="posts">
-            <ul>
-                {% assign recent_posts = site.posts | slice: 0, 2 %}
-                {% assign older_posts = site.posts | slice: 2, site.posts.size %}
-                {% for post in recent_posts %}
-                <li class="post-summary-container" style="max-width:40em;">
-                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br/>
-                    <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">{{ post.title }}</a>
-                    <br>
+
+<head>
+    <title>{{ site.description }}</title>
+    {% include header.html %}
+</head>
+
+<body>
+    {% include banner.html %}
+    <div class="posts">
+        <ul>
+            {% assign recent_posts = site.posts | slice: 0, 2 %}
+            {% assign older_posts = site.posts | slice: 2, site.posts.size %}
+            {% for post in recent_posts %}
+            <li class="post-summary-container" style="max-width:40em; padding: 0;">
+                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}"
+                    style="display: block; color: inherit; text-decoration: none; padding: 1em 0;">
+                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+                    <span class="post-title-link">
+                        {{ post.title }}
+                    </span>
+                    {% if post.image %}
+                    <br />
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
+                    {% endif %}
+                    <br />
                     <small class="post-summary">{{ post.summary }}</small>
-                </li>
-                {% endfor %}
-                {% for post in older_posts %}
-                <li class="post-summary-container" style="max-width:40em;">
-                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br/>
-                    <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">{{ post.title }}</a>
-                    <br>
-                    {% assign summary_lines = post.summary | newline_to_br | split: '<br />' %}
-                    <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary" data-full-summary="{{ post.summary | escape }}">{{ summary_lines[0] | strip }}</small>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% include footer.html %} {% include credit-footer.html %}
-    </body>
+                </a>
+            </li>
+            {% endfor %}
+            {% for post in older_posts %}
+            <li class="post-summary-container" style="max-width:40em;">
+                <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">
+                    {% if post.image %}
+                    <img class='title-image' src="{{ post.image | relative_url }}" alt="{{ post.title }} image" />
+                    {% endif %}
+                    {{ post.title }}
+
+                </a>
+                <br>
+                {% assign summary_lines = post.summary | newline_to_br | split: '<br />' %}
+                <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary"
+                    data-full-summary="{{ post.summary | escape }}">{{ summary_lines[0] | strip }}</small>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% include footer.html %} {% include credit-footer.html %}
+</body>
+
 </html>
