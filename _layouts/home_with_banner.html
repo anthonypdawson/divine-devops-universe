@@ -29,22 +29,24 @@
                 </a>
             </li>
             {% endfor %}
-            {% for post in older_posts %}
-            <li class="post-summary-container" style="max-width:40em;">
-                <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
-                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}">
-                    {% if post.image %}
-                    <img class='title-image' src="{{ post.image | relative_url }}" alt="{{ post.title }} image" />
-                    {% endif %}
-                    {{ post.title }}
-
-                </a>
-                <br>
-                {% assign summary_lines = post.summary | newline_to_br | split: '<br />' %}
-                <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary"
-                    data-full-summary="{{ post.summary | escape }}">{{ summary_lines[0] | strip }}</small>
-            </li>
-            {% endfor %}
+{% for post in older_posts %}
+<li class="post-summary-container" style="max-width:40em;">
+    <div class="post-flex">
+        {% if post.image %}
+        <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image" style="max-width:64px;max-height:64px;flex:none;display:block;margin-right:1em;">
+        {% endif %}
+        <div class="post-list-text" style="flex:1;min-width:0;">
+            <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+            <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
+                {{ post.title }}
+            </a>
+            <br>
+        </div>
+        <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary"
+            data-full-summary="{{ post.summary | escape }}">{{ post.summary }}</small>
+    </div>
+</li>
+{% endfor %}
 
         </ul>
     </div>
