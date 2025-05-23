@@ -16,7 +16,7 @@
             <li class="post-summary-container" style="max-width:40em;">
                 <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}"
                     style="display: block; color: inherit; text-decoration: none; padding: 1em 0;">
-                    <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+                    <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
                     <span class="post-title-link">
                         {{ post.title }}
                     </span>
@@ -31,21 +31,23 @@
             {% endfor %}
 {% for post in older_posts %}
 <li class="post-summary-container" style="max-width:40em;">
+            <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
   <div class="post-flex">
     {% if post.image %}
       <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
     {% endif %}
     <div class="post-list-main">
       <div class="post-list-text">
-        <em><small>{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
-        <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
+        <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
           {{ post.title }}
-        </a>
+        
       </div>
+      </a>
       <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary"
         data-full-summary="{{ post.summary | escape }}">{{ post.summary }}</small>
     </div>
   </div>
+
 </li>
 {% endfor %}
 

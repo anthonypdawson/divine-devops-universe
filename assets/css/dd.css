@@ -276,15 +276,18 @@ div.posts ul {
 
 }
 
-div.posts ul li {
-    margin: 0.5em 0 1em 0;
+div.posts ul li {  
+    margin: 0 auto;
     text-align: left;
     border-bottom: 4px solid var(--border-color);
     padding-bottom: 1em;
     padding-left: 1em;
+    padding-right: 1em;
     margin-bottom: 1em;
 }
-
+.posts .date {
+    color: var(--text-color);
+}
 .posts ul li:last-child {
     border-bottom: none;
 }
