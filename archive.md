@@ -23,7 +23,7 @@ permalink: /archive/
       {% assign tag_name = tagArray[1] %}
       <div>
         <div>
-          <a href="#{{ tag_name }}">{{ tag_name }}({{ tagArray[2] }})</a>
+          <a class='archive-tag' href="#{{ tag_name }}">{{ tag_name }}({{ tagArray[2] }})</a>
         </div>
         <p></p>
       </div>
