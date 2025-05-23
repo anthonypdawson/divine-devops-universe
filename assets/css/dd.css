@@ -3,6 +3,9 @@
     --background-color: #000;
     --blockquote-bg-color: #1d1d1d;
     --text-color: #00ff00;
+    --bold-text-color: #40c9ff;
+    /* --bold-text-color: #ffd700; gold */
+    /* --bold-text-color: #ffe066; bright yellow */
     --link-color: cyan;
     --link-hover-color: white;
     --border-color: #111;
@@ -233,6 +236,12 @@ div.content {
     /* Shrink-wrap the content */
 }
 
+.content strong,
+.markdown-body strong {
+    color: var(--bold-text-color);
+    /* Replace with your desired color */
+}
+
 div.posts {
     box-sizing: border-box;
     box-shadow: 0 0 25px var(--box-shadow-color);
@@ -258,7 +267,8 @@ div.posts ul {
     padding: 0;
     font-size: larger;
     display: block;
-    width: 100%;           /* Add this line */
+    width: 100%;
+    /* Add this line */
 
 }
 
@@ -308,34 +318,42 @@ a:hover .post-title-link {
     margin: 0 0 0 0;
     /* Space between image and title */
 }
+
 .post-flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em;
 }
+
 .post-list-text {
-  flex: 1;
-  min-width: 0;
+    flex: 1;
+    min-width: 0;
 }
+
 .posts li img.title-image,
 .title-image {
-  width: 64px;         /* Fixed width for alignment */
-  min-width: 64px;
-  max-width: 64px;
-  height: auto;        /* Allow any height */
-  max-height: none;    /* Remove height restriction */
-  object-fit: contain; /* Show the whole image, no cropping */
-  flex: none;
-  display: block;
-  margin-right: 1em;
+    width: 64px;
+    /* Fixed width for alignment */
+    min-width: 64px;
+    max-width: 64px;
+    height: auto;
+    /* Allow any height */
+    max-height: none;
+    /* Remove height restriction */
+    object-fit: contain;
+    /* Show the whole image, no cropping */
+    flex: none;
+    display: block;
+    margin-right: 1em;
 }
+
 .post-summary {
-  flex-basis: 100%;
-  width: 100%;
-  margin-top: 0.2em;
-  text-align: left;
-  display: block;
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 0.2em;
+    text-align: left;
+    display: block;
 }
 
 /* Target images in posts whose src contains '/icons/' */
