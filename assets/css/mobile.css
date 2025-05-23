@@ -102,6 +102,23 @@ p {
     width: 100% !important;
     font-size: 0.95em;
   }
+    .post-flex {
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: stretch;
+  }
+  .title-image {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    width: 48px;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    align-self: flex-start;
+  }
+  .post-list-main {
+    flex-direction: column;
+  }
     pre,
   code {
     font-size: 0.85em !important; /* or adjust as needed */

@@ -260,7 +260,11 @@ div.posts {
     max-width: 100vw;
     overflow-x: auto;
 }
-
+.post-summary-container {
+    max-width: 100%;
+    margin: 0 auto 2em auto;
+    box-sizing: border-box;
+}
 div.posts ul {
     text-align: center;
     list-style: none;
@@ -290,7 +294,12 @@ div.posts ul li {
     text-decoration: none;
     transition: color 0.2s;
 }
-
+.post-list-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
 a:hover .post-title-link {
     color: var(--link-hover-color);
     transition: color 1.0s ease;
@@ -321,7 +330,6 @@ a:hover .post-title-link {
 
 .post-flex {
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
     gap: 1em;
 }
