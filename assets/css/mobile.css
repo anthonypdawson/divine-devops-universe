@@ -88,6 +88,19 @@ p {
     ul.post-list {
         font-size: 0.85rem;
     }
+    .banner {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner img {
+  width: 99% !important;
+  max-width: 99% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  display: block !important;
+}
   .posts {
     max-width: 95vw !important;
     width: 100% !important;
@@ -169,6 +182,19 @@ p {
     width: 100% !important;
     font-size: 0.9em;
   }
+  .banner {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner img {
+  width: 480px !important;
+  max-width: 99% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  display: block !important;
+}
     pre,
   code {
     font-size: 0.85em !important; /* or adjust as needed */
