@@ -1,8 +1,10 @@
 ---
 layout: terminal_post
 title: "Papal Interference Causing Message Queue Latency"
-date: 2025-05-17 12:00:03
+date: 2025-05-23 12:00:03
 tags: [queues, pope, bottleneck, uriel, raphael, incident, external-user]
+summary: "An external user ('pope_user') caused major message queue delays by manually intercepting and reviewing urgent requests."
+image: /assets/images/posts/pope.png
 ---
 
 **LOG ENTRY: 2025-05-02 10:03:44 UTC**  
