@@ -107,6 +107,7 @@ blockquote {
 
 .post-summary {
     max-width: 40em;
+    margin-top: 0.7em;    
     display: block;
     word-break: break-word;
     color: #666;
@@ -303,6 +304,7 @@ div.posts ul li {
   display: flex;
   flex-direction: column;
 }
+
 a:hover .post-title-link {
     color: var(--link-hover-color);
     transition: color 1.0s ease;
