@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Wise Men Source Review"
 date: 2025-04-25 10:00:00
-tags: [balthazar, caspar, consultants, incident, jesus, melchior, nativity, review, source-code]
+tags: [balthazar, caspar, consultants, incident report, jesus, melchior, nativity, review, source-code]
 summary: "A code review by three external consultants evaluates the prototype Messiah module for performance, UX, and fault tolerance."
 image: /assets/images/icons/incident_reports.png
 ---

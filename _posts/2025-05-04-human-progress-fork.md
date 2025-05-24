@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Unauthorized Fork: Humanity v1.9"
 date: 2025-05-04 10:00:00
-tags: [gabriel, human-history, incident, patch-notes, progress, uriel]
+tags: [gabriel, human-history, incident report, patch-notes, progress, uriel]
 summary: "A review of unapproved updates and forks in the humanity build pipeline, with celestial contributors monitoring ongoing changes."
 image: /assets/images/icons/default.png
 ---
