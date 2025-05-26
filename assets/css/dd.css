@@ -227,6 +227,7 @@ img {
 img.large-post-image {
     border: none !important;
     box-shadow: none !important;
+    max-height: 600px;
     height: auto;
     display: block;
     margin-left: auto;
