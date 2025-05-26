@@ -3,9 +3,10 @@ layout: terminal_post
 title: "PR #666 – LuciferOS Merge Attempt"
 date: 2025-05-17 12:00:03
 tags: [gabriel, git, lucifer, michael, permissions, pr, pullrequest, rebellion]
+intro: "Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history."
+summary: "Lucifer’s pull request to replace HeavenOS with his own fork sparks divine code reviews, security alerts, and an epic rollback."
+image: /assets/images/posts/merge-666.webp
 ---
-
-Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history.
 
 
 > **Pull Request #666: Propose replacement of HeavenOS kernel with LuciferOS fork**  
@@ -45,7 +46,7 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 
 ### Review Comments
 
-**michael@archangels.net**  
+**michael@archangels.internal**  
 > You can’t `chmod 777` the throne.
 
 **gabriel@notifications.internal**  
@@ -57,7 +58,7 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 > PR reviewed. Hubris level exceeds max threshold.  
 > Initiating rollback…
 
-```log
+```
 [SECURITY ALERT] Unauthorized escalation attempt detected.
 User: lucifer
 Action: Replace GodMode Operator
@@ -69,6 +70,9 @@ Status: FORBIDDEN (EternalStatusCode 403)
 
 ---
 
-### Final Status: **Rejected**  
+### Final Status 
+<h2 class="red"><em><ul><strong>Rejected</strong></ul></em></h2>
+
+
 Merged into `/eternal/logs/fall.log`  
 LuciferOS archived to `/abyss/archive`
