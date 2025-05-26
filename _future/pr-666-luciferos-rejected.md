@@ -59,6 +59,7 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 > Initiating rollback…
 
 ```
+Log incoming..
 [SECURITY ALERT] Unauthorized escalation attempt detected.
 User: lucifer
 Action: Replace GodMode Operator
@@ -71,7 +72,7 @@ Status: FORBIDDEN (EternalStatusCode 403)
 ---
 
 ### Final Status 
-<h2 class="red"><em><ul><strong>Rejected</strong></ul></em></h2>
+<h2 class="red"><em><strong>Rejected</strong></em></h2>
 
 
 Merged into `/eternal/logs/fall.log`  
