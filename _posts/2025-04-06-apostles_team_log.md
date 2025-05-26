@@ -4,7 +4,7 @@ title: "The 12 DevEvangelists — Apostles Team Log"
 date: 2025-04-06
 tags: [apostles, evangelists, james, jesus, judas, logs, markdown, matthew, peter]
 summary: "A log of the original 12 DevEvangelists, their roles, and contributions to the Kingdom Startup v1.0 project."
-image: /assets/images/icons/system_logs.png
+image: /assets/images/icons/system_logs.webp
 ---
 
 # The 12 DevEvangelists  

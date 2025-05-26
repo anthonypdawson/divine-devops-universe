@@ -4,7 +4,7 @@ title: "Golden Calf: Unauthorized Deployment"
 date: 2025-05-11 12:00:00
 tags: [deployment, idol, incident report, moses, audit, compliance, rollback, uriel]
 summary: "An unauthorized deployment occurs while the lead developer is away, resulting in a major incident and emergency rollback procedures."
-image: /assets/images/icons/incident_reports.png
+image: /assets/images/icons/incident_reports.webp
 ---
 The Golden Calf incident is a cautionary tale of what happens when governance policies are ignored and unauthorized deployments go live. 
 

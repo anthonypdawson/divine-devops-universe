@@ -4,7 +4,7 @@ title: "wisdom.solomon: Arbitration Microservice v1.0"
 date: 2025-05-03 10:00:00
 tags: [solomon, typescript, api, arbitration, ethics, conflict-resolution]
 summary: "A microservice for arbitration handles disputed claims, using ethical logic to resolve conflicts and propose solutions."
-image: /assets/images/icons/default.png
+image: /assets/images/icons/default.webp
 ---
 
 The `wisdom.solomon` microservice is a cutting-edge arbitration system

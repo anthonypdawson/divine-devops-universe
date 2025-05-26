@@ -4,7 +4,7 @@ title: "Genesis x ChatGPT"
 date: 2025-04-02
 tags: [genesis, chatgpt, memes, darkmode, terminal]
 summary: "A look at the unexpected events and conversations that unfolded at the beginning of Genesis."
-image: /assets/images/icons/default.png
+image: /assets/images/icons/default.webp
 ---
 
 <p class='center'>What really happened at the beginning of Genesis...?</p>

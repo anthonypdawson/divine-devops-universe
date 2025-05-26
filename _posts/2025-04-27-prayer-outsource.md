@@ -4,7 +4,7 @@ title: "Incident Report: prayer_outsource.log"
 date: 2025-04-27 10:00:00
 tags: [ai, chatgpt, divine-delegation, gabriel, incident report, outsourcing, prayer, uriel]
 summary: "An incident report uncovers the outsourcing of prayer processing to a GPT instance, affecting divine intervention workflows."
-image: /assets/images/icons/incident_reports.png
+image: /assets/images/icons/incident_reports.webp
 ---
 
 # 🚨 INCIDENT REPORT

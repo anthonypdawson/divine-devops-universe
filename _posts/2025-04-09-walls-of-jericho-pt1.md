@@ -4,7 +4,7 @@ title: 'The Walls of Jericho Incident Pt. 1'
 date: 2025-04-09
 tags: [jericho, uriel, slack, incident]
 summary: "A perimeter breach at Jericho triggers a series of alerts and rapid response from the celestial ops team."
-image: /assets/images/icons/system_logs.png
+image: /assets/images/icons/system_logs.webp
 ---
 
 Try not to panic, especially on Slack

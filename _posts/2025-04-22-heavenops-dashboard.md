@@ -4,7 +4,7 @@ title: 'HeavenOps Dashboard Snapshot'
 date: 2025-04-22 10:44:00
 tags: [dashboard, monitoring, uptime, heavenops]
 summary: "A snapshot of the internal monitoring dashboard used to oversee the Divine Infrastructure."
-image: /assets/images/icons/default.png
+image: /assets/images/icons/default.webp
 ---
 
 A rare glimpse into the internal monitoring system of the Divine Infrastructure.

@@ -4,7 +4,7 @@ title: "Burning Bush Joins #prod-ops"
 tags: [logs, slack, burning-bush, moses, uriel, divine-errors, incident-report]
 summary: "A burning bush disrupts the #prod-ops Slack, sparking divine confusion over permissions, prod access, and the true meaning of root. Moses just wants to file a ticket."
 date: 2025-05-27 12:00:03
-image: /assets/images/icons/discussion.png
+image: /assets/images/icons/discussion.webp
 ---
 <style>
 .slack-log {

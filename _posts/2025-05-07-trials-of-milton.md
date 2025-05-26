@@ -4,7 +4,7 @@ title: "The Trials of Milton-WDMS"
 date: 2025-05-07 12:00:00
 tags: [deprecated-services, job, milton, office-space]
 summary: "A back-office worker faces systemic neglect and undefined roles while maintaining deprecated services in the divine infrastructure."
-image: /assets/images/icons/default.png
+image: /assets/images/icons/default.webp
 ---
 
 The **Trials of Milton-WDMS** chronicles the struggles of a forgotten back-office worker in the divine infrastructure.

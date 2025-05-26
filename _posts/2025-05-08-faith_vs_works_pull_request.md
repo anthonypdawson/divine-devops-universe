@@ -5,7 +5,7 @@ date: 2025-05-08 12:00:00
 tags: [doctrine, james, jesus, logs, paul, pr, pullrequest, uriel]
 excerpt: 'The age-old debate between faith and works encountered within a pull request in the divine repository.'
 summary: "A pull request in the divine repository sparks debate over the roles of faith and works in the salvation pipeline."
-image: /assets/images/icons/code_reviews.png
+image: /assets/images/icons/code_reviews.webp
 ---
 
 In the divine repository, the debate between faith and works has reached the pull request stage.

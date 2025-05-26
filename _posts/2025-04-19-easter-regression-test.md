@@ -4,7 +4,7 @@ title: "Easter Regression Test"
 date: 2025-04-19
 tags: [ci/cd, easter, gabriel, michael, postmortem, regression, resurrection, testing, uriel]
 summary: "A regression suite validates the resurrection workflow and documents the fixes and improvements in the process."
-image: /assets/images/icons/system_logs.png
+image: /assets/images/icons/system_logs.webp
 ---
 
 ## Resurrection Regression Suite

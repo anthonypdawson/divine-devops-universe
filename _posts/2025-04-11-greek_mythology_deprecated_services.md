@@ -4,7 +4,7 @@ title: 'Greek Pantheon Microservices'
 date: 2025-04-11
 tags: [apollo, athena, hades, hera, hermes, legacy, logs, microservices, mythology, poseidon, zeus]
 summary: "A system status report on the Greek Pantheon microservices, highlighting issues, logs, and legacy modules."
-image: /assets/images/icons/system_logs.png
+image: /assets/images/icons/system_logs.webp
 ---
 
 Dealing with legacy services.. what do you do with them?
