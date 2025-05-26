@@ -76,6 +76,7 @@ blockquote {
     background-color: var(--blockquote-bg-color);
     color: white;
     border-left: 4px solid var(--border-color);
+    font-size: 1em;
 }
 
 /* Navigation */
