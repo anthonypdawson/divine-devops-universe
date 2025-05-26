@@ -97,7 +97,7 @@ hr {
     border-radius: 2px;
     margin: 2.5em auto;
     width: 90%;
-    box-shadow: 0 0 24px #40c9ff88, 0 0 24px #c8ff02bb;
+    box-shadow: 0 0 6px #40c9ff88, 0 0 12px #c8ff02bb;
     opacity: 0.95;
 }
 
