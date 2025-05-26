@@ -72,7 +72,7 @@ Status: FORBIDDEN (EternalStatusCode 403)
 ---
 
 ### Final Status 
-<h2 class="red"><em><strong>Rejected</strong></em></h2>
+<h2><em><strong class="red">Rejected</strong></em></h2>
 
 
 Merged into `/eternal/logs/fall.log`  
