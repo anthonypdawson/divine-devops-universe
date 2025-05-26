@@ -77,6 +77,11 @@ blockquote {
     color: white;
     border-left: 4px solid var(--border-color);
     font-size: 1em;
+    margin-left: 2em;
+    margin-right: 0;
+    width: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
 }
 
 .uriel-answer {
@@ -265,6 +270,9 @@ div.content img {
     max-width: 90%;
 }
 
+#content {
+  scroll-margin-top: 60px; /* or whatever offset you want */
+}
 /* Div Containers */
 div.archive {
     column-count: 3;

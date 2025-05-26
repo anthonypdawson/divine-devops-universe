@@ -24,10 +24,11 @@
   {% if page.intro %}
   <p class="post-intro">{{ page.intro }}</p>
   {% endif %}
-  <a href="{{ page.image | relative_url }}"><img class="large-post-image" src="{{ page.image | relative_url }}" alt="{{ page.title }} image"></a>
+    <a href="{{ page.image | relative_url }}"><img class="large-post-image" src="{{ page.image | relative_url }}"
+      alt="{{ page.title }} image"></a>
   {% endif %}
-{% else %}
-    <h1 id=" content">{{ page.title }}</h1>
+  {% else %}
+  <h1 id="content">{{ page.title }}</h1>
   <p class="center"><em>{{ page.date }}</em></p>
 
   {% endif %}
