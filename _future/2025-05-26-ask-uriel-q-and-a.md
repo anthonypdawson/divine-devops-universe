@@ -8,7 +8,7 @@ tags: [uriel, support, parody, devops, faq]
 image: /assets/images/posts/uriel-badge.webp
 ---
 
-**🧾 Issue Queue ID: /heaven/support/uriel**
+### **🧾 Issue Queue ID: /heaven/support/uriel**
 
 
 > **Q: Why do bad things happen to good people?**
