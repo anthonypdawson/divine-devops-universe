@@ -243,9 +243,10 @@ img.large-post-image {
 img.small-post-image {
     border: none !important;
     box-shadow: none !important;
-    max-width: 64px;
+
     height: auto;
     display: inline-block;
+    vertical-align: middle;
     margin: 0;
 }
 
@@ -271,8 +272,10 @@ div.content img {
 }
 
 #content {
-  scroll-margin-top: 60px; /* or whatever offset you want */
+    scroll-margin-top: 60px;
+    /* or whatever offset you want */
 }
+
 /* Div Containers */
 div.archive {
     column-count: 3;
@@ -305,8 +308,8 @@ div.content {
     /* Block-level element */
     margin: 0 auto;
     /* Center horizontally */
-    width: fit-content;
-    /* Shrink-wrap the content */
+    width: 90%;
+    
 }
 
 /* Use this with front matter intro: to put the introduction text between the title and the image */
@@ -465,7 +468,6 @@ a:hover .post-title-link {
 }
 
 img[src*="/icons/"] {
-    max-width: 64px !important;
     max-height: 64px !important;
     width: auto;
     height: auto;
@@ -551,3 +553,27 @@ code {
 
 /* Media Queries */
 /* MOVED TO mobile.css */
+
+.icon-title-flex {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    line-height: 1.1;
+}
+
+.icon-title-flex img.small-post-image {
+    flex: none;
+    margin: 0 !important;
+}
+
+.icon-title-flex span {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}

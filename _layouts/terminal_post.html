@@ -12,9 +12,9 @@
 
   {% if page.image %}
   {% if page.image contains '/icons/' %}
-  <h1 id="content" style="display: flex; align-items: center; justify-content: center; gap: 0.7em;">
-    <img class="small-post-image" src="{{ page.image | relative_url }}" alt="{{ page.title }} image"> >
-    {{ page.title }}
+  <h1 id="content" class="icon-title-flex">
+    <img class="small-post-image" src="{{ page.image | relative_url }}" alt="{{ page.title }} image">
+    <span>{{ page.title }}</span>
   </h1>
   <p class="center"><em>{{ page.date }}</em></p>
   <p class="post-intro">{{ page.intro }}</p>
