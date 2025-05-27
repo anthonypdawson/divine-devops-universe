@@ -14,17 +14,24 @@
             {% assign older_posts = site.posts | slice: 2, site.posts.size %}
             {% for post in recent_posts %}
             <li class="post-summary-container" style="max-width:40em;">
-                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}"
-                    style="display: block; color: inherit; text-decoration: none; padding: 1em 0;">
-                    <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
-                    <span class="post-title-link">
-                        {{ post.title }}
-                    </span>
-                    {% if post.image %}
-                    <br />
-                    <br />
-                    <img class='post-list-image' src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
-                    {% endif %}
+                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">                   
+                    <div class="post-flex">
+                        {% unless post.image contains 'images/posts/' %}
+                        {% if post.image %}
+                        <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
+                        {% endif %}
+                        {% endunless %}
+                        <div class="post-list-main">
+                            <div class="post-list-text">
+                                <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+                                {{ post.title }}
+                            </div>
+                            {% if post.image contains 'images/posts/' %}
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image"
+                                class="post-list-image">
+                            {% endif %}
+                        </div>
+                    </div>
                     <br />
                     <small class="post-summary">{{ post.summary }}</small>
                 </a>
