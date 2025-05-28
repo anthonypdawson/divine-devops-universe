@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Miracle: Healing the Blind: Sensory Patch Deployment'
 date: 2025-05-17 12:00:03
 tags: [blind, healing, jesus, miracle, restoration, uriel]
+image: /assets/images/posts/miracle-healing-blind.png
 ---
 
 ## Miracle alert - Adler Hash: 517a0fc1
