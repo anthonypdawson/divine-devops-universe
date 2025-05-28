@@ -2,7 +2,7 @@
 <html lang="en" class="site-content">
 
 <head>
-    <title>{{ site.description }}</title>
+    <title>{{ site.title | default: 'Divine DevOps' }}</title>
     {% include header.html %}
 </head>
 
@@ -14,7 +14,7 @@
             {% assign older_posts = site.posts | slice: 2, site.posts.size %}
             {% for post in recent_posts %}
             <li class="post-summary-container" style="max-width:40em;">
-                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">                   
+                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
                     <div class="post-flex">
                         {% unless post.image contains 'images/posts/' %}
                         {% if post.image %}
