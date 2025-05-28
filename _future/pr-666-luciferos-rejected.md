@@ -55,7 +55,8 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 > This PR is a textbook example of hubris-driven development.
 
 **root@divine.dev**  
-> PR reviewed. Hubris level exceeds max threshold.  
+> PR reviewed. Hubris level exceeds max threshold.
+> See also: [The Babel Deployment Incident]({{ site.baseurl }}{% post_url 2025-04-10-genesis_chatgpt_babel_sequel %}).
 > Initiating rollback…
 
 ```

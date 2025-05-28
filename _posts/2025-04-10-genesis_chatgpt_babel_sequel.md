@@ -7,7 +7,7 @@ summary: "A sequel to the Genesis x ChatGPT project, documenting the confusion a
 image: /assets/images/icons/system_logs.webp
 ---
 
-<p class='center'><a href="https://en.wikipedia.org/wiki/Tower_of_Babel">It was a good idea, in theory..</a></p>
+> 💡 [*It was a good idea, in theory...*]("https://en.wikipedia.org/wiki/Tower_of_Babel")
 
 ```log
 babel_build.log  Tower Deployment Attempt
@@ -35,8 +35,10 @@ babel_build.log  Tower Deployment Attempt
 > babel.confusion++
 
 [CRITICAL] Merge conflict in heaven and earth.
-
 [ACTION] Scattering developers across codebases...
 
 [OUTPUT] // undefined
 ```
+
+> **CRITICAL:** Merge conflict in heaven and earth.  
+> **ACTION:** Scattering developers across codebases...

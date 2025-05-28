@@ -30,7 +30,7 @@ CMD ["/usr/src/app/jonah.sh"]
 
 ### Container Logs
 
-```
+```log
 [INFO] Jonah initialized.
 [WARN] Attempting to route to tarshish-dev...
 [ERROR] EJECTED_OVERBOARD: jonah.service overboard at port 404
