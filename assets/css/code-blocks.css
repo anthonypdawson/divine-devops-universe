@@ -1,5 +1,5 @@
 /* Colorful log block styles for Babel Sequel and similar posts */
-pre.colorful-log, pre > code.language-log {
+pre.colorful-log {
   background: #000 !important;
   color: #00ff00;
   padding: 1em 1.5em;
@@ -10,6 +10,15 @@ pre.colorful-log, pre > code.language-log {
   line-height: 1.6;
   overflow-x: auto;
   box-shadow: 0 0 12px #40c9ff33;
+  display: block;
+}
+
+pre > code.language-log {
+  background: transparent !important;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
   display: block;
 }
 

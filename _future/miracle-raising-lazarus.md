@@ -20,7 +20,7 @@ tags: [jesus, lazarus, miracle, resurrection, uriel]
 
 #### Logs
 
-```
+```log
 [ERROR] lazarus.service status: inactive (dead)
 [INFO] Jesus command: 'come forth'
 [RESTART] signal sent to tomb-container

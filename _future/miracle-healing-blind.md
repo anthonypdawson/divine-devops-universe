@@ -20,7 +20,7 @@ tags: [blind, healing, jesus, miracle, restoration, uriel]
 
 #### Logs
 
-```
+```log
 [INFO] vision.driver[42]: status = null
 [INFO] patch.init(method="spit + dirt")
 [INFO] user.eyes washed in Siloam

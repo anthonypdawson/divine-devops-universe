@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'Miracle: Feeding the 5000: Auto-Scaling Loaf Balancer'
 date: 2025-05-17 12:00:03
 tags: [autoscale, feeding, infrastructure, jesus, miracle, uriel]
+image: /assets/images/posts/miracle-feeding-5000.png
 ---
 
 ## Miracle alert - Adler Hash: 417c0eb4
@@ -21,7 +22,7 @@ tags: [autoscale, feeding, infrastructure, jesus, miracle, uriel]
 
 #### System Logs
 
-```
+```log
 [INFO] meal.service invoked
 [INFO] inventory.assets = [loaves:5, fish:2]
 [AUTO-SCALING] ReplicaSet activated

@@ -21,7 +21,7 @@ image: /assets/images/posts/miracle-water-to-wine.png
 
 #### System Logs
 
-```
+```log
 [INFO] beverage.node[6]: liquid_type = "water"
 [INFO] miracle.patch initiated by user Jesus
 [INFO] beverage.node[6]: liquid_type = "wine:vintage_best"

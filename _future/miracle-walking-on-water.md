@@ -19,7 +19,7 @@ tags: [jesus, miracle, ocean, override, physics, uriel]
 
 #### Logs
 
-```
+```log
 [INFO] gravity.kernel status: enabled
 [OVERRIDE] user: Jesus
 [INFO] mass displacement: none
