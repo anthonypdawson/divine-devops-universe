@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "St. Peter: First Sudo User"
 tags: [logs, sudo, sainthood, permissions, uriel, st.peter, jesus]
-date: 2025-05-29 10:00:00
+date: 2025-05-29 08:00:00
 summary: "St. Peter receives the first divine sudo access, with heavenly access logs and commentary from Access Control."
 image: /assets/images/posts/sudo-st-peter.webp
 ---
