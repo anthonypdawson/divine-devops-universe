@@ -20,4 +20,25 @@
             });
         });
     });
+
+    // For collapsible tags in archive
+    document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById('toggle-tags');
+        var box = document.getElementById('tag-collapsible');
+        if (btn && box) {
+            btn.style.display = 'block';
+            btn.addEventListener('click', function () {
+                box.classList.toggle('open');
+                btn.textContent = box.classList.contains('open') ? 'Hide tags' : 'Show all tags';
+            });
+        }
+        // On mobile, collapse by default
+        if (window.innerWidth <= 600 && box) {
+            box.classList.remove('open');
+            btn.textContent = 'Show all tags';
+        } else if (box) {
+            box.classList.add('open');
+            btn.style.display = 'none';
+        }
+    });
 </script>

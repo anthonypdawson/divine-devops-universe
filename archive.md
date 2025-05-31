@@ -4,45 +4,43 @@ title: 'Post Archive'
 permalink: /archive/
 ---
 
-<div>
-  Search through all posts by tag
-</div>
+<div>Search through all posts by tag</div>
 <hr />
 
-{% capture tags %}
+{% assign min_size = 1.0 %}
+{% assign max_size = 2.2 %}
+{% assign max_count = 0 %}
 {% for tag in site.tags %}
-{{ tag[1].size | minus: 10000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% if tag[1].size > max_count %}
+    {% assign max_count = tag[1].size %}
+  {% endif %}
 {% endfor %}
-{% endcapture %}
 
-{% assign tagsBySize = tags | split: " " | sort %}
-
-<div class='archive'>
-  {% for tagEntry in tagsBySize %}    
-      {% assign tagArray = tagEntry | split: "#" %}
-      {% assign tag_name = tagArray[1] %}
-      <div>
-        <div>
-          <a class='archive-tag' href="#{{ tag_name }}">{{ tag_name }}({{ tagArray[2] }})</a>
-        </div>
-        <p></p>
-      </div>
+<button id="toggle-tags" style="display:none;">Show all tags</button>
+<div id="tag-collapsible" class="archive tag-cloud">
+  {% for tag in site.tags %}
+    {% assign count = tag[1].size %}
+    {% if max_count > 0 %}
+      {% assign size_diff = max_size | minus: min_size %}
+      {% assign rel_size = count | times: size_diff | divided_by: max_count %}
+      {% assign size = min_size | plus: rel_size %}
+    {% else %}
+      {% assign size = min_size %}
+    {% endif %}
+<a class='archive-tag' href="#{{ tag[0] }}" style="font-size:{{ size }}em;">{{ tag[0] }} ({{ count }})</a>
   {% endfor %}
 </div>
 <hr />
 <br />
 <div id="tags-list">
-  {% for tagEntry in tagsBySize %}
-    {% assign tagArray = tagEntry | split: "#" %}
-    {% assign tag_name = tagArray[1] %}
-    {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
+  {% for tag in site.tags %}
     <div class="tag-list">
       <h2 class="post-list-heading line-bottom">
-        #{{ tag_name }} [{{ tagArray[2] }}]:
+        #{{ tag[0] }} [{{ tag[1].size }}]:
       </h2>
-      <a name="{{ tag_name | slugize }}"></a>
+      <a name="{{ tag[0] | slugize }}"></a>
       <ul class="post-list post-list-narrow">
-        {% for post in site.tags[tag_name] %}
+        {% for post in tag[1] %}
           <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <b>
