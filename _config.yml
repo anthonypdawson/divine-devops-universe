@@ -9,17 +9,8 @@ theme: minima
 layout: terminal_post
 sass:
     sass_dir: _sass
-    style: compact
-    css_dir: assets/css
-    sourcemap: true
-    sass_options:
-        style: compressed
-        sourcemap: true
-        cache: false
-        quiet: true
-        load_paths:
-        - _sass
-        - /assets/css
+    style: 'compressed'
+    sourcemap: 'development'
 collections:
   future:
     output: true
@@ -33,6 +24,7 @@ include:
     - sitemap.xml
 exclude:
     - vendor
+    - node_modules
     - '_unpublished'
     - 'README.md'
     - '*.sh'
