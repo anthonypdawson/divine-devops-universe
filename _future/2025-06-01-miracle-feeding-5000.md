@@ -1,12 +1,15 @@
 ---
 layout: terminal_post
 title: 'Miracle: Feeding the 5000: Auto-Scaling Loaf Balancer'
-date: 2025-05-17 12:00:03
+date: 2025-06-01 08:00:00
+summary: "Jesus auto-scales a meal for 5000+ with minimal resources, triggering a miraculous load balancer event and leaving S3 full of bread snapshots."
 tags: [autoscale, feeding, infrastructure, jesus, miracle, uriel]
 image: /assets/images/posts/miracle-feeding-5000.png
 ---
 
-## Miracle alert - Adler Hash: 417c0eb4
+> ## 🚨 Miracle alert
+> Adler Hash: 417c0eb4  
+> _Incident: Unexpected auto-scaling event at Galilee. Throughput exceeded all forecasts. Immediate review recommended._
 
 <hr />
 

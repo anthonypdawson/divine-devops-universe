@@ -1,11 +1,15 @@
 ---
 layout: terminal_post
 title: 'Miracle: Walking on Water: Gravity Patch Override'
-date: 2025-05-17 12:00:03
+date: 2025-06-02 08:00:00
+summary: "Jesus overrides gravity to walk on water, baffling physics and sysadmins alike in a one-user miracle event."
 tags: [jesus, miracle, ocean, override, physics, uriel]
+image: /assets/images/posts/miracle-walking-on-water.png
 ---
 
-## Miracle alert - Adler Hash: 28020e9e
+> ## 🚨 Miracle alert  
+> Adler Hash: 28020e9e  
+> _Incident: Gravity kernel override detected. Fluid layer traversed without displacement. Immediate investigation suggested._
 
 <hr />
 

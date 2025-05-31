@@ -1,11 +1,15 @@
 ---
 layout: terminal_post
 title: 'Miracle: Raising Lazarus: Cold Boot Resurrection'
-date: 2025-05-17 12:00:03
+date: 2025-06-04 08:00:00
+summary: "Jesus revives Lazarus after four days of downtime, rebooting the service with a single command and surprising even the system admin."
 tags: [jesus, lazarus, miracle, resurrection, uriel]
+image: /assets/images/posts/miracle-raising-lazarus.png
 ---
 
-## Miracle alert - Adler Hash: 1c040e85
+> ## 🚨 Miracle alert 
+> Adler Hash: 1c040e85  
+> _Incident: Unexpected system recovery after extended downtime. Resurrection protocol triggered by root command._
 
 <hr />
 
