@@ -1,30 +1,3 @@
-/* Root Variables */
-:root {
-    --background-color: #000;
-    --blockquote-bg-color: #1d1d1d;
-    --text-color: #00ff00;
-    --bold-text-color: #40c9ff;
-    /* --bold-text-color: #ffd700; gold */
-    /* --bold-text-color: #ffe066; bright yellow */
-    --link-color: cyan;
-    --link-hover-color: white;
-    --border-color: #111;
-    --box-shadow-color: rgba(136, 247, 136, 0.15);
-    --table-border-color: #e8e8e8;
-    --table-header-bg-color: #001101;
-    --table-header-border-color: #dedede;
-    --table-header-border-bottom-color: #c9c9c9;
-    --table-row-bg-color: #001a03;
-    --highlight-bg-color: #000000;
-    --highlight-text-color: #ebd300;
-    --highlight-comment-color: #998;
-    --highlight-error-color: #a61717;
-    --highlight-error-bg-color: #e3d2d2;
-    --highlight-keyword-color: #458;
-    --highlight-number-color: #099;
-    --highlight-string-color: #d14;
-    --highlight-variable-color: #008080;
-}
 
 /* Global Styles */
 html {
@@ -278,7 +251,7 @@ div.content img {
 
 /* Div Containers */
 div.archive {
-    column-count: 3;
+    column-count: 6;
     column-gap: 0px;
     column-rule: 0px solid var(--border-color);
     padding: 0px;
@@ -286,6 +259,12 @@ div.archive {
     text-align: center;
     font-size: 12px;
     width: fit-content;
+}
+
+a.archive-tag {
+  margin: 0.2em 0.5em;
+  display: inline-block;
+  /* Add any other shared styles here */
 }
 
 div.archive.tag {

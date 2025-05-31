@@ -15,6 +15,54 @@ p {
     font-size: 0.9rem;
 }
 
+
+@media (max-width: 1200px) {
+  div.archive {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 900px) {
+  div.archive {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 600px) {
+  div.archive {
+    column-count: 2;
+  }
+}
+@media (max-width: 300px) {
+  div.archive {
+    column-count: 1;
+  }
+}
+
+/* For collapsible tags in archive */
+@media (max-width: 600px) {
+  #tag-collapsible {
+    display: none;
+  }
+  #tag-collapsible.open {
+    display: block;
+  }
+  #toggle-tags {
+    display: block;
+    margin: 1em auto;
+    width: 90%;
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 601px) {
+  #tag-collapsible {
+    display: block !important;
+  }
+  #toggle-tags {
+    display: none !important;
+  }
+}
+
 /* Large desktops (1200px and above) */
 @media (min-width: 1200px) {
     body {
