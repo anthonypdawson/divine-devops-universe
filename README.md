@@ -1,51 +1,70 @@
+<img src="assets/images/divine-banner-short.webp" alt="Divine DevOps Universe Banner" style="max-width: 100%; margin-bottom: 1.5em; border-radius: 10px; box-shadow: 0 0 18px #40c9ff55;" />
+
 # Divine DevOps Universe
 
-Welcome to the **Divine DevOps Universe**, a parody-driven project that blends DevOps concepts with biblical and mythological themes. This repository contains humorous posts, scripts, and creative content that explore the intersection of technology, religion, and satire.
+Welcome to the **Divine DevOps Universe** — a satirical blend of DevOps, biblical lore, and mythological mischief. Explore humorous posts, scripts, and creative content at the intersection of technology, religion, and modern software culture.
 
 ---
 
-## 📖 Project Overview
+## 📖 Overview
 
-The **Divine DevOps Universe** is a collection of posts, scripts, and assets that parody DevOps practices, workflows, and tools. Each post is written with a mix of humor and technical insight, drawing inspiration from biblical stories, mythological events, and modern software development practices.
+This project parodies DevOps practices, workflows, and tools through the lens of ancient stories and modern tech. Each post mixes humor and technical insight, drawing inspiration from scripture, myth, and the realities of software development.
 
 ---
 
 ## 🗂️ Repository Structure
 
-### **Folders**
-- **`_posts/`**: Contains Markdown files for blog posts, each with front matter metadata (e.g., title, date, tags).
-- **`_layouts/`**: Includes layout templates for rendering posts (e.g., `terminal_post.html`).
-- **`_future/`**: Drafts or upcoming posts that are not yet published.
-- **`assets/`**: Contains CSS, fonts, images, and other static assets.
-  - **`css/`**: Stylesheets for the site (e.g., `dd.css`).
-  - **`images/`**: Images used in posts and layouts.
-- **`scripts/`**: Python scripts for automating tasks (e.g., updating tags, comparing files).
+- **`_posts/`**: Published blog posts (Markdown with front matter)
+- **`_future/`**: Drafts and upcoming posts
+- **`_layouts/`**: Jekyll layout templates
+- **`assets/`**: CSS, images, and static assets
+  - **`css/`**: Site stylesheets
+  - **`images/`**: Post and layout images
+- **`scripts/`**: Python utilities for repo management
 
 ---
+
 ## ✨ Features
-- Parody Content: Posts inspired by biblical and mythological themes.
-- DevOps Insights: Satirical takes on DevOps practices, tools, and workflows.
-- Automation: Scripts for managing and maintaining the repository.
-- Responsive Design: Mobile-friendly layouts with custom CSS.
+
+- Parody posts inspired by biblical and mythological themes
+- Satirical takes on DevOps tools, workflows, and culture
+- Automation scripts for managing content
+- Responsive, mobile-friendly design
+
+---
 
 ## 📚 Example Posts
-- **Genesis x ChatGPT**: A humorous take on the Tower of Babel and programming languages.
+- **Genesis x ChatGPT**: A humorous Q&A between God and ChatGPT about the creation of the earth.
 - **Easter Regression Test**: A parody of resurrection workflows and CI/CD pipelines.
 - **Wise Men Source Review**: A code review inspired by the Nativity story.
 
-## 🏷️ Tags
-Common tags used across posts:
+---
 
-- General DevOps: devops, ci-cd, automation, logs, testing
-- Thematic: parody, religion, mythology, nativity, resurrection
-- Technical: source-code, api, docker, typescript, legacy
-- Collaboration: slack, teamonsite, postmortem, documentation
+## 🏷️ Tags
+
+- **DevOps:** devops, ci-cd, automation, logs, testing
+- **Thematic:** parody, religion, mythology, nativity, resurrection
+- **Technical:** source-code, api, docker, typescript, legacy
+- **Collaboration:** slack, teamonsite, postmortem, documentation
+
+---
 
 ## 📄 License
-This project is a parody and is intended for entertainment purposes only. It is not affiliated with any religious or technical organization.
+
+This project is a parody for entertainment purposes only. Not affiliated with any religious or technical organization.
+
+---
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to submit pull requests or open issues to improve the project.
+
+Contributions are welcome! Open a pull request or issue to suggest improvements or new content.
+
+---
 
 ## 📧 Contact
-For questions or feedback, reach out to the Divine DevOps Team at divinedevopsuniverse@gmail.com.
+
+Questions or feedback? Reach out to the Divine DevOps Team at divinedevopsuniverse@gmail.com.
+
+---
+
+<sub>Blessed by CI/CD. May your pipelines be ever green.</sub>
