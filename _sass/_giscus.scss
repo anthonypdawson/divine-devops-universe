@@ -1,18 +1,34 @@
 .giscus {
   margin: 2.5em auto 1.5em auto;
-  padding: 1.2em 1em 1.5em 1em;
   max-width: 800px;
   background: #181c1f;
-
-  border-radius: 8px;
-  box-shadow: 0 0 24px #23ff0455;
-  border: 1.5px solid var(--border-color, #40c9ff55);
   font-family: 'Fira Code', 'Fira Code VF', monospace;
 }
 
 .giscus-frame {
   border-radius: 6px;
-
-  width: 100%;
   min-height: 350px;
+}
+
+.giscus-confession-booth {
+  margin: 2.5em auto 1.5em auto;
+  padding: 1.2em 1em 1.5em 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 24px #23ff0455, 0 0 18px #40c9ff22;
+  border: 1.5px solid var(--border-color, #40c9ff55);
+  background: #181c1f;
+  font-family: 'Fira Code', 'Fira Code VF', monospace;
+  text-align: center;
+}
+
+.giscus-confession-booth h2 {
+  color: #23ff04;
+  margin-bottom: 0.2em;
+  text-shadow: 0 0 8px #40c9ff55, 0 0 4px #23ff0455;
+}
+
+.giscus-confession-booth p {
+  color: #ebd300;
+  font-size: 1.05em;
+  margin-bottom: 1.2em;
 }
