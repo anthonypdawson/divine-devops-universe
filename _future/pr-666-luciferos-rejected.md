@@ -12,9 +12,9 @@ image: /assets/images/posts/merge-666.webp
 > **Pull Request #666: Propose replacement of HeavenOS kernel with LuciferOS fork**  
 > Status: **Closed**  
 > 
-> Opened by `lucifer@heaven.internal`
+> Opened by `lucifer@heaven.eternal`
 > 
-> Reviewed by: `root@divine.dev`, `michael@archangels.net`, `gabriel@notifications.internal`
+> Reviewed by: `root@divine.dev`, `michael@archangels.eternal`, `gabriel@notifications.eternal`
 
 ---
 
@@ -46,10 +46,10 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 
 ### Review Comments
 
-**michael@archangels.internal**  
+**michael@archangels.eternal**  
 > You can’t `chmod 777` the throne.
 
-**gabriel@notifications.internal**  
+**gabriel@notifications.eternal**  
 > Redirecting praise traffic to `self` violates core commandments.
 > 
 > This PR is a textbook example of hubris-driven development.
@@ -70,6 +70,17 @@ Status: FORBIDDEN (EternalStatusCode 403)
 **root@divine.dev**  
 > Access revoked. User relocated to /heaven/tmp/fallen/
 
+---
+### Lessons Learned
+
+<div class="lessons-learned">
+<ul>
+  <li>Never grant <code>godmode</code> on a Friday.</li>
+  <li>All praise traffic must be RFC-compliant.</li>
+  <li>PRs with hubris &gt; 9000 will be auto-rejected.</li>
+</ul>
+</div>
+  
 ---
 
 ### Final Status 
