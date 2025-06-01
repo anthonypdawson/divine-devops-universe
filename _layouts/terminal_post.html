@@ -50,9 +50,14 @@
   <br />
   <div id="confessions" class="giscus-confession-booth">
     <h2 class="center">🕊️ Confession Booth</h2>
-    <p class="center"><em>Share your devops sins, miracles, or seek absolution below. All comments are anonymous to the angels (but not to GitHub).</em></p>
-    <hr />
-    {% include giscus.html %}
+    <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
+    <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
+      <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn" style="display:inline-block;padding:0.6em 1.2em;background:#23ff04;color:#181c1f;font-weight:bold;border-radius:6px;text-decoration:none;box-shadow:0 0 8px #23ff0455,0 0 4px #40c9ff55;">Email a Private Confession</a>
+      <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
+      <div style="width: 100%">
+        {% include giscus.html %}
+      </div>
+    </div>
   </div>
   <br />
   {% include credit-footer.html %}
