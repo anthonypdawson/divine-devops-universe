@@ -54,6 +54,7 @@ Authorized by: Root (jesus)
 - **Command to Heaven's Gates** granted without audit trail  
 - Keys literally handed over (see `/var/heaven/keys/kingdom.pem`)  
 - PRs are immutable when approved by root
+  
 ---
 
 ```bash
