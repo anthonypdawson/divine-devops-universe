@@ -1,0 +1,5 @@
+<div class="slack-log">
+    {% for msg in include.messages %}
+    <div class="slack-msg"><span class="slack-user {{ msg.user | downcase }}">{{ msg.user | capitalize }}</span>: {{ msg.text }}</div>
+    {% endfor %}
+</div>
