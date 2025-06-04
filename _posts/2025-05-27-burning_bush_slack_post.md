@@ -1,37 +1,11 @@
 ---
 layout: terminal_post
-title: "Burning Bush Joins #prod-ops"
+title: 'Burning Bush Joins #prod-ops'
 tags: [logs, slack, burning-bush, moses, uriel, divine-errors, incident-report]
-summary: "A burning bush disrupts the #prod-ops Slack, sparking divine confusion over permissions, prod access, and the true meaning of root. Moses just wants to file a ticket."
+summary: 'A burning bush disrupts the #prod-ops Slack, sparking divine confusion over permissions, prod access, and the true meaning of root. Moses just wants to file a ticket.'
 date: 2025-05-27 12:00:03
 image: /assets/images/icons/discussion.webp
 ---
-<style>
-.slack-log {
-  font-family: 'Fira Mono', 'Menlo', 'Consolas', monospace;
-  background: #222;
-  color: #eee;
-  border-radius: 8px;
-  padding: 1em;
-  margin: 1em 0;
-}
-.slack-msg {
-  margin: 0.2em 0;
-  line-height: 1.5;
-}
-.slack-msg .slack-time {
-  color: #aaa;
-  font-size: 0.9em;
-  margin-right: 0.5em;
-}
-.slack-user.god { color: #ffd700; font-weight: bold; }
-.slack-user.moses { color: #40c9ff; }
-.slack-user.bush { color: #ff5e00; }
-.slack-user.uriel { color: #00ff00; }
-.slack-user.aaron { color: #ffcc00; }
-.slack-msg.system { color: #ff5ec7; font-style: italic; }
-.slack-reaction { margin-left: 2em; color: #ffb347; font-size: 0.95em; }
-</style>
 
 ```slack
 #prod-ops
