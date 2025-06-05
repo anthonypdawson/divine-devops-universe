@@ -9,4 +9,4 @@ image: /assets/images/icons/default.webp
 
 A rare glimpse into the internal monitoring system of the Divine Infrastructure.
 
-{% include img.md description='HeavenOps Dashboard' url='/assets/images/posts/heaven-ops-dashboard.png' %}
+{% include img.md description='HeavenOps Dashboard' url='/assets/images/posts/heaven-ops-dashboard.webp' %}

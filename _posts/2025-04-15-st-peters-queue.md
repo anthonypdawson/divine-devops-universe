@@ -9,4 +9,4 @@ image: /assets/images/icons/discussion.webp
 
 What happens when Heaven is full?
 
-{% include img.md description='St. Peter\'s Queue' url='/assets/images/posts/st-peters-queue.png' %}
+{% include img.md description='St. Peter\'s Queue' url='/assets/images/posts/st-peters-queue.webp' %}
