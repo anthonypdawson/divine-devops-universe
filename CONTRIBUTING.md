@@ -1,4 +1,4 @@
-# Divine DevOps Universe – Contributing & Content Guidelines
+# Divine DevOps – Contributing & Content Guidelines
 
 ## Basic Content Rules
 1. **Clarity and Brevity**
@@ -6,7 +6,7 @@
    - Avoid unnecessary jargon unless it serves the joke or theme.
 2. **Tone and Voice**
    - Maintain a consistent, playful, and “in-universe” tone throughout all posts.
-   - Use DevOps, sysadmin, and tech metaphors to reinforce the Divine DevOps Universe theme.
+   - Use DevOps, sysadmin, and tech metaphors to reinforce the Divine DevOps theme.
 3. **Accessibility**
    - Ensure all images have descriptive alt text.
    - Use semantic HTML where possible for better accessibility.
