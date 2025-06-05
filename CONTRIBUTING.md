@@ -78,7 +78,6 @@
 
 ### Image Usage
 - Use descriptive alt text for all images.
-- For posts with a main image, display it prominently below the title (using the large-post-image class).
 - Use `.webp` for post images when possible for performance.
 
 ### Tag Formatting
