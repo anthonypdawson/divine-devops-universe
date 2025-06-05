@@ -114,6 +114,19 @@ Use the following HTML structure for all Slack-style threads in posts for consis
 
 ---
 
+## SCSS/Sass Workflow for CSS
+- All site styles are written in modular SCSS partials located in the `_sass/` directory.
+- The main SCSS entry point is `assets/css/main.scss`, which imports all partials and is compiled to CSS by Jekyll.
+- To add or update styles:
+  1. Create or edit a partial in `_sass/` (e.g., `_slack.scss` for Slack thread styles).
+  2. Import your partial in `main.scss` if it isn't already included.
+  3. Use variables and mixins from shared partials for consistency.
+  4. Do not write or edit raw CSS files—always use SCSS partials.
+- Run the Jekyll build process to compile SCSS to CSS. Jekyll will handle minification and output to `assets/css/main.css`.
+- Use Stylelint to check for code quality and consistency in your SCSS.
+
+---
+
 ## Formatting Consistency Vigilance
 - Always keep alert for changes in formatting from previous posts.
 - When a formatting change or inconsistency is found, point it out and document it for review.

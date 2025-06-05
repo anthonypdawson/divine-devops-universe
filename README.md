@@ -17,6 +17,7 @@ This project parodies DevOps practices, workflows, and tools through the lens of
 - **`_posts/`**: Published blog posts (Markdown with front matter)
 - **`_future/`**: Drafts and upcoming posts
 - **`_layouts/`**: Jekyll layout templates
+- **`_sass/`**: Modular SCSS partials for site styling
 - **`assets/`**: CSS, images, and static assets
   - **`css/`**: Site stylesheets
   - **`images/`**: Post and layout images
@@ -57,7 +58,13 @@ This project is a parody for entertainment purposes only. Not affiliated with an
 
 ## 🤝 Contributing
 
-Contributions are welcome! Open a pull request or issue to suggest improvements or new content.
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for content guidelines, formatting rules, and how to add new posts or features. Open a pull request or issue to suggest improvements or new content.
+
+---
+
+## 🖼️ Image Format Note
+
+Prefer `.webp` for new images for better performance. If you add a `.webp` version of an existing `.png`, update all references in posts and templates to use the new format, or provide both for compatibility.
 
 ---
 
