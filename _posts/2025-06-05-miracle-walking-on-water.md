@@ -16,7 +16,7 @@ image: /assets/images/posts/miracle-walking-on-water.webp
 
 ### Environment Breach — Sea of Galilee
 
-**Event ID:** MIR-003-WATERWALK  
+**Event ID:** MIR-004-WATERWALK  
 **User:** Jesus of Nazareth  
 **System Affected:** Fluid Layer (gravity.kernel)
 
