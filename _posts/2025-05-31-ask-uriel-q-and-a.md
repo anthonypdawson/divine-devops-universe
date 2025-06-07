@@ -5,8 +5,14 @@ intro: "Ask Uriel – Issue Queue Highlights"
 summary: "A record of Uriel’s responses to common inquiries submitted to the celestial issue queue, addressing matters of fate, free will, and support protocol."
 date: 2025-05-31 10:00:00
 tags: [uriel, support, parody, devops, faq]
-image: /assets/images/posts/uriel.webp
+image: /assets/images/posts/ask-uriel.webp
 ---
+
+<div class="uriel-intro">
+  <img src="{{ '/assets/images/posts/uriel.webp' | relative_url }}" alt="Uriel icon" />
+  <blockquote>Welcome to Uriel's Q&A.<br/>
+  I answer because I have to, not because I care.</blockquote>
+</div>
 
 ### **🧾 Issue Queue ID: /heaven/support/uriel**
 
