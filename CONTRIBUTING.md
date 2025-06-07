@@ -110,6 +110,8 @@
 
 ### Tag Formatting
 - Tags are displayed as archive links below the post content.
+- **Include relevant topics, event types, and all unique characters/users appearing in Slack threads, logs, or narrative (e.g., `jesus`, `uriel`, `gabriel`, `michael`, `raphael`).**
+  - This improves discoverability and consistency across posts.
 
 ### Confession Booth (Giscus)
 - The Giscus comment section is themed as a “Confession Booth” with a heading and intro, and offers both public (Giscus) and private (mailto) confession options.
