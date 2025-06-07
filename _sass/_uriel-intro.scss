@@ -1,0 +1,16 @@
+/* _sass/_uriel-intro.scss */
+.uriel-intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+
+  img {
+    height: 16em;
+    margin-right: 1em;
+    max-width: 100%;
+  }
+  blockquote {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
