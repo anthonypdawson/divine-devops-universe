@@ -1,5 +1,11 @@
 # Divine DevOps – Contributing & Content Guidelines
 
+## Overview
+- This guide covers all content, formatting, style, and technical conventions for contributing to Divine DevOps posts and site content.
+- When adding new sections or rules, place them in the most relevant section below to keep the file organized and easy to use.
+
+---
+
 ## Basic Content Rules
 1. **Clarity and Brevity**
    - Write all content to be clear, concise, and easy to understand, even when using in-universe humor or references.
@@ -11,7 +17,16 @@
    - Ensure all images have descriptive alt text.
    - Use semantic HTML where possible for better accessibility.
 4. **Front Matter Consistency**
-   - Every post must start with valid YAML front matter including: layout, title, date, summary, tags, and image.
+   - Every post must start with valid YAML front matter including:
+     - `layout`
+     - `title`
+     - `date`
+     - `summary` (see Post Summary Guidelines)
+     - `intro` (see Post Intro Guidelines)
+     - `tags`
+     - `image` (see Image Usage and Post Images: Alt Text Guidelines)
+     - `image_alt` (optional, see Post Images: Alt Text Guidelines)
+   - See the relevant sections below for details on each field.
 5. **No Spoilers in Titles or Summaries**
    - Titles and summaries should not reveal the outcome or punchline of the post.
 6. **One Main Incident/Miracle per Post, Plus Optional Extras**
@@ -27,6 +42,19 @@
 - The summary should be written 'in universe' (from the perspective of the Divine DevOps Universe).
 - The summary should not reveal the ending or final status of the post.
 - The summary should set up the scenario, incident, or miracle as a hook for the reader, maintaining suspense or curiosity.
+
+---
+
+## Post Intro Guidelines
+- Every post should include an `intro` field in the YAML front matter.
+- The `intro` is displayed immediately after the post title (line 1) and the post date/time (line 2), before the main content.
+- Write the intro as a single, punchy sentence or two that sets the tone, context, or stakes for the post.
+- Keep it concise, engaging, and in-universe—think of it as the "hook" for the reader.
+- Example:
+  ```yaml
+  intro: "Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history."
+  ```
+- If no `intro` is provided, the intro section will be omitted from the rendered post.
 
 ---
 
@@ -88,11 +116,24 @@
 
 ---
 
-## Image Format Guidelines
+## Image Guidelines
+### Image Format Guidelines
 - Prefer `.webp` for new images in posts, layouts, and most site content for better performance.
 - **Do NOT use `.webp` for favicons, Apple touch icons, or manifest icons** (e.g., in `_includes/seo-head.html` and `_includes/header.html`). Use `.png` for these to ensure compatibility with all browsers, devices, and social sharing platforms.
 - When adding a `.webp` version of an existing `.png`, update references in posts and templates to use `.webp` where appropriate, but keep `.png` for icons and legacy compatibility as above.
 - **Always keep the original `.png` alongside the `.webp`** for reference and fallback, even if the main reference is updated to `.webp`.
+
+### Post Images: Alt Text Guidelines
+- All post images must have an `alt` attribute for accessibility.
+- By default, the alt text will be set to the post title plus "image" (e.g., `alt="{{ page.title }} image"`).
+- For better accessibility and context, you may set a custom alt text by adding an `image_alt` field to your post's front matter:
+  
+  ```yaml
+  image: /assets/images/posts/merge-666.webp
+  image_alt: "Cartoon of Lucifer attempting a forbidden merge"
+  ```
+- If `image_alt` is provided, it will be used as the alt text. If not, the default will be used.
+- Use a brief, descriptive phrase for `image_alt` that conveys the image's content or purpose. If the image is decorative, you may use `image_alt: ""` (empty string).
 
 ---
 
@@ -109,28 +150,59 @@
 
 ---
 
+## CSS & Styling Conventions
+- Reuse existing CSS classes and partials from the `_sass` directory whenever possible (e.g., `.slack-log`, `.lessons-learned`, `.giscus-confession-booth`).
+- Do not create new CSS classes for features that already have a style defined in the `_sass` directory.
+- Reference or extend existing partials for new features to maintain a consistent look and reduce duplication.
+
+---
+
 ## Slack Thread Formatting for Posts
 Use the following HTML structure for all Slack-style threads in posts for consistency:
 ```html
 <div class="slack-log">
   <div class="slack-msg">
-    <span class="slack-user username">username</span> <span class="slack-time">[time]</span>: message
+    <div class="slack-header">
+      <span class="slack-user username">username</span>
+      <span class="slack-time">[time]</span>
+    </div>
+    <div class="slack-text">Message goes here.</div>
   </div>
   ...
 </div>
 ```
-- Each message is a single line with user, time, and message.
+- Each message should have the username and time together in a header `<div>`, and the message itself in a separate `<div>` below (multi-line format).
 - Use the appropriate CSS classes for usernames (e.g., `slack-user uriel`, `slack-user jesus`).
 - When introducing a new username, add a custom CSS class for them in your SCSS (e.g., `.slack-user.gabriel`), and style it to be visually distinctive but harmonious with the theme. This helps readers quickly identify speakers in threads.
 - Place the thread after the relevant section (e.g., after System Logs or before Postmortem).
 - This ensures all Slack threads are styled consistently across posts.
+- For Slack-style threads, format each message so that the username and time are on one line (in a header div), and the message itself is on the next line (in a separate div). Example:
+  ```html
+  <div class="slack-msg">
+    <div class="slack-header">
+      <span class="slack-user uriel">uriel</span>
+      <span class="slack-time">[09:15]</span>
+    </div>
+    <div class="slack-text">Anyone else seeing protocol forking?</div>
+  </div>
+  ```
+- This ensures clarity and visual separation between the speaker and their message, and matches the established visual style (see the "walking on water" post for reference).
 
 ---
 
-## CSS & Styling Conventions
-- Reuse existing CSS classes and partials from the `_sass` directory whenever possible (e.g., `.slack-log`, `.lessons-learned`, `.giscus-confession-booth`).
-- Do not create new CSS classes for features that already have a style defined in the `_sass` directory.
-- Reference or extend existing partials for new features to maintain a consistent look and reduce duplication.
+## Recurring Post Topic Templates
+- Recurring post topic templates (such as "Ask Me About My Uptime") are kept in the `/topics/` directory in Markdown/instruction style.
+- Each template should include:
+  - A brief description of the topic's tone, purpose, and intended structure.
+  - Example post titles or IDs for serial consistency (if applicable).
+  - A section-by-section breakdown of the required structure (e.g., title format, log/report style, commentary, status, etc.).
+  - Any special conventions for humor, voice, or formatting unique to the topic.
+- Templates should be written as clear instructions for contributors, not as actual posts.
+- When adding a new recurring topic, create a new Markdown file in `/topics/` following the above conventions, and update this section if needed.
+- See `topics/ask_me_about_my_uptime.md` for a model template.
+- Each recurring post should include a terminal-style or cartoonish image that visually represents the incident or story. Use `.webp` format for main images when possible, and ensure alt text is descriptive and on-theme.
+- The incident or story should reference a biblical or historical event, reimagined in the Divine DevOps context (e.g., classic miracles, famous outages, legendary migrations, etc.).
+- For headers that are alone on a line (e.g., **Root Cause**, **Status**, **Uriel's Note**) and are immediately followed by text on a new line, do not use a colon (`:`) at the end of the header. This keeps formatting clean and consistent across posts and templates.
 
 ---
 
@@ -159,5 +231,3 @@ Use the following HTML structure for all Slack-style threads in posts for consis
 - The goal is to keep the world playful and immersive, not distractingly artificial.
 
 ---
-
-Add additional AI content/formatting rules here as needed.
