@@ -5,7 +5,7 @@ date: "2025-06-07"
 summary: "A rogue deployment bypassed miracle rate limits, resulting in unintended omniscience for several users."
 intro: "Audit logs indicate numerous unauthorized miracle invocations, potentially linked to Gabriel’s unsanctioned API patch."
 tags: ["api", "miracle", "governance", "gabriel", "metatron", "uriel"]
-image: /assets/images/posts/api-governance.webp
+image: /assets/images/posts/divine-api-governance-breach.webp
 image_alt: "Celestial dashboard showing unauthorized API calls"
 ---
 
