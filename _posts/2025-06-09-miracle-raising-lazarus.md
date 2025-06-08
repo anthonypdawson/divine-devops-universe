@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: 'Miracle: Raising Lazarus: Cold Boot Resurrection'
-date: 2025-06-08 08:00:00
+date: 2025-06-09 08:00:00
 summary: "Jesus revives Lazarus after four days of downtime, rebooting the service with a single command and surprising even the system admin."
 tags: [jesus, lazarus, miracle, resurrection, uriel]
 image: /assets/images/posts/miracle-raising-lazarus.webp
