@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Biological Malware: The Plague of Justinian"
 date: 2025-05-17 12:00:03
 tags: [history, malware, uriel, michael, incident, plague]
+summary: "A misconfigured population control script triggers the Plague of Justinian, exposing the dangers of unchecked privileges and the lack of rollback in celestial operations."
 ---
 The **Plague of Justinian** was one of the most devastating pandemics in human history.
 This incident report explores the unintended consequences of a misconfigured population control script.

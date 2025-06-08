@@ -1,12 +1,13 @@
 ---
 layout: terminal_post
 title: "Annual Performance Review: Uriel-404"
-tags: [parody, devops, uriel, performance, bureaucracy, audit]
+tags: [parody, devops, uriel, gabriel, performance, bureaucracy, audit, management]
 date: 2025-05-27
 image: /assets/images/posts/uriel-badge.webp
+summary: "Uriel-404 faces a divine performance review, with Gabriel and Archangel Management weighing in on uptime, attitude, and the eternal struggle between bureaucracy and hope."
 ---
 
-> `# review-2025-Q1 – AngelOps Division`
+> `# review-2025-Q1 – AngelOps Division`  
 > **Subject:** Uriel-404 (Sysadmin, Tier Eternal)  
 > **Reviewer:** Archangel Management (Gabriel, cc’d)  
 > **Format:** Forced Transparency Compliance (FTC)
@@ -15,22 +16,22 @@ image: /assets/images/posts/uriel-badge.webp
 
 ## 🗂 Performance Categories
 
-**🟢 Uptime Compliance:**  
+**🟢 Uptime Compliance**  
 > ✅ Maintained 99.9999% uptime across HeavenOps clusters  
 > ❗ Refused to label downtime during “Apocalypse Simulation” as outage
 
-**🟡 Communication:**  
+**🟡 Communication**  
 > ⚠️ Tone described as "apathetic, bureaucratic, and hostile to hope"  
 > 🗨️ Sample Quote: “If it’s divine, it shouldn’t need my input.”  
 > Response to Gabriel's ping: `"What do you want now?"`
 
-**🔴 Attitude & Culture Fit:**  
+**🔴 Attitude & Culture Fit**  
 > - Filed 47 passive-aggressive tickets  
 > - Redirected prayer requests to `/dev/null` during “focus hours”  
 > - Enabled sarcastic auto-replies on all Slack channels:
 >   - `"Have you tried divine intervention?"`
 
-**🟢 Incident Response:**  
+**🟢 Incident Response**  
 > + Resolved over 1,000 incidents  
 > + Authored the canonical “So It Broke Again” root cause template  
 > + Invented rollback protocol “HolyRevert.sh”
@@ -53,7 +54,7 @@ image: /assets/images/posts/uriel-badge.webp
 
 ---
 
-## 📝 Final Notes:
+## 📝 Final Notes
 
 **Gabriel [Reviewer]:**  
 > “Technically flawless. Spiritually... on fire, but not in the good way.”
