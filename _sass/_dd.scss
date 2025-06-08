@@ -629,3 +629,28 @@ code {
   margin-top: 2em;
   font-style: italic;
 }
+
+/* RFC Metadata Block */
+.rfc-meta {
+  background: #181c22;
+  border-left: 4px solid #e67e22;
+  padding: 1em 1.5em;
+  margin-bottom: 2em;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 1.05em;
+  color: #f7e7c4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 6px;
+}
+
+/* RFC Risk/Mitigation Callout */
+.rfc-risk {
+  background: #23272e;
+  border-left: 4px solid #e67e22;
+  padding: 1em 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  color: #ffe6b3;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
