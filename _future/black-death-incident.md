@@ -100,4 +100,7 @@ image_alt: "Cartoon of Uriel and a medieval sysadmin debugging a rat-borne malwa
 ---
 
 ### Final Status
-<h2><em><strong class="green">Resolved</strong> <strong class="red">(with catastrophic losses)</strong></em></h2>
+<h2><em><strong class="green">Resolved</strong> <strong class="red">(with catastrophic losses)</strong></em></h2>  
+
+
+<p class="post-credit">Compiled in collaboration with an automated celestial compliance assistant</p>

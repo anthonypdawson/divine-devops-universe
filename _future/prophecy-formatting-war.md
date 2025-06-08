@@ -119,3 +119,5 @@ image_alt: "Celestial Slack thread debating prophecy formatting standards"
     <div class="slack-text"><em>It never is.</em></div>
   </div>
 </div>
+
+<p class="post-credit">Compiled in collaboration with an automated celestial compliance assistant</p>
