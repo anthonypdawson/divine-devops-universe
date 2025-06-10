@@ -86,6 +86,23 @@
 - Use `###` or `####` for major section headings (e.g., “System Logs”, “Postmortem: Uriel-404 Commentary”, “Incident Report — ...”).
 - Use `---` (horizontal rule) to visually separate major sections.
 - **Do not use a colon (`:`) at the end of a section header unless the header and its content are on the same line (e.g., `Status:`). For headers that are alone on a line, omit the colon.**
+  - **Section headers:** Do not use a colon at the end of any header (any level, e.g., `##`, `###`, `####`) unless content follows on the same line. This applies to all section and subsection headers.
+    - **Incorrect:**
+      ```markdown
+      ### Tools Detected:
+      ### Disputed Outcome:
+      ```
+    - **Correct:**
+      ```markdown
+      ### Tools Detected
+      ### Disputed Outcome
+      ## DMCA Takedown Notice
+      ## Summary
+      ```
+    - **Allowed (content on same line):**
+      ```markdown
+      ### Summary: An overview of the incident
+      ```
 
 ### Blockquotes for Commentary
 - Use `>` blockquote formatting for in-character commentary, especially from Uriel-404 or other “reviewers.”
