@@ -297,10 +297,21 @@ div.content {
     margin-bottom: 1em;
 }
 
+.post-content h1, .content h1,
+.post-content h2, .content h2,
+.post-content h3, .content h3,
+.post-content h4, .content h4 {
+  color: var(--header-color);
+}
+
 .content strong,
 .markdown-body strong {
-    color: var(--bold-text-color);
-    /* Replace with your desired color */
+    color: var(--highlight-text-color);
+}
+
+.bold-identifier {
+    color: var(--bold-identifier-color);
+    font-weight: bold;
 }
 
 div.posts {
@@ -589,37 +600,47 @@ code {
 
 .post-content h1, .content h1 {
   font-size: 2.2em;
-  color: var(--bold-text-color, #40c9ff);
+  color: #40c9ff;
   font-weight: 900;
   margin-top: 1.5em;
   margin-bottom: 0.6em;
-  text-shadow: 0 0 8px #40c9ff55, 0 0 4px #23ff04aa;
+  text-shadow: 0 0 8px #40c9ff55, 0 0 4px #40c9ffaa;
   border-bottom: 2px solid #40c9ff33;
-  box-shadow: 0 2px 0 0 #23ff0455;
+  box-shadow: 0 2px 0 0 #40c9ff55;
   padding-bottom: 0.2em;
 }
 
 .post-content h2, .content h2 {
   font-size: 1.5em;
-  color: #23ff04;
+  color: #40c9ff;
   font-weight: 700;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
   border-left: 4px solid #40c9ff33;
-  border-bottom: 1.5px solid #23ff0433;
+  border-bottom: 1.5px solid #40c9ff33;
   padding-left: 0.5em;
-  text-shadow: 0 0 4px #23ff0455;
+  text-shadow: 0 0 4px #40c9ff55;
 }
 
 .post-content h3, .content h3 {
   font-size: 1.15em;
-  color: #ebd300;
+  color: #40c9ff;
   font-weight: 600;
   margin-top: 1em;
   margin-bottom: 0.4em;
   letter-spacing: 0.5px;
-  border-left: 3px solid #23ff04;
+  border-left: 3px solid #40c9ff;
   padding-left: 0.4em;
+}
+
+.post-content h4, .content h4 {
+  font-size: 1em;
+  color: #ebd300;
+  font-weight: 500;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  border-left: 2px solid #ebd300;
+  padding-left: 0.3em;
 }
 
 .post-credit {
