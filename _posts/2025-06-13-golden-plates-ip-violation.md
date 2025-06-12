@@ -1,14 +1,15 @@
 ---
 layout: terminal_post
-title: "Unauthorized Fork: Golden Plates Edition"
-date: 2025-04-16
+title: 'Unauthorized Fork: Golden Plates Edition'
+date: 2025-06-13 08:00:00
 tags: [devops, parody, mormonism, fork, takedown, legal, uriel, michael, gabriel, legal-bot]
 intro: Unauthorized prophecy extraction triggers a celestial DMCA takedown and legal audit of the golden plates fork.
-summary: "An uncredentialed prophet accessed restricted prophecy vaults using deprecated tools and deployed DoctrineOS: Latter-Day Fork without divine approval or attribution. This resulted in a swift legal response from the angelic compliance team."
+summary: 'An uncredentialed prophet accessed restricted prophecy vaults using deprecated tools and deployed DoctrineOS: Latter-Day Fork without divine approval or attribution. This resulted in a swift legal response from the angelic compliance team.'
 image: /assets/images/posts/golden-plates-ip-violation.webp
 ---
 
-## Incident Report #LP-1820  
+## Incident Report #LP-1820
+
 <span class="bold-identifier">Filed by:</span> `angelic-legal@divine.dev`  
 <span class="bold-identifier">Date:</span> April 6, 1830  
 <span class="bold-identifier">Defendant:</span> `smith.joseph@goldenplates.net`  
@@ -93,7 +94,8 @@ You are hereby instructed to cease distribution of Latter-Day assets derived fro
 ---
 
 ## Lessons Learned
-- All prophecy extraction tools must require multi-factor celestial authentication.
-- Deprecated CLI utilities (e.g., seer-stone) are to be fully decommissioned.
-- Divine audit logs must be enforced for all access to messianic vaults.
-- Unauthorized forks will trigger immediate legal review and takedown procedures.
+
+-   All prophecy extraction tools must require multi-factor celestial authentication.
+-   Deprecated CLI utilities (e.g., seer-stone) are to be fully decommissioned.
+-   Divine audit logs must be enforced for all access to messianic vaults.
+-   Unauthorized forks will trigger immediate legal review and takedown procedures.
