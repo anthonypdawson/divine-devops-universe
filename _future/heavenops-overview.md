@@ -9,10 +9,15 @@ image: /assets/images/posts/heavenops-overview.webp
 image_alt: "Celestial DevOps dashboard with angels deploying miracles via CI/CD"
 ---
 
-# **Divine DevOps: Automating Miracles with Celestial CI/CD**
+# **Divine DevOps**
+<h2 style='text-align: center'>Automating Miracles with Celestial CI/CD</h2>
+
+---
 
 ## **Overview**
 Once upon a time, miracles were deployed manually by prophets with questionable debugging skills. Then **HeavenOps** emerged, bringing the celestial bureaucracy into the golden age of DevOps. Now, every divine intervention runs through automated pipelines, ensuring holy compliance, optimized faith latency, and—most importantly—no surprise plagues (again).
+
+---
 
 ## **Project Breakdown**
 ### **1. Repository Structure**
@@ -23,6 +28,9 @@ Once upon a time, miracles were deployed manually by prophets with questionable 
   - `hotfix` (rapid-response miracles like turning water into wine at overbooked weddings)
 - **Git Hooks:** **`pre-deploy.bless`** ensures all commits are spiritually pure and don’t summon eldritch horrors.
 
+
+---
+
 ### **2. Celestial CI/CD Pipeline**
 Every miracle undergoes strict automation—no more rogue divine interventions.
 
@@ -30,6 +38,9 @@ Every miracle undergoes strict automation—no more rogue divine interventions.
 2. **Unit Testing (via Archangel QA)** – Confirms miracles won’t introduce cosmic bugs (e.g., accidentally spawning another universe).
 3. **Holy Verification (`miracle-validation.yml`)** – Ensures compliance with the **Metatron Documentation Standards** (also known as The *Thousand-Scroll Nightmare*).
 4. **Continuous Deployment (`cloud-of-glory-deploy.yml`)** – Miracles are seamlessly deployed via **Ethereal Kubernetes**, because even Heaven runs on containers.
+
+
+---
 
 ### **3. Best Practices**
 #### 📜 **Prophecy Version Control**
