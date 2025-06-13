@@ -1,0 +1,64 @@
+/* Post-specific styles for Divine DevOps Universe */
+
+.post-content h1, .content h1,
+.post-content h2, .content h2,
+.post-content h3, .content h3,
+.post-content h4, .content h4 {
+  color: var(--header-color);
+}
+
+.content strong,
+.markdown-body strong {
+    color: var(--highlight-text-color);
+}
+
+.bold-identifier {
+    color: var(--bold-identifier-color);
+    font-weight: bold;
+}
+
+div.content ul.remediation-list,
+.content ul.remediation-list,
+.remediation-list {
+  font-size: 0.75em !important;
+  color: var(--highlight-text-color, #ebd300);
+  margin-left: 1.2em;
+  margin-bottom: 1.2em;
+  list-style: disc inside;
+}
+
+.post-credit {
+  text-align: right;
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 2em;
+  font-style: italic;
+}
+
+.lessons-learned {
+  background: var(--highlight-bg-color, #000);
+  border-left: 3px solid #40c9ff;
+  border-radius: 4px;
+  margin: 1.2em 0;
+  padding: 0.7em 1em 0.7em 0.9em;
+  box-shadow: 0 0 4px #40c9ff22;
+  color: var(--highlight-text-color, #ebd300);
+  font-size: 0.97em;
+  font-family: 'Fira Code', 'Fira Code VF', monospace;
+}
+.lessons-learned ul {
+  margin: 0;
+  padding-left: 1em;
+  list-style: disc inside;
+}
+.lessons-learned li {
+  margin-bottom: 0.2em;
+  line-height: 1.4;
+}
+.lessons-learned code {
+  color: var(--highlight-string-color, #d14);
+  background: transparent;
+  border-radius: 2px;
+  padding: 0.05em 0.22em;
+  font-size: 0.96em;
+}

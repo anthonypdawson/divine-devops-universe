@@ -40,3 +40,11 @@ pre > code.language-log span {
 .colorful-log .log-critical  { color: #ff4500; font-weight: bold; }
 .colorful-log .log-action    { color: #00bfff; font-weight: bold; }
 .colorful-log .log-output    { color: #bdb76b; }
+
+pre, code, pre code, .highlight, .highlighter-rouge, pre.colorful-log {
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Source Code Pro', 'Fira Code', 'Consolas', 'Menlo', 'Monaco', monospace !important;
+  border: 2px solid #40c9ff44;
+  border-radius: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
