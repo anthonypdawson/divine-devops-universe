@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Antitrust Enforcement – The Crucifixion"
-date: 2025-06-12
+date: 2025-06-14 08:00:00
 tags: [uriel, jesus, rome, parody, devops, religion, incident-report, compliance]
 intro: Roman compliance agents investigate and deplatform Yeshua of Nazareth for anticompetitive miracles and unlicensed theological disruption during Passover Cycle 33 CE.
 summary: "ROMSEC (Roman Spiritual Enforcement Commission) audits Yeshua of Nazareth for unauthorized miracles, unregistered messianic claims, and disruption of the Judean belief ecosystem."
