@@ -4,7 +4,7 @@
 .post-content h2, .content h2,
 .post-content h3, .content h3,
 .post-content h4, .content h4 {
-  color: var(--header-color);
+  color: var(--header-color) !important;
 }
 
 .post-content li,
@@ -13,16 +13,26 @@
   margin-bottom: 0.4em;
 }
 
+.content strong {
+  font-weight: bold;
+  background-color: #000;
+}
 .content strong,
 .markdown-body strong {
     color: var(--highlight-text-color);
+}
+.content em {
+  background-color: #000;
+  font-weight: 500;
 }
 
 .bold-identifier {
     color: var(--bold-identifier-color);
     font-weight: bold;
 }
-
+.content a {
+  text-decoration: underline !important;
+}
 div.content ul.remediation-list,
 .content ul.remediation-list,
 .remediation-list {
