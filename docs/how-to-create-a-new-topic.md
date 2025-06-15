@@ -57,7 +57,7 @@ category: topic
 - Example idea 2.
 - Example idea 3.
 
-## Suggested Layout
+## Recommended Post Structure
 
 ### **Summary**
 Provide a brief overview of the incident or post.
