@@ -6,7 +6,7 @@
 - **incident-777:** The Great Flood (Rollback Attempt)
 - **incident-888:** Babel Tower Outage
 
-## Structure
+## Recommended Post Structure
 - **Title:** Always `incident-###` for serial consistency.
 - **Incident summary:** One-line summary of the event.
 - **Logs:** Fenced code block with system or event logs.

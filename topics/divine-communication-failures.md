@@ -6,7 +6,7 @@
 
 ---
 
-## **Divine Communication Failure Incident Layout Template**
+## Recommended Post Structure
 
 ### **Summary**
 A brief overview of the divine communication failure incident.

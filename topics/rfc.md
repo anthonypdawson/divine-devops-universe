@@ -1,4 +1,4 @@
-# RFC (Request for Celestial Comments) Post Template
+# RFC (Request for Celestial Comments) Suggested Post Template
 
 This template defines the structure and conventions for RFC-style posts in the Divine DevOps Universe. Use this as a starting point for any new RFC.
 

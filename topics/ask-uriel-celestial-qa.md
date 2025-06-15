@@ -7,7 +7,7 @@
 - **ask-uriel-002:** How do I escalate a miracle request?
 - **ask-uriel-003:** Is there a Service Level Agreement for divine intervention?
 
-## Structure
+## Recommended Post Structure
 - **Title:** Always `ask-uriel-###` for serial consistency.
 - **Question:** The user’s question, written in-universe.
 - **Uriel’s response:** Short, deadpan, and often unhelpful answer.

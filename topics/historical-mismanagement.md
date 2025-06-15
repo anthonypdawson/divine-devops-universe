@@ -8,7 +8,7 @@
 
 ---
 
-## **Historical Mismanagement Incident Layout Template**
+## Recommended Post Structure
 
 ### **Summary**
 A brief overview of the historical mismanagement incident.

@@ -8,7 +8,7 @@
 
 ---
 
-## **Incident Layout Template**
+## Recommended Post Structure
 
 ### **Summary**
 A brief overview of the incident.

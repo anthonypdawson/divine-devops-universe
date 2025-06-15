@@ -6,7 +6,7 @@
 - **retro-2025-06-05:** Weekly Standup
 - **retro-2025-06-12:** Incident Review
 
-## Structure
+## Recommended Post Structure
 - **Title:** Always `retro-YYYY-MM-DD` for serial consistency.
 - **Date:** Date of the standup or retro.
 - **Team member updates:** Each angel’s update (block or bullet list).

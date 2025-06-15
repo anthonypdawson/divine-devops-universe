@@ -6,7 +6,7 @@
 - **change-review-042:** Deploying the New Commandments API
 - **change-review-043:** Refactoring the Plague Delivery System
 
-## Structure
+## Recommended Post Structure
 - **Title:** Always `change-review-###` for serial consistency.
 - **Change summary:** Brief description of the change.
 - **Code diff/log:** Fenced code block with relevant changes.
