@@ -10,27 +10,6 @@ body {
     padding: 2em;
 }
 
-/* Typography */
-h1 {
-    text-align: center;
-}
-
-p {
-    text-align: left;
-}
-
-.left {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
-.center {
-    text-align: center;
-}
-
 /* Links */
 a {
     color: var(--link-color);
@@ -162,92 +141,6 @@ hr {
     text-overflow: ellipsis !important;
 }
 
-
-/* Tables */
-table {
-    margin-bottom: 30px;
-    width: 100%;
-    text-align: left;
-    color: #e3f3e3;
-    border-collapse: collapse;
-    border: 1px solid var(--table-border-color);
-}
-
-table tr:nth-child(even) {
-    background-color: var(--table-row-bg-color);
-}
-
-table th {
-    background-color: var(--table-header-bg-color);
-    border: 1px solid var(--table-header-border-color);
-    border-bottom-color: var(--table-header-border-bottom-color);
-    font-size: larger;
-    padding: 10px 15px;
-}
-
-table td {
-    border: 1px solid var(--table-border-color);
-    padding: 10px 15px;
-}
-
-/* Images */
-img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 0 15px var(--box-shadow-color);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.large-post-image {
-    border: none !important;
-    box-shadow: none !important;
-    max-height: 600px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 1em auto
-}
-
-img.small-post-image {
-    border: none !important;
-    box-shadow: none !important;
-
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-}
-
-.banner img {
-    text-align: center;
-    margin-bottom: 1em;
-    max-width: 900px;
-    height: auto;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15);
-    display: block;
-    margin: 1.5em auto;
-}
-
-div.credits {
-    text-align: right;
-    font-size: smaller;
-    color: rgb(21, 92, 0);
-}
-
-div.content img {
-    max-width: 90%;
-}
-
-#content {
-    scroll-margin-top: 60px;
-    /* or whatever offset you want */
-}
-
 /* Div Containers */
 div.archive {
     column-count: 6;
@@ -293,8 +186,9 @@ div.content {
 /* Use this with front matter intro: to put the introduction text between the title and the image */
 .post-intro {
     text-align: center;
-    color: var(--text-color);
+    color: var(--intro-color);
     margin-bottom: 1em;
+    font-style: italic;
 }
 
 .post-content h1, .content h1,

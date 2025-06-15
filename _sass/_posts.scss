@@ -1,10 +1,25 @@
 /* Post-specific styles for Divine DevOps Universe */
 
+.post-intro {
+    text-align: center;
+    color: var(--intro-color);
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.post-summary {
+    max-width: 40em;
+    margin-top: 0.7em;
+    display: block;
+    word-break: break-word;
+    color: #666;
+}
+
 .post-content h1, .content h1,
 .post-content h2, .content h2,
 .post-content h3, .content h3,
 .post-content h4, .content h4 {
-  color: var(--header-color) !important;
+  color: var(--cyan-color) !important;
 }
 
 .post-content li,
@@ -15,7 +30,6 @@
 
 .content strong {
   font-weight: bold;
-  background-color: #000;
 }
 .content strong,
 .markdown-body strong {
