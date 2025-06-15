@@ -18,3 +18,6 @@
 ## Special Conventions
 - Use dramatic language and technical jargon.
 - Lessons learned should be both serious and tongue-in-cheek.
+
+## Divine Oversight
+Explore how HeavenOps monitored or failed to monitor the incident.

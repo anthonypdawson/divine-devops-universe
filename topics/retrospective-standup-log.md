@@ -17,3 +17,6 @@
 ## Special Conventions
 - Use a mix of technical and in-universe language.
 - Uriel’s summary should be dry and/or critical.
+
+## Team Dynamics
+Explore collaboration and challenges faced by the team during the period.

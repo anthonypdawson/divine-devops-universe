@@ -17,3 +17,6 @@
 ## Special Conventions
 - Use reviewer emails with on-theme domains (e.g., gabriel@archangels.eternal).
 - Reviewer comments should be witty, formal, or bureaucratic.
+
+## Post-Deployment Review
+Analyze the impact of the changes after deployment.

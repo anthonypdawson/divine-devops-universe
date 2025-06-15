@@ -17,3 +17,6 @@ Each post is a single war story—some catastrophic, some hilariously minor—to
 - **Root cause:** Usually absurd, theological, or painfully bureaucratic.
 - **Uriel’s comment:** Short, bitter summary or footnote.
 - **Status:** `Resolved` / `Ignored` / `Filed Under 'Let God Sort It Out'`
+
+## Lessons from Uptime
+Highlight key takeaways or lessons learned from the uptime incidents.
