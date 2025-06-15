@@ -38,29 +38,13 @@ image: /assets/images/posts/miracle-feeding-5000.webp
 
 **Slack Thread**
 
-<div class="slack-log">
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user gabriel">Gabriel</span>
-      <span class="slack-time">3:32pm</span>
-    </div>
-    <div class="slack-text">Did anyone check the quota limits?</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user michael">Michael</span>
-      <span class="slack-time">3:33pm</span>
-    </div>
-    <div class="slack-text">Confirmed. No throttling. This is above my pay grade.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user jesus">Jesus</span>
-      <span class="slack-time">3:34pm</span>
-    </div>
-    <div class="slack-text">Just making sure everyone’s fed. 😇</div>
-  </div>
-</div>
+{% include slack-thread-start.html %}
+
+{% include slack-thread-message.html user="Gabriel" time="3:32pm" text="Did anyone check the quota limits?" %}
+{% include slack-thread-message.html user="Michael" time="3:33pm" text="Confirmed. No throttling. This is above my pay grade." %}
+{% include slack-thread-message.html user="Jesus" time="3:34pm" text="Just making sure everyone’s fed. 😇" %}
+
+{% include slack-thread-end.html %}
 
 ---
 
