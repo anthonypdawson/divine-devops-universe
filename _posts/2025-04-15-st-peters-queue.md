@@ -5,6 +5,7 @@ date: 2025-04-14
 tags: [heaven, peter, queues, slack, st-peter, uriel]
 summary: "A snapshot of the queue management system at Heaven's gates, as seen by St. Peter."
 image: /assets/images/icons/discussion.webp
+category: afterlife-queue-management-failures
 ---
 
 What happens when Heaven is full?

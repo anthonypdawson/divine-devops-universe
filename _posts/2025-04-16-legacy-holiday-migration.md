@@ -5,6 +5,7 @@ date: 2025-04-16
 tags: [calendar, holidays, migration, peter, uriel]
 summary: "A migration report detailing the transformation of legacy holidays into their modern equivalents in the divine calendar."
 image: /assets/images/icons/system_logs.webp
+category: divine-migrations
 ---
 
 ```log

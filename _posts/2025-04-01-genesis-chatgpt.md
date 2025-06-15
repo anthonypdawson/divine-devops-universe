@@ -5,6 +5,7 @@ tags: [parody, devops, religion, creation, logs, genesis]
 date: 2025-04-01 12:00:00
 summary: "A look at the unexpected events and conversations that unfolded at the beginning of Genesis."
 image: /assets/images/icons/default.webp
+category: divine-debugging-chronicles
 ---
 
 <p class='center'>What really happened at the beginning of Genesis...?</p>

@@ -5,6 +5,7 @@ date: 2025-04-14
 tags: [api, commandments, integration, logs, moses]
 summary: "API documentation for the Ten Commandments, outlining endpoints and their intended behaviors."
 image: /assets/images/icons/system_logs.webp
+category: divine-rfc-request-for-comment
 ---
 
 ```http

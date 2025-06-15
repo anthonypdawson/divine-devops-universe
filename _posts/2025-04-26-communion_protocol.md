@@ -5,6 +5,7 @@ date: 2025-04-26 10:00:00
 tags: [ritual, communion, typescript]
 summary: "A technical overview of the Communion Protocol, ensuring proper synchronization with the Holy Spirit."
 image: /assets/images/icons/default.webp
+category: theological-architectures
 ---
 
 

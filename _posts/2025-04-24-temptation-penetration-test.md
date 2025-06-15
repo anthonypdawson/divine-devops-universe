@@ -5,6 +5,7 @@ date: 2025-04-24 10:00:00
 tags: [temptation, security, incident report, jesus, satan, uriel, penetration-test, postmortem]
 summary: "A penetration test in the wilderness evaluates the system's resistance to social engineering and privilege escalation attempts."
 image: /assets/images/icons/incident_reports.webp
+category: divine-incident-report
 ---
 
 **> INCIDENT: TEMPTATION PENETRATION TEST - INITIATION CYCLE 0033**

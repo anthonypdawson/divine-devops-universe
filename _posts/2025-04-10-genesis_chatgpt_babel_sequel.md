@@ -5,6 +5,7 @@ date: 2025-04-10
 tags: [babel, languages, logs, genesis, chatgpt]
 summary: "A sequel to the Genesis x ChatGPT project, documenting the confusion and divergence during the Babel deployment."
 image: /assets/images/icons/system_logs.webp
+category: prophetic-misinterpretations
 ---
 
 > 💡 [*It was a good idea, in theory...*]("https://en.wikipedia.org/wiki/Tower_of_Babel")

@@ -5,6 +5,7 @@ tags: [parody, devops, genesis, patch-log, incident]
 date: 2025-04-02 18:00:00
 summary: "Critical incident report: The Serpent exploits a vulnerability in Eden, triggering the first security patch and banishment protocol."
 image: /assets/images/icons/system_logs.webp
+category: divine-debugging-chronicles
 ---
 
 *See also: [Genesis x ChatGPT]({{ site.baseurl }}{% post_url 2025-04-01-genesis-chatgpt %})*
