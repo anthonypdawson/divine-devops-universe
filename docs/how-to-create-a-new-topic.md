@@ -24,7 +24,7 @@ The `/topics` directory contains Markdown files that define and organize the var
 3. **Content Structure**
    - Start with a clear and engaging title for the topic.
    - Add a section for **Incident Ideas** or **Post Ideas** to provide examples of potential posts.
-   - Use the `## Recommended Post Structure` header to define the structure of posts under this topic. This section should include:
+   - Use the `## Recommended Post Structure` header to define the structure of posts under this topic. This section may include:
      - Summary
      - Incident Log
      - Root Cause Analysis
