@@ -24,7 +24,7 @@ The `/topics` directory contains Markdown files that define and organize the var
 3. **Content Structure**
    - Start with a clear and engaging title for the topic.
    - Add a section for **Incident Ideas** or **Post Ideas** to provide examples of potential posts.
-   - Use the `## Suggested Layout` header to define the structure of posts under this topic. This section should include:
+   - Use the `## Recommended Post Structure` header to define the structure of posts under this topic. This section should include:
      - Summary
      - Incident Log
      - Root Cause Analysis
@@ -36,6 +36,13 @@ The `/topics` directory contains Markdown files that define and organize the var
 
 5. **Example Post Structure**
    - Provide a detailed example of how a post under this topic should be formatted. Use in-universe language and humor to maintain the tone of the Divine DevOps Universe.
+
+## Categorization Guidance
+
+- Ensure posts are categorized under an existing topic where possible.
+- If no suitable topic exists, create a new one using the steps outlined in this document.
+- Collaborate with the team to maintain consistency in topic naming and structure.
+- Refer to [AI-Assisted Post Categorization](./ai-categorization.md) for examples and progress.
 
 ## Example Topic File Template
 ```markdown
