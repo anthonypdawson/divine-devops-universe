@@ -1,7 +1,14 @@
 <div class="slack-msg">
   <div class="slack-header">
     <span class="slack-user {{ include.user | downcase }}">
-    <img class="slack-avatar" src="{{ include.avatar_url | default: '/assets/images/slack/slack-avatar.webp' |relative_url }}" alt="{{ include.user }}'s avatar">
+    {% if include.avatar_url %}
+      {% assign avatar_url = site.baseurl | append: include.avatar_url %}
+    {% else %}
+      {% assign sanitized_user = include.user | split: '-' | first | split: '_' | first | split: '.' | first %}
+      {% assign avatar_url = site.baseurl | append: "/assets/images/slack/" | append: sanitized_user | append: ".webp" %}
+    {% endif %}
+    <!-- Use the constructed avatar URL directly, and rely on the browser to handle missing files -->
+    <img class="slack-avatar" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
   </span>
     <span class="slack-user {{ include.user | downcase }}">
       {{ include.user }}</span>
