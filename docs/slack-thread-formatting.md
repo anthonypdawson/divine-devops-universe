@@ -87,4 +87,42 @@ This method gives you full control over the HTML but requires more effort to mai
     }
     ```
 
+---
+
+## User-Specific Colors
+
+To assign distinct colors to specific users in Slack threads, use the `.slack-user.[username]` pattern. This allows for unique styling for key characters. For example:
+
+```scss
+.slack-user.jonah {
+    color: yellowgreen; // Jonah's distinct color
+}
+```
+
+### Example Usage
+
+```html
+<span class="slack-user jonah">Jonah</span>
+```
+
+This will render Jonah's username with the specified color defined in the CSS.
+
+> **Note**: Ensure that the username matches the class name exactly (e.g., `jonah` for `.slack-user.jonah`).
+
+---
+
+## Header Title for Slack Threads
+
+When adding a Slack thread to a post, use the header title `Slack Thread` at an appropriate level (e.g., `###`, `##`, or `####`) depending on the post's structure. Avoid including the channel name in the header, as it should be specified in the `slack-thread-start.html` include.
+
+### Example
+
+```markdown
+### Slack Thread
+
+{% include slack-thread-start.html channel="#example-channel" %}
+{% include slack-thread-message.html user="user" time="time" text="message" %}
+{% include slack-thread-end.html %}
+```
+
 By following these guidelines, Slack threads can effectively enhance the narrative and humor of your posts.
