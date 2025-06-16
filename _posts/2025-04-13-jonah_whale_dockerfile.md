@@ -52,24 +52,17 @@ CMD ["/usr/src/app/jonah.sh"]
 **Note:** Container was removed after 3 days. Graceful exit.
 
 ### Slack thread
-```
-#prophecy-deployments
 
-@GOD: Jonah, deploy to nineveh-prod now.
+{% include slack-thread-start.html channel="#prophecy-deployments" %}
 
-@Jonah: uhhhhh... can't. They're not gonna listen. Low uptime. No observability.
+{% include slack-thread-message.html user="GOD" time="09:00" text="Jonah, deploy to nineveh-prod now." %}
+{% include slack-thread-message.html user="Jonah" time="09:05" text="uhhhhh... can't. They're not gonna listen. Low uptime. No observability." %}
+{% include slack-thread-message.html user="GOD" time="09:10" text="Not a suggestion." %}
+{% include slack-thread-message.html user="Jonah" time="09:15" text="rerouting to tarshish-dev..." %}
+{% include slack-thread-message.html user="SYSTEM" time="09:20" text="jonah.service overboard @ port 404" %}
+{% include slack-thread-message.html user="WhaleContainer" time="09:25" text="Acquired. Running introspection scripts." %}
+{% include slack-thread-message.html user="Jonah" time="12:00" text="stuck in this container 3 days now... reevaluating life choices." %}
+{% include slack-thread-message.html user="SYSTEM" time="12:05" text="restart jonah.service --target nineveh-prod" %}
+{% include slack-thread-message.html user="Jonah" time="12:10" text="Okay okay, I'm deploying. Geez." %}
 
-@GOD: Not a suggestion.
-
-@Jonah: rerouting to tarshish-dev...
-
-@SYSTEM: jonah.service overboard @ port 404
-
-@WhaleContainer: Acquired. Running introspection scripts.
-
-@Jonah: stuck in this container 3 days now... reevaluating life choices.
-
-@SYSTEM: restart jonah.service --target nineveh-prod
-
-@Jonah: Okay okay, I'm deploying. Geez.
-```
+{% include slack-thread-end.html %}

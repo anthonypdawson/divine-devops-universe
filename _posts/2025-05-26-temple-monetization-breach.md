@@ -58,28 +58,19 @@ Courtyard should be reserved for prayer, reflection, and prophecy queueing.
 
 ---
 
-## Slack Thread `#temple-devops`
+## Slack Thread
 
-**jesus [15:42]**  
-I just ran an audit. The whole place is corrupted.
+{% include slack-thread-start.html %}
 
-**peter [15:43]**  
-We thought the vending integration was temporary...
+{% include slack-thread-message.html user="jesus" time="15:42" text="I just ran an audit. The whole place is corrupted." %}
+{% include slack-thread-message.html user="peter" time="15:43" text="We thought the vending integration was temporary..." %}
+{% include slack-thread-message.html user="jesus" time="15:43" text="They’re selling forgiveness tokens." %}
+{% include slack-thread-message.html user="judas" time="15:44" text="To be fair, the ROI was impressive." %}
+{% include slack-thread-message.html user="jesus" time="15:45" text="*flips table*" %}
+{% include slack-thread-message.html user="matthew" time="15:45" text="He actually did it." %}
+{% include slack-thread-message.html user="jesus" time="15:46" text="Remove all vendors. Archive their schemas. This is a house of prayer, not a marketplace." %}
 
-**jesus [15:43]**  
-They’re selling forgiveness tokens.
-
-**judas [15:44]**  
-To be fair, the ROI was impressive.
-
-**jesus [15:45]**  
-*flips table*
-
-**matthew [15:45]**  
-He actually did it.
-
-**jesus [15:46]**  
-Remove all vendors. Archive their schemas. This is a house of prayer, not a marketplace.
+{% include slack-thread-end.html %}
 
 ---
 

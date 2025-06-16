@@ -33,25 +33,17 @@ image: /assets/images/posts/miracle-healing-blind.webp
 
 ---
 
-##### #heavenops-support
+#### Slack Thread
 
-<div class="slack-log">
-  <div class="slack-msg">
-    <span class="slack-user gabriel">gabriel</span> <span class="slack-time">[09:01]</span>: Anyone else see a patch go out to vision module?
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user uriel">uriel</span> <span class="slack-time">[09:02]</span>: Yeah, method was... unconventional.
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user michael">michael</span> <span class="slack-time">[09:03]</span>: QA says user can see. Ship it.
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user raphael">raphael</span> <span class="slack-time">[09:04]</span>: Next time, submit a ticket first.
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user jesus">jesus</span> <span class="slack-time">[09:05]</span>: Sometimes you gotta get your hands dirty.
-  </div>
-</div>
+{% include slack-thread-start.html channel="#heavenops-support" %}
+
+{% include slack-thread-message.html user="gabriel" time="[09:01]" text="Anyone else see a patch go out to vision module?" %}
+{% include slack-thread-message.html user="uriel" time="[09:02]" text="Yeah, method was... unconventional." %}
+{% include slack-thread-message.html user="michael" time="[09:03]" text="QA says user can see. Ship it." %}
+{% include slack-thread-message.html user="raphael" time="[09:04]" text="Next time, submit a ticket first." %}
+{% include slack-thread-message.html user="jesus" time="[09:05]" text="Sometimes you gotta get your hands dirty." %}
+
+{% include slack-thread-end.html %}
 
 ---
 

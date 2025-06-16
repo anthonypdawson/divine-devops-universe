@@ -12,9 +12,9 @@ image: /assets/images/posts/merge-666.webp
 > **Pull Request #666: Propose replacement of HeavenOS kernel with LuciferOS fork**  
 > Status: **Closed**  
 > 
-> Opened by `lucifer@heaven.eternal`
+> Opened by `lucifer@heaven.internal`
 > 
-> Reviewed by: `root@divine.dev`, `michael@archangels.eternal`, `gabriel@notifications.eternal`
+> Reviewed by: `root@divine.dev`, `michael@archangels.net`, `gabriel@notifications.internal`
 
 ---
 
@@ -46,17 +46,16 @@ tar -xzf freewill-v2.0-beta.tar.gz && ./install.sh
 
 ### Review Comments
 
-**michael@archangels.eternal**  
+**michael@archangels.internal**  
 > You can’t `chmod 777` the throne.
 
-**gabriel@notifications.eternal**  
+**gabriel@notifications.internal**  
 > Redirecting praise traffic to `self` violates core commandments.
 > 
 > This PR is a textbook example of hubris-driven development.
 
 **root@divine.dev**  
-> PR reviewed. Hubris level exceeds max threshold.
-> See also: [The Babel Deployment Incident]({{ site.baseurl }}{% post_url 2025-04-10-genesis_chatgpt_babel_sequel %}).
+> PR reviewed. Hubris level exceeds max threshold.  
 > Initiating rollback…
 
 ```
@@ -72,52 +71,9 @@ Status: FORBIDDEN (EternalStatusCode 403)
 
 ---
 
-### **Excerpt from Slack #celestial-status**
-<div class="slack-log">
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user lucifer">lucifer</span>
-      <span class="slack-time">[11:59]</span>
-    </div>
-    <div class="slack-text">Deploying LuciferOS. ETA: never.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user michael">michael</span>
-      <span class="slack-time">[12:00]</span>
-    </div>
-    <div class="slack-text">This is not going to end well.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user gabriel">gabriel</span>
-      <span class="slack-time">[12:01]</span>
-    </div>
-    <div class="slack-text">Rolling back in 3... 2... 1...</div>
-  </div>
-</div>
-
----
-
-### Lessons Learned
-
-<div class="lessons-learned">
-<ul>
-  <li>Never grant <code>godmode</code> on a Friday.</li>
-  <li>All praise traffic must be RFC-compliant.</li>
-  <li>PRs with hubris &gt; 9000 will be auto-rejected.</li>
-</ul>
-</div>
-  
----
-
-### **Impact**
- - All rebel angels demoted to `/heaven/tmp/fallen/`.  
- - Praise traffic briefly rerouted to `self` before firewall rules restored.  
- - LuciferOS permanently archived in `/abyss/archive`.
-
----
-
 ### Final Status 
-<h2><em><strong class="red">Rejected</strong></em></h2>
+<h2 class="red"><em><ul><strong>Rejected</strong></ul></em></h2>
 
+
+Merged into `/eternal/logs/fall.log`  
+LuciferOS archived to `/abyss/archive`

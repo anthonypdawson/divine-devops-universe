@@ -59,26 +59,16 @@ git push origin doctrineos-latter-day-fork
 
 ---
 
-## Slack Thread `#prophecy-legal`
+## Slack Thread
 
-<div class="slack-thread">
-  <div class="slack-msg slack-user-uriel">
-    <span class="slack-username">uriel-404</span> <span class="slack-timestamp">[14:03]</span>
-    <div class="slack-text">Who gave him prophecy read access?</div>
-  </div>
-  <div class="slack-msg slack-user-michael">
-    <span class="slack-username">michael</span> <span class="slack-timestamp">[14:04]</span>
-    <div class="slack-text">He claims it was an angel.</div>
-  </div>
-  <div class="slack-msg slack-user-gabriel">
-    <span class="slack-username">gabriel</span> <span class="slack-timestamp">[14:05]</span>
-    <div class="slack-text">Doesn’t pass signature verification.</div>
-  </div>
-  <div class="slack-msg slack-user-legal-bot">
-    <span class="slack-username">legal-bot</span> <span class="slack-timestamp">[14:06]</span>
-    <div class="slack-text">Issuing takedown.</div>
-  </div>
-</div>
+{% include slack-thread-start.html channel="#prophecy-legal" %}
+
+{% include slack-thread-message.html user="uriel-404" time="14:03" text="Who gave him prophecy read access?" %}
+{% include slack-thread-message.html user="michael" time="14:04" text="He claims it was an angel." %}
+{% include slack-thread-message.html user="gabriel" time="14:05" text="Doesn’t pass signature verification." %}
+{% include slack-thread-message.html user="legal-bot" time="14:06" text="Issuing takedown." %}
+
+{% include slack-thread-end.html %}
 
 ---
 
@@ -95,7 +85,11 @@ You are hereby instructed to cease distribution of Latter-Day assets derived fro
 
 ## Lessons Learned
 
--   All prophecy extraction tools must require multi-factor celestial authentication.
--   Deprecated CLI utilities (e.g., seer-stone) are to be fully decommissioned.
--   Divine audit logs must be enforced for all access to messianic vaults.
--   Unauthorized forks will trigger immediate legal review and takedown procedures.
+<div class="lessons-learned">
+  <ul>
+    <li>All prophecy extraction tools must require multi-factor celestial authentication.</li>
+    <li>Deprecated CLI utilities (e.g., seer-stone) are to be fully decommissioned.</li>
+    <li>Divine audit logs must be enforced for all access to messianic vaults.</li>
+    <li>Unauthorized forks will trigger immediate legal review and takedown procedures.</li>
+  </ul>
+</div>

@@ -53,19 +53,14 @@ describe("Core Resurrection Workflow", () => {
 
 ---
 
-### Slack Thread `#resurrection-tests`
+### Slack Thread
 
-**gabriel [Sun 6:12AM]**  
-Test tomb reports empty. System live again.
+{% include slack-thread-start.html channel="#resurrection-tests" %}
 
-**uriel-404 [6:13AM]**  
-So resurrection workflow didn't fail this time?
+{% include slack-thread-message.html user="gabriel" time="Sun 6:12AM" text="Test tomb reports empty. System live again." %}
+{% include slack-thread-message.html user="uriel-404" time="6:13AM" text="So resurrection workflow didn't fail this time?" %}
+{% include slack-thread-message.html user="gabriel" time="6:13AM" text="No errors. Memory intact. Scar artifacts preserved. Log shows `Messiah-Core-Restored`." %}
+{% include slack-thread-message.html user="michael" time="6:14AM" text="Test case passed. Eternal life now reproducible. We pushing to production?" %}
+{% include slack-thread-message.html user="uriel-404" time="6:14AM" text="Already in staging. Give it 40 days." %}
 
-**gabriel [6:13AM]**  
-No errors. Memory intact. Scar artifacts preserved. Log shows `Messiah-Core-Restored`.
-
-**michael [6:14AM]**  
-Test case passed. Eternal life now reproducible. We pushing to production?
-
-**uriel-404 [6:14AM]**  
-Already in staging. Give it 40 days.
+{% include slack-thread-end.html %}

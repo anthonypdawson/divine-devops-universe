@@ -36,36 +36,14 @@ image: /assets/images/posts/miracle-walking-on-water.webp
 
 **Slack Thread**
 
-<div class="slack-log">
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user peter">Peter</span>
-      <span class="slack-time">4:01am</span>
-    </div>
-    <div class="slack-text">Is it just me or is Jesus walking on the water?</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user uriel">uriel-404</span>
-      <span class="slack-time">4:02am</span>
-    </div>
-    <div class="slack-text">Confirmed. Gravity kernel logs show override for user: Jesus.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user thomas">Thomas</span>
-      <span class="slack-time">4:03am</span>
-    </div>
-    <div class="slack-text">Pics or it didn’t happen.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user jesus">Jesus</span>
-      <span class="slack-time">4:04am</span>
-    </div>
-    <div class="slack-text">Step out of the boat and see for yourself. 😇</div>
-  </div>
-</div>
+{% include slack-thread-start.html channel="#sea-of-galilee" %}
+
+{% include slack-thread-message.html user="peter" time="4:01am" text="Is it just me or is Jesus walking on the water?" %}
+{% include slack-thread-message.html user="uriel-404" time="4:02am" text="Confirmed. Gravity kernel logs show override for user: Jesus." %}
+{% include slack-thread-message.html user="thomas" time="4:03am" text="Pics or it didn’t happen." %}
+{% include slack-thread-message.html user="jesus" time="4:04am" text="Step out of the boat and see for yourself. 😇" %}
+
+{% include slack-thread-end.html %}
 
 ---
 

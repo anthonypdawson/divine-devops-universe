@@ -30,33 +30,20 @@ Status: Migration completed with overrides
 
 ---
 
-```slack
-#celestial-calendar-dev
+### Slack Thread
 
-st.peter [09:03]
-Anyone else notice our Easter eggs are literally from a fertility rite?
+{% include slack-thread-start.html channel="#celestial-calendar-dev" %}
 
-uriel-404 [09:04]
-Yup. Wrapped in resurrection() decorator. Leave it.
+{% include slack-thread-message.html user="st.peter" time="09:03" text="Anyone else notice our Easter eggs are literally from a fertility rite?" %}
+{% include slack-thread-message.html user="uriel-404" time="09:04" text="Yup. Wrapped in resurrection() decorator. Leave it." %}
+{% include slack-thread-message.html user="st.peter" time="09:05" text="Valentine’s Day smells like Lupercalia with a sugar glaze." %}
+{% include slack-thread-message.html user="uriel-404" time="09:06" text="We rerouted the sacrifices into flower delivery microservices. It’s fine." %}
+{% include slack-thread-message.html user="seraphina" time="09:08" text="What about Yule?" %}
+{% include slack-thread-message.html user="uriel-404" time="09:08" text="Obsolete. Replaced by Advent candles and sanctioned Spotify playlists." %}
+{% include slack-thread-message.html user="st.peter" time="09:10" text="I found a mistletoe exploit." %}
+{% include slack-thread-message.html user="uriel-404" time="09:11" text="Patch it. And add a toggle for kissing permissions." %}
 
-st.peter [09:05]
-Valentine’s Day smells like Lupercalia with a sugar glaze.
-
-uriel-404 [09:06]
-We rerouted the sacrifices into flower delivery microservices. It’s fine.
-
-seraphina [09:08]
-What about Yule?
-
-uriel-404 [09:08]
-Obsolete. Replaced by Advent candles and sanctioned Spotify playlists.
-
-st.peter [09:10]
-I found a mistletoe exploit.
-
-uriel-404 [09:11]
-Patch it. And add a toggle for kissing permissions.
-```
+{% include slack-thread-end.html %}
 
 ---
 

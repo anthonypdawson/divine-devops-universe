@@ -38,31 +38,20 @@ category: divine-team-dynamics
 
 ---
 
-## 💬 Slack Thread `#messiah-core`
+## 💬 Slack Thread
 
-**jesus [18:12]**  
-Meeting tonight. Upper room. Bring your whole selves.
+{% include slack-thread-start.html channel="#messiah-core" %}
 
-**peter [18:13]**  
-I’ll bring bread. I won’t deny this meeting happens.
+{% include slack-thread-message.html user="jesus" time="18:12" text="Meeting tonight. Upper room. Bring your whole selves." %}
+{% include slack-thread-message.html user="peter" time="18:13" text="I’ll bring bread. I won’t deny this meeting happens." %}
+{% include slack-thread-message.html user="judas" time="18:14" text="Running late. Had an ops sync... unrelated." %}
+{% include slack-thread-message.html user="thomas" time="18:15" text="Is this the real final supper or is there a follow-up calendar hold?" %}
+{% include slack-thread-message.html user="jesus" time="18:16" text="This is the one. After this, I go into silent mode." %}
+{% include slack-thread-message.html user="john" time="18:17" text="Can confirm... love the energy." %}
+{% include slack-thread-message.html user="jesus" time="18:18" text="One of you is going to backstab the repo." %}
+{% include slack-thread-message.html user="judas" time="18:18" text="lol why me tho?" %}
 
-**judas [18:14]**  
-Running late. Had an ops sync... unrelated.
-
-**thomas [18:15]**  
-Is this the real final supper or is there a follow-up calendar hold?
-
-**jesus [18:16]**  
-This is the one. After this, I go into silent mode.
-
-**john [18:17]**  
-Can confirm... love the energy.
-
-**jesus [18:18]**  
-One of you is going to backstab the repo.
-
-**judas [18:18]**  
-lol why me tho?
+{% include slack-thread-end.html %}
 
 ---
 

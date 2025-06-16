@@ -32,44 +32,17 @@ image_alt: "Cartoon of Uriel and a medieval sysadmin debugging a rat-borne malwa
 
 ---
 
-### **Excerpt from Slack #blackdeath-ops**
-<div class="slack-log">
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user sysadmin">sysadmin</span>
-      <span class="slack-time">[15:00]</span>
-    </div>
-    <div class="slack-text">Requesting emergency rollback. Pope not responding to DMs.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user pope">pope</span>
-      <span class="slack-time">[15:01]</span>
-    </div>
-    <div class="slack-text">Have you tried more incense? #FaithBasedDebugging</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user uriel">uriel</span>
-      <span class="slack-time">[15:02]</span>
-    </div>
-    <div class="slack-text">Deploying rat traps as a workaround. Expect rodent latency.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user sysadmin">sysadmin</span>
-      <span class="slack-time">[15:03]</span>
-    </div>
-    <div class="slack-text">Latency confirmed. Also, rats confirmed. Still no rollback.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user uriel">uriel</span>
-      <span class="slack-time">[15:04]</span>
-    </div>
-    <div class="slack-text">Initiating final escalation: quarantine migration script.</div>
-  </div>
-</div>
+### Slack Excerpt
+
+{% include slack-thread-start.html channel="#blackdeath-ops" %}
+
+{% include slack-thread-message.html user="sysadmin" time="15:00" text="Requesting emergency rollback. Pope not responding to DMs." %}
+{% include slack-thread-message.html user="pope" time="15:01" text="Have you tried more incense? #FaithBasedDebugging" %}
+{% include slack-thread-message.html user="uriel" time="15:02" text="Deploying rat traps as a workaround. Expect rodent latency." %}
+{% include slack-thread-message.html user="sysadmin" time="15:03" text="Latency confirmed. Also, rats confirmed. Still no rollback." %}
+{% include slack-thread-message.html user="uriel" time="15:04" text="Initiating final escalation: quarantine migration script." %}
+
+{% include slack-thread-end.html %}
 
 ---
 
@@ -78,7 +51,7 @@ image_alt: "Cartoon of Uriel and a medieval sysadmin debugging a rat-borne malwa
 
 ---
 
-### **Lessons Learned**
+### Lessons Learned
 <div class="lessons-learned">
 <ul>
   <li>Always maintain a rollback endpoint, even for pandemics.</li>
@@ -90,7 +63,7 @@ image_alt: "Cartoon of Uriel and a medieval sysadmin debugging a rat-borne malwa
 
 ---
 
-### **Impact**
+### Impact
 - EuroOps experienced 60%+ downtime for all users and services.
 - PeasantDB replication was corrupted by flea-injection events.
 - Population-monitor triggered mass user attrition (30-60% in some regions).

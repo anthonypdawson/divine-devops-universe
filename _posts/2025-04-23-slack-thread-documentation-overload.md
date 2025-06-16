@@ -11,67 +11,13 @@ category: divine-team-dynamics
 #celestial-ops
 Slack thread starts - Timestamp: 9:42 AM Eternity Time
 
-#### @uriel-404:
+{% include slack-thread-start.html channel="#celestial-ops" %}
 
-Metatron, we need to talk. Again.
+{% include slack-thread-message.html user="uriel-404" time="9:42AM" text="Metatron, we need to talk. Again.<br/><br/>This is the sixth time this aeon you’ve updated the documentation for the documentation.<br/><br/>I just spent 3 hours reading your `README_README_FINAL_FINAL_v3.md`." %}
+{% include slack-thread-message.html user="metatron" time="9:43AM" text="Clarity is sacred, Uriel.<br/><br/>I’m merely ensuring that every line of code is preceded by its historical context, theological impact, and celestial justification.<br/><br/>Would you like a link to the changelog summary?" %}
+{% include slack-thread-message.html user="uriel-404" time="9:44AM" text="I already read the changelog summary.<br/><br/>It linked to a 47-page scroll titled `Why We Changed the Font in Section 2.1.1-b`." %}
+{% include slack-thread-message.html user="michael.ops" time="9:45AM" text="Hah! I tried printing it once. The printer dematerialized out of frustration." %}
+{% include slack-thread-message.html user="uriel-404" time="9:46AM" text="Half our infra alerts are now just recursive doc reference loops.<br/><br/>I opened an incident ticket and it redirected me to `See Appendix C: Handling Appendix Loops`." %}
+{% include slack-thread-message.html user="gabriel.devrel" time="9:47AM" text="Metatron, you’re documenting faster than the universe can generate bugs." %}
 
-This is the sixth time this aeon you’ve updated the documentation for the documentation.
-
-I just spent 3 hours reading your “README_README_FINAL_FINAL_v3.md”.
-
-#### @metatron:
-
-Clarity is sacred, Uriel.
-
-I’m merely ensuring that every line of code is preceded by its historical context, theological impact, and celestial justification.
-
-Would you like a link to the changelog summary?
-
-#### @uriel-404:
-
-I already read the changelog summary.
-
-It linked to a 47-page scroll titled “Why We Changed the Font in Section 2.1.1-b”.
-
-#### @michael.ops:
-
-Hah! I tried printing it once. The printer dematerialized out of frustration.
-
-#### @uriel-404:
-
-Half our infra alerts are now just recursive doc reference loops.
-
-I opened an incident ticket and it redirected me to “See Appendix C: Handling Appendix Loops”.
-
-#### @gabriel.devrel:
-
-Metatron, you’re documenting faster than the universe can generate bugs.
-
-#### @metatron:
-
-Is it my fault the ineffable plan includes nested config files?
-
-#### @uriel-404:
-
-If I find one more .meta.meta.yaml file I swear I’m unplugging the Ark.
-
-#### @raphael.healer:
-
-Uriel, deep breaths. Try that breathing protocol I sent. Or scream into the void—whatever helps.
-
-#### @uriel-404:
-
-I did. The void sent back a 404.
-
-#### @metatron:
-
-If it helps, I’ve just created a flowchart titled “How Not to
-Lose Your Sanity in the Docs”.
-
-It’s only 12 layers deep.
-
-#### @uriel-404:
-
-…
-I’m muting you for one eternity cycle.
-auto-response activated: “Your sysadmin is currently in a divine timeout.”
+{% include slack-thread-end.html %}

@@ -7,52 +7,29 @@ date: 2025-05-27 12:00:03
 image: /assets/images/icons/discussion.webp
 ---
 
-```slack
-#prod-ops
-```
+{% include slack-thread-start.html channel="#prod-ops" %}
 
-<div class="slack-log">
+{% include slack-thread-message.html user="system" time="10:00 AM" text="burning_bush has joined the channel" %}
+{% include slack-thread-message.html user="burning_bush" time="10:01 AM" text="...hello?" %}
+{% include slack-thread-message.html user="burning_bush" time="10:02 AM" text="moses.moses" %}
+{% include slack-thread-message.html user="moses" time="10:03 AM" text="uh, yes? who is this?" %}
+{% include slack-thread-message.html user="burning_bush" time="10:04 AM" text="take off your Crocs, for the folder you are standing in is /holy_ground" %}
 
-<div class="slack-msg system"><span class="slack-time">10:00 AM</span> <span class="slack-user system">system</span>: burning_bush has joined the channel</div>
-<div class="slack-msg"><span class="slack-time">10:01 AM</span> <span class="slack-user bush">burning_bush</span>: ...hello?</div>
-<div class="slack-msg"><span class="slack-time">10:02 AM</span> <span class="slack-user bush">burning_bush</span>: moses.moses</div>
-<div class="slack-msg"><span class="slack-time">10:03 AM</span> <span class="slack-user moses">moses</span>: uh, yes? who is this?
-</div>
-<div class="slack-msg"><span class="slack-time">10:04 AM</span> <span class="slack-user bush">burning_bush</span>: take off your Crocs, for the folder you are standing in is /holy_ground</div>
+{% include slack-thread-message.html user="system" time="10:05 AM" text="burning_bush has changed the channel topic to \"🔥🔥🔥\"" %}
 
-<div class="slack-msg system"><span class="slack-time">10:05 AM</span> <span class="slack-user system">system</span>: burning_bush has changed the channel topic to "🔥🔥🔥"</div>
+{% include slack-thread-message.html user="god" time="10:06 AM" text="WHO DEPLOYED TO PROD?" %}
+{% include slack-thread-message.html user="moses" time="10:07 AM" text="not me, I was just debugging the plagues" %}
+{% include slack-thread-message.html user="god" time="10:08 AM" text="THEN WHY IS THERE A BURNING BUSH WITH WRITE ACCESS" %}
 
-<div class="slack-msg"><span class="slack-time">10:06 AM</span> <span class="slack-user god">GOD</span>: WHO DEPLOYED TO PROD?</div>
-<div class="slack-msg"><span class="slack-time">10:07 AM</span> <span class="slack-user moses">moses</span>: not me, I was just debugging the plagues
-</div>
-<div class="slack-msg"><span class="slack-time">10:08 AM</span> <span class="slack-user god">GOD</span>: THEN WHY IS THERE A BURNING BUSH WITH WRITE ACCESS</div>
+{% include slack-thread-message.html user="uriel-404 [system]" time="10:09 AM" text="🔥 <code>burning_bush</code> has been pinned by GOD" %}
+{% include slack-thread-message.html user="god" time="10:10 AM" text="I AM WHO I AM" %}
+{% include slack-thread-message.html user="moses" time="10:11 AM" text="...is that your username or your status?" %}
+{% include slack-thread-message.html user="god" time="10:12 AM" text="YES" %}
+{% include slack-thread-message.html user="moses" time="10:13 AM" text="do you want me to file a ticket or just... stand here?" %}
+{% include slack-thread-message.html user="god" time="10:14 AM" text="go to Pharaoh. tell him to rollback the Israelite change set." %}
+{% include slack-thread-message.html user="moses" time="10:15 AM" text="that sounds like prod access" %}
 
-<div class="slack-msg system"><span class="slack-time">10:09 AM</span> <span class="slack-user uriel">uriel-404 [system]</span>: 🔥 <code>burning_bush</code> has been pinned by GOD</div>
-<div class="slack-msg"><span class="slack-time">10:10 AM</span> <span class="slack-user god">GOD</span>: I AM WHO I AM</div>
-<div class="slack-msg"><span class="slack-time">10:11 AM</span> <span class="slack-user moses">moses</span>: ...is that your username or your status?
-</div>
-<div class="slack-msg"><span class="slack-time">10:12 AM</span> <span class="slack-user god">GOD</span>: YES
-</div>
-<div class="slack-msg"><span class="slack-time">10:13 AM</span> <span class="slack-user moses">moses</span>: do you want me to file a ticket or just... stand here?
-</div>
-<div class="slack-msg"><span class="slack-time">10:14 AM</span> <span class="slack-user god">GOD</span>: go to Pharaoh. tell him to rollback the Israelite change set.
-</div>
-<div class="slack-msg"><span class="slack-time">10:15 AM</span> <span class="slack-user moses">moses</span>: that sounds like prod access
-</div>
-<div class="slack-msg"><span class="slack-time">10:16 AM</span> <span class="slack-user god">GOD</span>: I HAVE ROOT
-</div>
-
-<div class="slack-msg system"><span class="slack-time">10:17 AM</span> <span class="slack-user uriel">uriel-404 [system]</span>: 🚨 sabbath-deploy.yaml blocked by GOD</div>
-<div class="slack-msg"><span class="slack-time">10:18 AM</span> <span class="slack-user aaron">aaron</span>: anyone else smell smoke?
-</div>
-<div class="slack-msg"><span class="slack-time">10:19 AM</span> <span class="slack-user god">GOD</span>: I AM still typing...
-</div>
-
-<div class="slack-reaction">:eyes: <span class="slack-user moses">moses</span> reacted with :fire:</div>
-<div class="slack-reaction">:scroll: <span class="slack-user god">GOD</span> pinned a message: "do not deploy on Sabbath"</div>
-
-<div class="slack-msg system"><span class="slack-time">10:20 AM</span> <span class="slack-user system">system</span>: burning_bush has left the channel (connection terminated: holy ground reached max temperature)</div>
-</div>
+{% include slack-thread-end.html %}
 
 ---
 

@@ -32,29 +32,13 @@ Gabriel deployed an **unreviewed API schema update**, overriding the existing **
 
 ### **Slack Thread**
 
-<div class="slack-log">
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user metatron">metatron</span>
-      <span class="slack-time">[04:45]</span>
-    </div>
-    <div class="slack-text">Who authorized this? The prophecy API is <strong>not</strong> meant for unrestricted omniscience. We have compliance scrolls for a reason.</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user gabriel">gabriel</span>
-      <span class="slack-time">[04:47]</span>
-    </div>
-    <div class="slack-text">It was a minor governance bypass. Besides, what’s the worst that could happen—universal enlightenment?</div>
-  </div>
-  <div class="slack-msg">
-    <div class="slack-header">
-      <span class="slack-user uriel">uriel</span>
-      <span class="slack-time">[04:48]</span>
-    </div>
-    <div class="slack-text">Gabriel, you just gave 42 million mortals root access to the divine audit logs. The helpdesk is already on fire.</div>
-  </div>
-</div>
+{% include slack-thread-start.html channel="#divine-governance" %}
+
+{% include slack-thread-message.html user="metatron" time="04:45" text="Who authorized this? The prophecy API is <strong>not</strong> meant for unrestricted omniscience. We have compliance scrolls for a reason." %}
+{% include slack-thread-message.html user="gabriel" time="04:47" text="It was a minor governance bypass. Besides, what’s the worst that could happen—universal enlightenment?" %}
+{% include slack-thread-message.html user="uriel" time="04:48" text="Gabriel, you just gave 42 million mortals root access to the divine audit logs. The helpdesk is already on fire." %}
+
+{% include slack-thread-end.html %}
 
 ---
 
