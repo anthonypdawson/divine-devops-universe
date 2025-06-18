@@ -126,3 +126,22 @@ When adding a Slack thread to a post, use the header title `Slack Thread` at an 
 ```
 
 By following these guidelines, Slack threads can effectively enhance the narrative and humor of your posts.
+
+## Avatar Images
+
+- You can pass an `avatar_url` parameter to the `slack-thread-message.html` include to specify a custom avatar image for a user.
+- The image should be compatible with a size of 36x36 pixels for optimal display.
+- If no `avatar_url` is provided, a default avatar image will be used.
+- The avatar image will be displayed as a rounded circle to match the Slack thread styling.
+- Example usage:
+  ```liquid
+  {% include slack-thread-message.html user="uriel" time="9:42AM" text="Message content here." avatar_url="/path/to/avatar.png" %}
+  ```
+
+## Avatar Image Fallback
+
+Each Slack message can include an avatar image for the user. The system attempts to load a user-specific avatar from the `/assets/images/slack/` directory, using the username to construct the filename (e.g., `uriel.webp` for the user `uriel`).
+
+If a user-specific avatar is not found, the system automatically falls back to a default avatar image located at `/assets/images/slack/slack-avatar.webp`.
+
+> **Tip**: To add a custom avatar for a user, place a `.webp` image file in the `/assets/images/slack/` directory with the username as the filename (e.g., `gabriel.webp`).
