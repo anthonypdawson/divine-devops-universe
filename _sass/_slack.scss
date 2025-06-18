@@ -51,15 +51,15 @@
 }
 
 .slack-user[class*="god"] {
-    color: #ffd700;
+    color: #ffd700; /* Gold for God */
 }
 
 .slack-user[class*="moses"] {
-    color: #40c9ff;
+    color: #40c9ff; /* Light Blue for Moses */
 }
 
 .slack-user[class*="bush"] {
-    color: #ff5e00;
+    color: #ff5e00; /* Orange for Burning Bush */
 }
 
 .slack-user[class*="uriel"] {
@@ -75,7 +75,7 @@
 }
 
 .slack-user[class*="lucifer"] {
-    color: #ff6666;
+    color: #ff6666; /* Light Red for Lucifer */
 }
 
 .slack-user[class*="michael"] {
@@ -87,15 +87,31 @@
 }
 
 .slack-user.jonah {
-    color: yellowgreen; // distinct color for Jonah
+    color: yellowgreen; /* Yellow-Green for Jonah */
 }
 
 .slack-user[class*="jonah"] {
-    color: yellowgreen; /* Jonah's distinct color */
+    color: yellowgreen; /* Yellow-Green for Jonah */
 }
 
 .slack-user.peter, .slack-user.st\.peter {
-    color: #1E90FF; // Custom color for Peter and St. Peter (DodgerBlue)
+    color: #1E90FF; /* Dodger Blue for Peter and St. Peter */
+}
+
+.slack-user[class*="judas"] {
+    color: #8B0000; /* Dark Red for Judas */
+}
+
+.slack-user[class*="john"] {
+    color: #4169E1; /* Royal Blue for John */
+}
+
+.slack-user[class*="thomas"] {
+    color: #FF8C00; /* Dark Orange for Thomas */
+}
+
+.slack-user[class*="andrew"] {
+    color: #32CD32; /* Lime Green for Andrew */
 }
 
 .slack-msg.system {
@@ -116,13 +132,14 @@
 }
 
 .slack-msg:nth-child(even) {
-    background: #2a2a2a; /* Darker background for odd messages */
+    background: #131313; /* Darker background for odd messages */
 }
 
 .slack-msg:nth-child(odd) {
-    background: #242424; /* Slightly lighter background for even messages */
+    background: #303030; /* Slightly lighter background for even messages */
 }
 
+// Styles for Slack user avatars, including sizing, border, and layout adjustments.
 .slack-avatar {
     align-self: flex-end; /* Align the avatar to the bottom of the flex container */
     width: 36px;

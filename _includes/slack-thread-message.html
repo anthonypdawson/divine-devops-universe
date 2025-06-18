@@ -8,7 +8,7 @@
       {% assign avatar_url = site.baseurl | append: "/assets/images/slack/" | append: sanitized_user | append: ".webp" %}
     {% endif %}
     <!-- Use the constructed avatar URL directly, and rely on the browser to handle missing files -->
-    <img class="slack-avatar" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
+    <a href="{{ avatar_url }}" target="_blank"><img class="slack-avatar" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar"></a>
   </span>
     <span class="slack-user {{ include.user | downcase }}">
       {{ include.user }}</span>
