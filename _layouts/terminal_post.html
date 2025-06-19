@@ -25,7 +25,7 @@
   {% if page.intro %}
   <p class="post-intro">{{ page.intro }}</p>
   {% endif %}
-  <a href="{{ page.image | relative_url }}"><img class="large-post-image" src="{{ page.image | relative_url }}"
+  <a href="{{ page.image | relative_url }}" target="_blank"><img class="large-post-image" src="{{ page.image | relative_url }}"
       alt="{{ page.image_alt | default: page.title | append: ' image' }}"></a>
   {% endif %}
   {% else %}
