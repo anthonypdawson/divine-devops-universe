@@ -1,8 +1,11 @@
 ---
 layout: terminal_post
 title: "Exodus Migration Logs"
-date: 2025-05-17 12:00:03
+date: 2025-06-24 8:00:00
 tags: [exodus, logs, plague, moses]
+image: "/assets/images/icons/system_logs.webp"
+summary: "A brief log of the Exodus migration."
+category: "Divine Migrations"
 ---
 
 ```log
