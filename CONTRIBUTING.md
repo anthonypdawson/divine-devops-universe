@@ -55,23 +55,16 @@
 ---
 
 ## Post Summary Guidelines
-- Each post must have a `summary` in the YAML front matter.
-- The summary should be written 'in universe' (from the perspective of the Divine DevOps Universe).
-- The summary should not reveal the ending or final status of the post.
-- The summary should set up the scenario, incident, or miracle as a hook for the reader, maintaining suspense or curiosity.
+- **Required**: Every post must include a `summary` field in the YAML front matter.
+  - The `summary` should provide a concise description of the post's content, ideally in one or two sentences.
+  - This field is used for previews, search results, and quick navigation.
 
 ---
 
 ## Post Intro Guidelines
-- Every post should include an `intro` field in the YAML front matter.
-- The `intro` is displayed immediately after the post title (line 1) and the post date/time (line 2), before the main content.
-- Write the intro as a single, punchy sentence or two that sets the tone, context, or stakes for the post.
-- Keep it concise, engaging, and in-universe—think of it as the "hook" for the reader.
-- Example:
-  ```yaml
-  intro: "Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history."
-  ```
-- If no `intro` is provided, the intro section will be omitted from the rendered post.
+- **Suggested**: Posts should include an `intro` field in the YAML front matter when there is no explicit introductory note in the body.
+  - The `intro` should set the tone and provide context for the post, helping readers understand the narrative or technical focus.
+  - Use the `intro` to highlight the significance of the post's content in a playful or thematic way.
 
 ---
 
