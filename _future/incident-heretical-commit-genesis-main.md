@@ -1,13 +1,13 @@
 ---
 layout: terminal_post
 title: "Incident Report: Heretical Commit to genesis-main"
-tags: [incident, heresy, uriel, code-review, genesis, audit]
+tags: [incident, devops, heresy, uriel, code-review, genesis, audit]
+category: "Sacred Source"
 date: 2025-05-17 12:00:03
-image: /assets/images/icons/incident_reports.webp
 summary: "An unauthorized commit to the genesis-main branch triggers a critical incident and a full audit of creation protocols."
+intro: "When the fabric of creation is tampered with, even the smallest unauthorized change can ripple across the cosmos. This incident report delves into a critical breach of the `genesis-main` branch, where divine safeguards were bypassed, leading to chaos in the celestial codebase."
+image: "/assets/images/posts/incident-heretical-commit-genesis-main.webp"
 ---
-<p class="post-intro">When unauthorized code slips into the fabric of creation, even the archangels take notice.</p>
-
 
 **INCIDENT ID:** #GENESIS-000-COMMIT  
 **SEVERITY:** Critical  
