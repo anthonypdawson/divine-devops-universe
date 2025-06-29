@@ -3,14 +3,26 @@
   display: flex;
   align-items: center;
   margin-bottom: 1em;
+  margin-left: 1em;
+  gap: 1em;
 
-  img {
-    height: 16em;
-    margin-right: 1em;
-    max-width: 100%;
+  .uriel-image {
+    flex: 0 0 auto;
+    
+    img {
+      width: 64px;
+      border-radius: 25%;
+    }
   }
-  blockquote {
-    font-size: 1.5em;
-    margin: 0;
+
+  .uriel-quote {
+    flex: 1;
+    text-align: center ;
+    font-style: italic;
+    
+    blockquote {
+      font-size: 1.0em;
+      margin: 0;
+    }
   }
 }
