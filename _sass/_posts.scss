@@ -15,6 +15,13 @@
     color: #666;
 }
 
+/* --- Fix mid-word breaks and improve word wrapping --- */
+.post-content {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 .post-content h1, .content h1,
 .post-content h2, .content h2,
 .post-content h3, .content h3,

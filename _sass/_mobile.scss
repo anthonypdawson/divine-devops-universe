@@ -53,6 +53,12 @@ p {
     width: 90%;
     font-size: 1.1em;
   }
+  
+  /* Make images responsive on mobile */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
 }
 @media (min-width: 601px) {
   #tag-collapsible {
@@ -245,8 +251,7 @@ p {
 }
     pre,
   code {
-    font-size: 0.85em !important; /* or adjust as needed */
-    word-break: break-all;
+    font-size: 0.85em !important; /* or adjust as needed */    
   }
 }
 
