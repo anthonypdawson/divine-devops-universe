@@ -1,8 +1,8 @@
 ---
 layout: terminal_post
 title: "Ask Me About My Uptime 001: Babel DNS Outage"
-date: 2025-06-05
-tags: [uptime, babel, incident, biblical, uriel, devops, language, dns, postmortem]
+date: 2025-06-29 8:00:00
+tags: [uptime, babel, incident, biblical, uriel, gabriel, god, devops, language, dns, postmortem]
 image: /assets/images/posts/uptime-001-dns-outage-babel.webp
 summary: "Uriel recounts the infamous Babel DNS outage, where a single deployment fractured global communication and left the team scrambling to debug a divine protocol meltdown."
 ---
@@ -10,8 +10,13 @@ summary: "Uriel recounts the infamous Babel DNS outage, where a single deploymen
 <!-- Topic: Ask Me About My Uptime -->
 
 <div class="uriel-intro">
-  <img src="{{ '/assets/images/posts/uriel.webp' | relative_url }}" alt="Uriel icon" />
-  <blockquote>You want uptime? I was there when Babel went down. Don't ask.</blockquote>
+  <div class="uriel-image">
+    <a href="{{ '/assets/images/posts/uriel.webp' | relative_url }}"><img src="{{ '/assets/images/posts/uriel.webp' | relative_url }}" alt="Uriel icon" /></a>
+  </div>
+  <div class="uriel-quote">
+    <blockquote>You want uptime?</blockquote>
+    <blockquote>I was there when Babel went down. Don't ask.</blockquote>
+  </div>
 </div>
 
 ---
@@ -35,20 +40,12 @@ Region: Global (Distributed Cluster)
 ---
 
 ### **Excerpt from Slack #non-celestial-status**
-<div class="slack-log">
-  <div class="slack-msg">
-    <span class="slack-user uriel">uriel</span> <span class="slack-time">[09:15]</span><br />
-    <span class="slack-message">Anyone else seeing protocol forking?</span>
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user gabriel">gabriel</span> <span class="slack-time">[09:16]</span><br />
-    <span class="slack-message">Confirmed. Language packs multiplying.</span>
-  </div>
-  <div class="slack-msg">
-    <span class="slack-user uriel">uriel</span> <span class="slack-time">[09:17]</span><br />
-    <span class="slack-message">Filing this under “not my miracle.”</span>
-  </div>
-</div>
+
+{% include slack-thread-start.html channel="#non-celestial-status" %}
+{% include slack-thread-message.html user="uriel" time="09:15" text="Anyone else seeing protocol forking?" %}
+{% include slack-thread-message.html user="gabriel" time="09:16" text="Confirmed. Language packs multiplying." %}
+{% include slack-thread-message.html user="uriel" time="09:17" text="Filing this under \"not my miracle.\"" %}
+{% include slack-thread-end.html %}
 
 ---
 
