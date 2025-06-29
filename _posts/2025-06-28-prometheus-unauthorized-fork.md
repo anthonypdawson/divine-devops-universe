@@ -11,7 +11,7 @@ image: "/assets/images/posts/prometheus-unauthorized-fork.webp"
 > Prometheus, the legendary developer, dared to defy Zeus by forking the divine repository and adding the forbidden fire module. What followed was an incident that shook Olympus CI to its core.
 
 
-![Prometheus PR Screenshot]({{ site.baseurl }}/assets/images/posts/prometheus-pr.webp){: style="max-width: 600px;"}
+[![Prometheus PR Screenshot]({{ site.baseurl }}/assets/images/posts/prometheus-pr.webp){: style="max-width: 600px;"}]({{ site.baseurl }}/assets/images/posts/prometheus-pr.webp)
 
 
 > **Pull Request:** `🔥 adds fire module to public forks`  
@@ -38,7 +38,7 @@ Tracking ID: `EULA-776BC`
 
 ❗ `prometheus` chained to audit daemon: `INDEFINITELY`  
 Process: `eternal.repentance.logging`  
-Location: `High Availability Cliff Zone` (where uptime goes to die)
+Location: `High Availability Cliff Zone` (where uptime goes to die)  
 
 ---
 

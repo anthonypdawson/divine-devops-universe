@@ -8,7 +8,7 @@ image: /assets/images/icons/default.webp
 category: hr-announcements
 ---
 
-![Uriels Performance Review]({{'/assets/images/posts/Uriel404_Performance_Review.webp' | relative_url }})
+[![Uriels Performance Review]({{'/assets/images/posts/Uriel404_Performance_Review.webp' | relative_url }})]({{'/assets/images/posts/Uriel404_Performance_Review.webp' | relative_url }})
 
 Team Lead: "You ignored 1,048,576 warning pings."  
 Uriel: "None were marked critical."

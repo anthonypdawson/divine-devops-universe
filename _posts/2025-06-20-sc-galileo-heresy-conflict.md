@@ -42,7 +42,7 @@ intro: "When Galileo pushed his heliocentric update to production, the universe'
 
 ### Incident Timeline  
 
-![Incident Timeline]({{ site.baseurl }}/assets/images/posts/sc-galileo-timeline.webp){: style="width: 50%;"}
+[![Incident Timeline]({{ site.baseurl }}/assets/images/posts/sc-galileo-timeline.webp){: style="width: 50%;"}]({{ site.baseurl }}/assets/images/posts/sc-galileo-timeline.webp)
 
 ---
 
