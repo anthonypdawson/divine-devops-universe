@@ -16,6 +16,9 @@
 3. **Accessibility**
    - Ensure all images have descriptive alt text.
    - Use semantic HTML where possible for better accessibility.
+   - **All inline images must be clickable to display the full image** unless there's a specific reason to override this (e.g., decorative icons, interactive elements, or images already at full size).
+     - Use the pattern: `[![Alt text]({{ site.baseurl }}/path/to/image){: style="your-styles"}]({{ site.baseurl }}/path/to/image)`
+     - This improves mobile UX and provides consistent user experience across the site.
 4. **Category Requirements**
    - Every post must start with valid YAML front matter including:
      - `layout`
